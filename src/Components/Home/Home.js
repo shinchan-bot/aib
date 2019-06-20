@@ -28,7 +28,7 @@ const Home = () => {
         <Router>
             <div className='home'>       
                 <Header2/>
-                <Route exact path='/home' component={Homecontent}/>
+                <Route  path='/home' component={Homecontent}/>
                 <Route exact path='/management' component={Listofmembers}/> 
                 <Route exact path='/listofmembers' component={Listofmembers}/> 
                 <Route exact path='/innovations' component={Innovationcontent}/> 
