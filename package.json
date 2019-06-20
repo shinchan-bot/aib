@@ -2,7 +2,7 @@
   "name": "aib",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/thewebsitelevel/aib",
+  "homepage":"https://thewebsitelevel.github.io/aib",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
