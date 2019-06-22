@@ -26,6 +26,7 @@ class Contactus extends Component {
                         </div>
                         <br/>
                         <input className='input w-80' id='input' type='text' name='messagw' placeholder='Message'/>
+                        <button type='submit' className='bg-red w-20 mt2 ml2 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                     </form>
                     <div className="contact_details  b--black">
                         <p className='f3 fw6 red'>All India Brick & Tile Manufacturers Federation (AIBTMF)</p>

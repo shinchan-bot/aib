@@ -1,5 +1,5 @@
 import React from 'react';
-import Tachyons from 'tachyons';
+import 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
