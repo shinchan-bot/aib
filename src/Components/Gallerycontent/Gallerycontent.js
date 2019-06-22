@@ -6,8 +6,14 @@ import 'tachyons';
 class Gallerycontent extends Component {
     render() {
         return(
-            <div>
-                Gallery
+            <div className='gallery_content'>
+                <p>GALLERY</p>
+                <div className="gallery_list">
+
+                </div>
+                <div className='gallery_slide'>
+
+                </div>  
             </div>
         );
     }

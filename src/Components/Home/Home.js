@@ -19,6 +19,7 @@ import Newscontent from '../Newscontent/Newscontent';
 import Gallerycontent from '../Gallerycontent/Gallerycontent';
 import Contactus from '../Contactus/Contactus';
 import Machinecontent from '../Machinecontent/Machinecontent';
+import Notfound from '../Notfound/Notfound';
 
 
 
@@ -38,7 +39,8 @@ const Home = () => {
                     <Route exact path='/gallery' component={Gallerycontent}/> 
                     <Route exact path='/contactus' component={Contactus}/> 
                     <Route exact path='/location' component={Googlemaps}/> 
-                    <Route  path='/' component={Homecontent}/>
+                    <Route exact path='/' component={Homecontent}/>
+                    <Route component={Notfound}/>                    
                 </Switch>
             </div>
         </Router>
