@@ -17,6 +17,21 @@
         </div>
 
 
+<table className='table'>
+                <tr className="">
+                    <td>Sh. Surender Pratap</td>
+                    <td>Chief Patron</td>
+                </tr>
+                <tr>
+                    <td>Sh. Kuldeep Kumar Khanduja</td>
+                    <td>Patron</td>
+                </tr>
+                <tr>
+                    <td>Sh. Anant Nath Singh</td>
+                    <td>Patron</td>
+                </tr>
+            </table>
+
 
       28.590302, 77.225778
 

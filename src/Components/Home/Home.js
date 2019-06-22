@@ -1,6 +1,6 @@
 import React from 'react';
 import Tachyons from 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 
 import Header1 from '../Header/Header';
@@ -25,18 +25,20 @@ import Contactus from '../Contactus/Contactus';
 
 const Home = () => {
     return(
-        <Router>
+        <Router >
             <div className='home'>       
-                <Header2/>
-                <Route  path='/home' component={Homecontent}/>
-                <Route exact path='/management' component={Listofmembers}/> 
-                <Route exact path='/listofmembers' component={Listofmembers}/> 
-                <Route exact path='/innovations' component={Innovationcontent}/> 
-                <Route exact path='/news' component={Newscontent}/> 
-                <Route exact path='/listofmeetings' component={Listofmeetings}/>  
-                <Route exact path='/gallery' component={Gallerycontent}/> 
-                <Route exact path='/contactus' component={Contactus}/> 
-                <Route exact path='/location' component={Googlemaps}/>            
+                <Header1/>
+                <Switch>
+                    <Route exact path='/management' component={Listofmembers}/> 
+                    <Route exact path='/listofmembers' component={Listofmembers}/> 
+                    <Route exact path='/innovations' component={Innovationcontent}/> 
+                    <Route exact path='/news' component={Newscontent}/> 
+                    <Route exact path='/listofmeetings' component={Listofmeetings}/>  
+                    <Route exact path='/gallery' component={Gallerycontent}/> 
+                    <Route exact path='/contactus' component={Contactus}/> 
+                    <Route exact path='/location' component={Googlemaps}/> 
+                    <Route  path='/' component={Homecontent}/>
+                </Switch>
             </div>
         </Router>
     )

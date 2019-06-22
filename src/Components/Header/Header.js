@@ -14,84 +14,59 @@ import Back from '../../util/assets1/transparent.png';
 
 const Header = () => {
     return(
-        <div className=''>
+        <div className='mb3 main_header'>
             <div className="language_nav  b--white">
-                <p className="white ma2 pa2  pointer link dim b--white">Font</p>
-                <p className="white ma2 pa2  pointer link dim b--white">English</p>
+                <p className="white ma2 pa2  pointer link dim  b--white">Font</p>
+                <p className="white ma2 pa2  pointer link dim  b--white">English</p>
             </div>
             <hr/>
-            <div className="header_div11  pa2 b--white">
-                <Link to="/home" exact >
+            <div className="header_div11  pa2  b--white">
+                <Link to="/" exact >
                     <img className="logo link pointer" src={Logo}/>
                 </Link>
-                <div className="header_div12  pa2 b--white">
+                <div className="header_div12  pa2  b--white">
                     <p className="white header" id="header">AIBTMF</p>
                     <p className="white header">All India Brick and Tile Manufacturing Federation</p>
                 </div>
             </div>
-            <div className="nav  b--white">
-                <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Management </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
+            <div className="nav mt4  b--white">
+                <div className="dropdown   b--white ">
+                    <button className="white  fw6  grow">Management</button>
+                    <div className="dropdown_content  b--white ">
+                        <Link to='/listofmembers'>
+                            <p className="pointer dim link option">Management Committee</p>
+                        </Link>
+                        <p className="pointer dim link option">List of Executives</p>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Members </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
+                    <button className="white  fw6  grow">Members</button>
+                    <div className="dropdown_content  b--white ">
+                        <p className="pointer dim link option">Application Form</p>
+                        <p className="pointer dim link option">List of Life Members</p>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Innovations </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
+                    <button className="white  fw6  grow">Innovations</button>
+                    <div className="dropdown_content  b--white ">
+                        <p className="pointer dim link option">Machines</p>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">News </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
+                    <button className="white  fw6  grow">News</button>
+                    <div className="dropdown_content  b--white ">
+                        <p className="pointer dim link option">Articles</p>
+                        <p className="pointer dim link option">News</p>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Meetings </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
-                    </div>
+                    <button className="white pointer fw6  grow ">Meetings</button>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Gallery </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
-                    </div>
+                    <button className="white pointer fw6  grow ">Gallery</button>
                 </div>
                 <div className="dropdown  b--white ">
-                    <span className="white pointer link ">Contact Us </span>
-                    <div className="dropdown_content ba ">
-                        <p className="pointer dim link option">Option 1</p>
-                        <p className="pointer dim link option">Option 2</p>
-                        <p className="pointer dim link option">Option 3</p>
-                        <p className="pointer dim link option">Option 4</p>
-                    </div>
+                    <button className="white pointer fw6 grow">Contact Us</button>
                 </div>             
                                 
             </div>

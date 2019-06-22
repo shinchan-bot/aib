@@ -2,7 +2,7 @@
   "name": "aib",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://thewebsitelevel.github.io/aib",
+  "homepage": "https://thewebsitelevel.github.io/aib",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject" 
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
