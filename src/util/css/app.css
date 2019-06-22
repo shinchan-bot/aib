@@ -257,10 +257,11 @@ span:hover{
       justify-content: space-evenly;
       margin-left: 10%;
       margin-top: 50px;
+      font-family: AvenirNext;
+
   }
   .about_profile{
       margin-left: -80px;
-      font-family: AvenirNext;
   }
   .footer{
       display: flex;
@@ -275,7 +276,19 @@ span:hover{
       display: flex;
       text-align: justify;
       font-family: AvenirNext;
+  }
+  .modified_left_div{
+      display: flex;
+      flex-direction: column;
+  }
+  .share_div{
+      display: flex;
+      justify-content: flex-start;
       
+  }
+
+  .share_link{
+      margin: 0px 20px;
   }
 
   .location{
@@ -348,6 +361,91 @@ span:hover{
   .meeting_list{
 
 
+  }
+
+
+  .machines{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-family: AvenirNext;
+  }
+
+  .machine_name{
+      color:#d4572f;
+      font-weight: bolder;
+
+  }
+
+  .machine_div{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+  }
+
+  .machine{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .machine_details{
+      width: 45%;
+      text-align: justify;
+      
+  }
+
+  .machine_description{
+      color: #d4572f;
+  }
+
+  .machine_detail{
+      line-height: 1.2;
+  }
+.contactus{
+    display: flex;
+    flex-direction: column;
+    font-family: AvenirNext;
+    background:white;
+}
+  .map_frame{
+      width: 80%;
+      height: 300px;
+      margin-left: 10%;
+  }
+  .contact_div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+
+
+  .message_form{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .message_form2{
+      display: flex;
+    
+  }
+
+  .contact_details{
+      width: 35%;
+  }
+
+  .input{
+      border: 1px solid #979797;
+      background: #d8d8d8;
+      border-radius: 8px;
+      padding: 10px;
+    
+      margin:2px;
+  }
+
+  #input{
+      
   }
 
 

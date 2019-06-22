@@ -18,6 +18,7 @@ import Innovationcontent from '../Innovationcontent/Innovationcontent';
 import Newscontent from '../Newscontent/Newscontent';
 import Gallerycontent from '../Gallerycontent/Gallerycontent';
 import Contactus from '../Contactus/Contactus';
+import Machinecontent from '../Machinecontent/Machinecontent';
 
 
 
@@ -31,7 +32,7 @@ const Home = () => {
                 <Switch>
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/listofmembers' component={Listofmembers}/> 
-                    <Route exact path='/innovations' component={Innovationcontent}/> 
+                    <Route exact path='/machines' component={Machinecontent}/> 
                     <Route exact path='/news' component={Newscontent}/> 
                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
                     <Route exact path='/gallery' component={Gallerycontent}/> 

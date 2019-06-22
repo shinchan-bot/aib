@@ -14,6 +14,8 @@ import Location from '../../util/assets1/location.png';
 import Slide from '../../util/assets1/slide1.png';
 import o from '../../util/assets1/1.jpg';
 import Demo from '../Demo/Demo';
+import Twitter from '../../util/assets1/twitter.svg';
+import Facebook from '../../util/assets1/facebook.svg';
 var ReactDOM = require('react-dom');
 
 
@@ -65,9 +67,9 @@ class Homecontent extends Component{
     
     
                 <div className="about pa2 bg-white">
-                    <h2 className='center'>ABOUT</h2>
-                    <h3 className='center'>ALL INDIA BRICK AND TILE MANUFACTURING FEDERATION</h3>
-                    <p className='w-60 fw5 about_text'>We represent the Brick and tile manufacturers of India.
+                    <h2 className='center f2'>ABOUT</h2>
+                    <h3 className='center f3'>ALL INDIA BRICK AND TILE MANUFACTURING FEDERATION</h3>
+                    <p className='w-60 fw6 about_text'>We represent the Brick and tile manufacturers of India.
                         We aim to inspire contemporary brick architecture and building design in all areas of the built environment: commercial, residential and landscape.
                         f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
                     </p>
@@ -93,26 +95,31 @@ class Homecontent extends Component{
                     </div>
                 </div>
                 <footer className='footer'>
-                    <div className='footer_leftdiv'>
-                        <img className='logo2 mt3' src={Logo} />
-                        <p className="ml4">
-                            All India Brick & Tile Manufacturers Federation (AIBTMF)
-                            Zone 6A, 3rd Floor, Indian Habitat Centre
-                            Lodhi Road, New Delhi, India
-                            011-24641853, 41504740<br/>
-    
-                            <b>Contact Person:-</b>
-                            Sh. R. K. Verma (Executive Secretary)
-                            Email: aibtmf@rediffmail.com
-                        </p>
-    
+                    <div className='modified_left_div'>
+                        <div className='footer_leftdiv'>
+                            <img className='logo2 mt3' src={Logo} />
+                            <p className="ml4">
+                                All India Brick & Tile Manufacturers Federation (AIBTMF)
+                                Zone 6A, 3rd Floor, Indian Habitat Centre
+                                Lodhi Road, New Delhi, India
+                                011-24641853, 41504740<br/>
+        
+                                <b>Contact Person:-</b>
+                                Sh. R. K. Verma (Executive Secretary)
+                                Email: aibtmf@rediffmail.com
+                            </p>
+                        </div>
+                        <div className='share_div'>
+                            <img className='share_link' src={Twitter}/>
+                            <img className='share_link' src={Facebook}/>
+                        </div>
                     </div>
                     <div className=' ba b--black rightdiv'>
                         <Link to="/location" exact target="_blank">
                             <img className="location" target="_blank" src={Location} />
                         </Link>
                     </div>
-    
+
                 </footer>
     
             </div> 

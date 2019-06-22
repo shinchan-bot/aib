@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <div className='mb3 main_header'>
             <div className="language_nav  b--white">
-                <p className="white ma2 pa2  pointer link dim  b--white">Font</p>
+                <p className="white ma2 pa2  pointer link dim  b--white">Font = Press CTRL [ +, - ]</p>
                 <p className="white ma2 pa2  pointer link dim  b--white">English</p>
             </div>
             <hr/>
@@ -30,26 +30,39 @@ const Header = () => {
                 </div>
             </div>
             <div className="nav mt4  b--white">
+                <div className="dropdown  b--white ">
+                    <Link to='/'>
+                        <button className="white pointer fw6 grow">Home</button>
+                    </Link>
+                </div>
                 <div className="dropdown   b--white ">
                     <button className="white  fw6  grow">Management</button>
                     <div className="dropdown_content  b--white ">
                         <Link to='/listofmembers'>
                             <p className="pointer dim link option">Management Committee</p>
                         </Link>
-                        <p className="pointer dim link option">List of Executives</p>
+                        <Link>
+                            <p className="pointer dim link option">List of Executives</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
                     <button className="white  fw6  grow">Members</button>
                     <div className="dropdown_content  b--white ">
-                        <p className="pointer dim link option">Application Form</p>
-                        <p className="pointer dim link option">List of Life Members</p>
+                        <Link>
+                            <p className="pointer dim link option">Application Form</p>
+                        </Link>
+                        <Link>
+                            <p className="pointer dim link option">List of Life Members</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
                     <button className="white  fw6  grow">Innovations</button>
                     <div className="dropdown_content  b--white ">
-                        <p className="pointer dim link option">Machines</p>
+                        <Link to='/machines'>
+                            <p className="pointer dim link option">Machines</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
@@ -60,13 +73,19 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="dropdown  b--white ">
-                    <button className="white pointer fw6  grow ">Meetings</button>
+                    <Link to='/listofmeetings'>
+                        <button className="white pointer fw6  grow ">Meetings</button>
+                    </Link>
                 </div>
                 <div className="dropdown  b--white ">
-                    <button className="white pointer fw6  grow ">Gallery</button>
+                    <Link to='/gallery'>
+                        <button className="white pointer fw6  grow ">Gallery</button>
+                    </Link>
                 </div>
                 <div className="dropdown  b--white ">
-                    <button className="white pointer fw6 grow">Contact Us</button>
+                    <Link to='/contactus'>
+                        <button className="white pointer fw6 grow">Contact Us</button>
+                    </Link>
                 </div>             
                                 
             </div>
