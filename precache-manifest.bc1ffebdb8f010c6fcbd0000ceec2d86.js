@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff1b45b328c02058cb9684ab020231ba",
+    "revision": "d1f83d5faa7e94137ffe36f2c3a6cdbf",
     "url": "/aib/index.html"
   },
   {
-    "revision": "bb77d5f9fe75329a2103",
-    "url": "/aib/static/css/2.80c66fb8.chunk.css"
+    "revision": "1a46f50d0667727a7ded",
+    "url": "/aib/static/css/2.3732761f.chunk.css"
   },
   {
-    "revision": "8369c9204da70d2c0b34",
-    "url": "/aib/static/css/main.5b8955e6.chunk.css"
+    "revision": "a191f51183cae7c543ed",
+    "url": "/aib/static/css/main.10162d7d.chunk.css"
   },
   {
-    "revision": "bb77d5f9fe75329a2103",
-    "url": "/aib/static/js/2.6b7befe8.chunk.js"
+    "revision": "1a46f50d0667727a7ded",
+    "url": "/aib/static/js/2.bd5ed326.chunk.js"
   },
   {
-    "revision": "8369c9204da70d2c0b34",
-    "url": "/aib/static/js/main.748bc7e9.chunk.js"
+    "revision": "a191f51183cae7c543ed",
+    "url": "/aib/static/js/main.6f3dd592.chunk.js"
   },
   {
     "revision": "4a7e075f216939ea7a46",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a8cac2a53f88d93cf8f7424023843e61",
     "url": "/aib/static/media/brick-logo.a8cac2a5.jpg"
+  },
+  {
+    "revision": "13d2c7a9ab5f05f40806cdccc12ebe23",
+    "url": "/aib/static/media/facebook.13d2c7a9.svg"
   },
   {
     "revision": "473609fb3ad9766fcc774e634a293559",
@@ -68,7 +72,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aib/static/media/react-bootstrap-carousel.f7448c04.ttf"
   },
   {
+    "revision": "b066de3d1ca9096950742853576f7a1a",
+    "url": "/aib/static/media/slide1.b066de3d.png"
+  },
+  {
     "revision": "d0eb46f92b0f61ebf54a496e331d8f3d",
     "url": "/aib/static/media/transparent.d0eb46f9.png"
+  },
+  {
+    "revision": "1cefb75f72906f80a95400b29e5c9483",
+    "url": "/aib/static/media/twitter.1cefb75f.svg"
   }
 ]);
