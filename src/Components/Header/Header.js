@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import '../../util/css/app.css';
 import o from '../../util/assets1/1.jpg';
-import Logo from '../../util/assets1/brick-logo.jpg'
+import Logo from '../../util/assets1/brick-logo.png'
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Back from '../../util/assets1/transparent.png';
 
@@ -14,7 +14,7 @@ import Back from '../../util/assets1/transparent.png';
 
 const Header = () => {
     return(
-        <div className='mb3 main_header'>
+        <div className='mb2 main_header'>
             <div className="language_nav  b--white">
                 <p className="white ma2 pa2  pointer link dim  b--white">Font = Press CTRL [ +, - ]</p>
                 <p className="white ma2 pa2  pointer link dim  b--white">English</p>
@@ -35,54 +35,54 @@ const Header = () => {
                         <button className="white pointer fw6 grow">Home</button>
                     </Link>
                 </div>
-                <div className="dropdown   b--white ">
+                <div className="dropdownnew   b--white ">
                     <button className="white  fw6  grow">Management</button>
-                    <div className="dropdown_content  b--white ">
+                    <div className="dropdown_contentnew  b--white ">
                         <Link to='/listofmembers'>
-                            <p className="pointer dim link option">Management Committee</p>
+                            <p className="pointer dim link mt1 optionnew">Management Committee</p>
                         </Link>
                         <Link>
-                            <p className="pointer dim link option">List of Executives</p>
+                            <p className="pointer dim link optionnew">List of Executives</p>
                         </Link>
                     </div>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <button className="white  fw6  grow">Members</button>
-                    <div className="dropdown_content  b--white ">
+                    <div className="dropdown_contentnew  b--white ">
                         <Link>
-                            <p className="pointer dim link option">Application Form</p>
+                            <p className="pointer dim mt1 link optionnew">Application Form</p>
                         </Link>
                         <Link>
-                            <p className="pointer dim link option">List of Life Members</p>
+                            <p className="pointer dim link optionnew">List of Life Members</p>
                         </Link>
                     </div>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <button className="white  fw6  grow">Innovations</button>
-                    <div className="dropdown_content  b--white ">
+                    <div className="dropdown_contentnew  b--white ">
                         <Link to='/machines'>
-                            <p className="pointer dim link option">Machines</p>
+                            <p className="pointer dim link mt1 optionnew">Machines</p>
                         </Link>
                     </div>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <button className="white  fw6  grow">News</button>
-                    <div className="dropdown_content  b--white ">
-                        <p className="pointer dim link option">Articles</p>
-                        <p className="pointer dim link option">News</p>
+                    <div className="dropdown_contentnew  b--white ">
+                        <p className="pointer dim link  mt1 optionnew">Articles</p>
+                        <p className="pointer dim link optionnew">News</p>
                     </div>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <Link to='/listofmeetings'>
                         <button className="white pointer fw6  grow ">Meetings</button>
                     </Link>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <Link to='/gallery'>
                         <button className="white pointer fw6  grow ">Gallery</button>
                     </Link>
                 </div>
-                <div className="dropdown  b--white ">
+                <div className="dropdownnew  b--white ">
                     <Link to='/contactus'>
                         <button className="white pointer fw6 grow">Contact Us</button>
                     </Link>

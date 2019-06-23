@@ -15,7 +15,7 @@ class Contactus extends Component {
                 <div className="contact_div mt3">
                     <form className='message_form  b--black'>
                         <div className='message_form2'>
-                            <div className='w-45'>
+                            <div className='w-40'>
                                 <p className='fw6 ml1'>Name</p>
                                 <input className='input w-80' type='text' name='name'/>
                             </div>
@@ -25,8 +25,8 @@ class Contactus extends Component {
                             </div>
                         </div>
                         <br/>
-                        <input className='input w-80' id='input' type='text' name='messagw' placeholder='Message'/>
-                        <button type='submit' className='bg-red w-20 mt2 ml2 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
+                        <input className='input w-70' id='input' type='text' name='messagw' placeholder='Message'/>
+                        <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                     </form>
                     <div className="contact_details  b--black">
                         <p className='f3 fw6 red'>All India Brick & Tile Manufacturers Federation (AIBTMF)</p>
