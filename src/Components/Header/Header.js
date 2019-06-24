@@ -14,7 +14,7 @@ import Back from '../../util/assets1/transparent.png';
 
 const Header = () => {
     return(
-        <div className='mb2 main_header'>
+        <div className='mb0 main_header'>
             <div className="language_nav  b--white">
                 <p className="white ma2 pa2  pointer link dim  b--white">Font = Press CTRL [ +, - ]</p>
                 <p className="white ma2 pa2  pointer link dim  b--white">English</p>
@@ -29,7 +29,7 @@ const Header = () => {
                     <p className="white header">All India Brick and Tile Manufacturing Federation</p>
                 </div>
             </div>
-            <div className="nav mt2  b--white">
+            <div className="nav mt2 pb3  b--white">
                 <div className="dropdown  b--white ">
                     <Link to='/'>
                         <button className="white pointer fw6 grow">Home</button>

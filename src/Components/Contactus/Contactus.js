@@ -25,7 +25,7 @@ class Contactus extends Component {
                             </div>
                         </div>
                         <br/>
-                        <input className='input w-70' id='input' type='text' name='messagw' placeholder='Message'/>
+                        <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder='Message'></textarea>
                         <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                     </form>
                     <div className="contact_details  b--black">

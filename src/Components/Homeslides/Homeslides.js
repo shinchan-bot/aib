@@ -27,7 +27,7 @@ class Homeslides extends Component{
         return(
             <div className="home_content">
                 <Carousel>
-                    <div className='home_slide_div'>
+                    <div className='home_slide_div' id='bg1'>
                         <div className='home_slide_text_div'>
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
@@ -38,7 +38,7 @@ class Homeslides extends Component{
                         </div>  
                         <img className='home_slide_image' src={Brick2} />                    
                     </div>
-                    <div className='home_slide_div'>
+                    <div className='home_slide_div' id='bg2'>
                         <div className='home_slide_text_div'>
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
@@ -49,7 +49,7 @@ class Homeslides extends Component{
                         </div>  
                         <img className='home_slide_image w-30' src={Brick2} />                    
                     </div>
-                    <div className='home_slide_div'>
+                    <div className='home_slide_div' id='bg3'>
                         <div className='home_slide_text_div'>
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
@@ -60,7 +60,7 @@ class Homeslides extends Component{
                         </div>  
                         <img className='home_slide_image w-30' src={Brick2} />                    
                     </div>
-                    <div className='home_slide_div'>
+                    <div className='home_slide_div' id='bg4'>
                         <div className='home_slide_text_div'>
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
@@ -71,7 +71,7 @@ class Homeslides extends Component{
                         </div>  
                         <img className='home_slide_image w-30' src={Brick2} />                    
                     </div>
-                    <div className='home_slide_div'>
+                    <div className='home_slide_div' id='bg5'>
                         <div className='home_slide_text_div'>
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
