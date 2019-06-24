@@ -3,6 +3,8 @@ import 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
+import Machine1 from '../../util/assets1/hqdefault.png';
+import Machine2 from '../../util/assets1/sketch-of-a-fixed-chimney-bulls-trench-kiln-fcbtk.png';
 
 
 
@@ -14,7 +16,7 @@ class Machinecontent extends Component {
                 <div className='machine_div  b--black'>
                     <p className='machine_name f4 '>FCBTK</p>
                     <div className="machine  b--black">
-                        <img src={Brick} />
+                        <img src={Machine1} className='h-50' />
                         <div className='machine_details  b--black'>
                             <p className='machine_name '>FCBTK</p>
                             <p className='fw6 machine_description'>List of substances and methods banned for use in sports updated</p>
@@ -30,7 +32,7 @@ class Machinecontent extends Component {
                 <div className='machine_div  b--black'>
                     <p className='machine_name f4 '>Zig Zag High Drought Kiln</p>
                     <div className="machine  b--black">
-                        <img src={Brick} />
+                        <img src={Machine2} className='h-50 mt4' />
                         <div className='machine_details  b--black'>
                             <p className='machine_name '>Zig Zag High Drought Kiln</p>
                             <p className='fw6 machine_description'>List of substances and methods banned for use in sports updated</p>

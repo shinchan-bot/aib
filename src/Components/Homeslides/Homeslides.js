@@ -32,7 +32,7 @@ class Homeslides extends Component{
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
                             </p>
-                            <p className='home_slide_text fw7'>
+                            <p className='home_slide_text fw7 f4'>
                                 The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
                             </p>
                         </div>  
@@ -43,7 +43,7 @@ class Homeslides extends Component{
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
                             </p>
-                            <p className='home_slide_text fw7'>
+                            <p className='home_slide_text fw7 f4'>
                                 The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
                             </p>
                         </div>  
@@ -54,7 +54,7 @@ class Homeslides extends Component{
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
                             </p>
-                            <p className='home_slide_text fw7'>
+                            <p className='home_slide_text fw7 f4'>
                                 The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
                             </p>
                         </div>  
@@ -65,7 +65,7 @@ class Homeslides extends Component{
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
                             </p>
-                            <p className='home_slide_text fw7'>
+                            <p className='home_slide_text fw7 f4'>
                                 The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
                             </p>
                         </div>  
@@ -76,7 +76,7 @@ class Homeslides extends Component{
                             <p className='home_slide_header f2 fw7'>
                                 How to choose Bricks?
                             </p>
-                            <p className='home_slide_text fw7'>
+                            <p className='home_slide_text fw7 f4'>
                                 The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
                             </p>
                         </div>  
