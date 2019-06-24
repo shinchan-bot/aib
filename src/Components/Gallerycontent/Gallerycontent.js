@@ -27,7 +27,7 @@ class Gallerycontent extends Component {
                     <div className="gallery_list_div b--black">
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text'>ABD VISIT</p>
+                            <p className='gallery_list_text h1'>ABD VISIT</p>
                         </div>
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>

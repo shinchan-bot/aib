@@ -488,31 +488,23 @@ span:hover{
 
 .gallery_list_div{
     width: 30%;
-    height: 400px;
+    height: 440px;
     margin-left:2%;
     margin-top:2%; 
     overflow-y: scroll;
     padding: 10px 50px;
-
 }
 .gallery_slides{
     width: 45%;
-    height: 350px;
+    height: 300px;
     margin-left: 10%;
-    margin-top: 2%;
-    border: 1px solid black;
+    margin-top: 5%;
+    border: 1px solid white;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.gallery_slide_image{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    
-    
-}
+
 .gallery_list{
     width: 300px;
     height: 150px;
@@ -523,12 +515,16 @@ span:hover{
 }
 
 .gallery_list_image{
-   
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
+
 
 .gallery_list_text{
     position: relative;
     top: 0px;
     left: 0px;
-    z-index: 10000000000;    
+    z-index: 1000;    
 }
