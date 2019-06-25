@@ -277,7 +277,7 @@ span:hover{
       height: 200px;
   }
   .about{
-    margin-top: 50px;
+    margin-top:0px;
     display: flex;
     flex-direction: column;
     font-family: AvenirNext;

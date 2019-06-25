@@ -29,7 +29,7 @@ const Header = () => {
                     <p className="white header">All India Brick and Tile Manufacturing Federation</p>
                 </div>
             </div>
-            <div className="nav mt2 pb3  b--white">
+            <div className="nav mt2 pb3 b--white">
                 <div className="dropdown  b--white ">
                     <Link to='/'>
                         <button className="white pointer fw6 grow">Home</button>
