@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 import '../../util/css/app.css';
-import Demoimage from '../../util/assets1/gallery_demo_image.jpg';
+import Demoimage from '../../util/assets1/about-us.png';
 import Back from '../../util/assets1/transparent.png';
 import Face from '../../util/assets1/president.jpg';
 import Logo from '../../util/assets1/brick-logo.jpg';
@@ -27,21 +27,21 @@ class Gallerycontent extends Component {
                     <div className="gallery_list_div b--black">
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text h1'>ABD VISIT</p>
+                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
                         </div>
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>
+                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
                         </div>
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>
+                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
                         </div>
                         <div className='gallery_list'>
                             <img className='gallery_list_image' src={Demoimage}/>
+                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
                         </div>
-                        <div className='gallery_list'>
-                            <img className='gallery_list_image' src={Demoimage}/>
-                        </div>
-                        
+                                              
                     </div>
                     <div className='gallery_slides ba b--black'>
                         <Galleryslides/>
