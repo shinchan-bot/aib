@@ -6,6 +6,11 @@ import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyContext } from '../../context';
 
+import * as translationEN from '../../translations/en.json';
+import * as translationHIN from '../../translations/hindi.json';
+import * as translationPUN from '../../translations/punjabi.json';
+import * as translationGUJ from '../../translations/gujarati.json';
+import * as translationMAR from '../../translations/marathi.json';
 
 
 import '../../util/css/app.css';

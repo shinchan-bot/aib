@@ -4,8 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 
 
 
-
-
 import { MyProvider } from './context';
 import './index.css';
 import Home from './Components/Home/Home';

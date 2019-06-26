@@ -5,6 +5,10 @@ import { MyContext } from '../../context';
 
 import * as translationEN from '../../translations/en.json';
 import * as translationHIN from '../../translations/hindi.json';
+import * as translationPUN from '../../translations/punjabi.json';
+import * as translationGUJ from '../../translations/gujarati.json';
+import * as translationMAR from '../../translations/marathi.json';
+
 
 
 
@@ -13,13 +17,19 @@ const Listofmeetings = () => {
         return(
             <MyContext.Consumer>
                 {(context) =>(
-                    <div>
+                    <div className='bg-white'>
                         {
                         (()=>{
                             if(context.state.language ==='hindi'){
-                                 return <p className='white'>{translationHIN.p}</p>
+                                 return <p className=''>{translationHIN.meeting_list.p}</p>
+                            }else if(context.state.language ==='punjabi'){
+                                return <p className=''>{translationPUN.p}</p>
+                            }else if(context.state.language ==='gujarati'){
+                                return <p className=''>{translationGUJ.p}</p>
+                            }else if(context.state.language ==='marathi'){
+                                return <p className=''>{translationMAR.p}</p>
                             }else{
-                                return <p className='white'>{translationEN.p}</p>
+                                return <p className=''>{translationEN.p}</p>
                             }
                         })()
                         }

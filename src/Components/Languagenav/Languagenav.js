@@ -5,15 +5,8 @@ import 'tachyons';
 import { MyContext } from '../../context';
 
 
-
-// Import CSS
 import '../../util/css/app.css';
 
-// Import translations
-// import * as translationCZ from '../../translations/cz.json'
-// import * as translationDE from '../../translations/de.json'
-// import * as translationEN from '../../translations/en.json'
-// import * as translationFR from '../../translations/fr.json'
 
 class Languagenav extends Component {
   render() {
@@ -36,6 +29,31 @@ class Languagenav extends Component {
                         >
                             Hindi
                         </a>
+                        <br/>
+                        <a
+                            className="pointer dim link mt1 optionnew"
+                            onClick={this.props.context.changeLanguage}
+                            data-language="punjabi"
+                        >
+                            Punjabi
+                        </a>
+                        <br/>
+                        <a
+                            className="pointer dim link mt1 optionnew"
+                            onClick={this.props.context.changeLanguage}
+                            data-language="gujarati"
+                        >
+                            Gujarati
+                        </a>
+                        <br/>
+                        <a
+                            className="pointer dim link mt1 optionnew"
+                            onClick={this.props.context.changeLanguage}
+                            data-language="marathi"
+                        >
+                            Marathi
+                        </a>
+
                     </div>
                 </div>   
     )
