@@ -39,7 +39,7 @@ const Home = () => {
                 <div>
                 <BackgroundSlider
                     images={[BG1,BG2,BG3]}
-                    duration={5} transition={2} 
+                    duration={7} transition={3} 
                 />
                 <Header1 context={context}/>
                     <Route exact path='/management' component={Listofmembers}/> 

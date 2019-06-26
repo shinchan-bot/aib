@@ -17,9 +17,9 @@ const Listofmeetings = () => {
                         {
                         (()=>{
                             if(context.state.language ==='hindi'){
-                                 return <p>{translationHIN.p}</p>
+                                 return <p className='white'>{translationHIN.p}</p>
                             }else{
-                                return <p>{translationEN.p}</p>
+                                return <p className='white'>{translationEN.p}</p>
                             }
                         })()
                         }

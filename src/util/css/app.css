@@ -334,7 +334,8 @@ span:hover{
       display: flex;
       flex-direction: column;
       background-size: cover;
-      font-family: AvenirNext;    
+      font-family: AvenirNext;  
+        
   }
 
   .table{
@@ -355,7 +356,7 @@ span:hover{
 
   .member{
       width: 20%;
-      margin: 15px 5%;
+      margin: 30px 5%;
       padding-left:5px;
       line-height: 2;
 }
@@ -505,7 +506,7 @@ span:hover{
 
 .gallery_list_div{
     width: 30%;
-    height: 440px;
+    height: 450px;
     margin-left:2%;
     margin-top:2%; 
     overflow-y: scroll;
