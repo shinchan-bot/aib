@@ -1,6 +1,7 @@
 import React from 'react';
 import 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { MyContext } from '../../context';
 
 
 import '../../util/css/app.css';

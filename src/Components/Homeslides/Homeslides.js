@@ -3,6 +3,8 @@ import 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
+import { MyContext } from '../../context';
+
 
 import '../../util/css/app.css';
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';

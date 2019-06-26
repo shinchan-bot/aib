@@ -1,6 +1,9 @@
 import React from 'react';
 import Tachyons from 'tachyons';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { MyContext } from '../../context';
+import BackgroundSlider from 'react-background-slider';
+
 
 
 import Header1 from '../Header/Header';
@@ -23,14 +26,22 @@ import Notfound from '../Notfound/Notfound';
 
 
 
+import BG1 from '../../util/assets1/bg11.jpg';
+import BG2 from '../../util/assets1/bg10.jpg';
+import BG3 from '../../util/assets1/bg9.jpg';
 
 
 const Home = () => {
     return(
-        <Router >
-            <div className='home'>       
-                <Header1/>
-                <Switch>
+        <MyContext.Consumer>
+        {(context) => (
+            <React.Fragment>
+                <div>
+                <BackgroundSlider
+                    images={[BG1,BG2,BG3]}
+                    duration={5} transition={2} 
+                />
+                <Header1 context={context}/>
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/listofmembers' component={Listofmembers}/> 
                     <Route exact path='/machines' component={Machinecontent}/> 
@@ -40,10 +51,11 @@ const Home = () => {
                     <Route exact path='/contactus' component={Contactus}/> 
                     <Route exact path='/location' component={Googlemaps}/> 
                     <Route exact path={process.env.PUBLIC_URL + '/'} component={Homecontent}/>
-                    <Route component={Notfound}/>                    
-                </Switch>
-            </div>
-        </Router>
+                </div>
+            </React.Fragment>
+        )}
+        </MyContext.Consumer>
+                              
     )
 }
 

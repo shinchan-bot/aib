@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import 'tachyons';
+import { MyContext } from '../../context';
+
 
 
 

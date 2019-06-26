@@ -7,24 +7,19 @@
 }
 
 #bg1{
-    background-image: url('../assets1/bg5.jpg');
-    background-size: cover;
+    background: transparent;
 }
 #bg2{
-    background-image: url('../assets1/bg7.jpg');
-    background-size: cover;
+    background: transparent;
 }
 #bg3{
-    background-image: url('../assets1/bg8.jpg');
-    background-size: cover;
+    background: transparent;
 }
 #bg4{
-    background-image: url('../assets1/bg9.jpg');
-    background-size: cover;
+    background: transparent;
 }
 #bg5{
-    background-image: url('../assets1/bg11.jpg');
-    background-size: cover;
+    background: transparent;
 }
 
 .home{
@@ -34,8 +29,7 @@
 
 }
 .main_header{
-    background-image: url("../../util/assets1/about-us.png");
-    background-size: cover;
+    background: transparent;
 
 }
 

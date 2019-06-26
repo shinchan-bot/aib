@@ -364,3 +364,21 @@ export default Homecontent;
 
 
 
+
+
+<a
+className="link"
+onClick={this.props.context.changeLanguage}
+data-language="hindi"
+>
+Hindi
+</a>
+
+
+
+
+
+
+
+background-image: url("../../util/assets1/about-us.png");
+    background-size: cover;

@@ -1,6 +1,8 @@
 import React from 'react';
 import Tachyons from 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { MyContext } from '../../context';
+
 
 
 import '../../util/css/app.css';
@@ -8,16 +10,16 @@ import o from '../../util/assets1/1.jpg';
 import Logo from '../../util/assets1/brick-logo.png'
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Back from '../../util/assets1/transparent.png';
+import Languagenav from '../Languagenav/Languagenav';
 
 
 
 
-const Header = () => {
+const Header = (props) => {
     return(
         <div className='mb0 main_header'>
             <div className="language_nav  b--white">
-                <p className="white ma2 pa2  pointer link dim  b--white">Font = Press CTRL [ +, - ]</p>
-                <p className="white ma2 pa2  pointer link dim  b--white">English</p>
+                <Languagenav context={props.context}/>
             </div>
             <hr/>
             <div className="header_div11  pa2  b--white">
