@@ -38,9 +38,9 @@ class Listofmeetings extends Component {
         
         const meeting_array = meetings.map((user,num) =>{
             return(
-                <div key={num} onClick={meeting_handler}  className="ba b--black">
-                    <p className="red">{meetings[num].date}</p>
-                    <p data-key={num} className="meet">{meetings[num].description}</p>
+                <div className="ba b--black">
+                    <p data-key={num} key={num} onClick={meeting_handler} className="red">{meetings[num].date}</p>
+                    <p  className="meet">{meetings[num].description}</p>
                 </div> 
             );           
         });
@@ -54,9 +54,9 @@ class Listofmeetings extends Component {
                 </h1>
                 <div className="meeting_box_combine ba b--black" >
                     <div className="meeting_details ba b--black">
-                        <h3>{meetings[this.state.num].title}</h3>
-                        <p className='red'>{meetings[this.state.num].description}</p>
-                        <p>{meetings[this.state.num].details}</p>
+                        <h3>{meetings[Number(this.state.num)].title}</h3>
+                        <p className='red'>{meetings[Number(this.state.num)].description}</p>
+                        <p>{meetings[Number(this.state.num)].details}</p>
                     </div>
                     <div className="meeting_list_box ba b--black">
                         <h3>Meetings in the past.</h3>
