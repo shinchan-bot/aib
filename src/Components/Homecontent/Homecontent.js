@@ -34,7 +34,7 @@ class Homecontent extends Component{
                         {(()=>{
                             if(context.state.language === 'hindi'){
                                 return(
-                                    <div className="home_content">
+                                    <div className="home_content ">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white">
                                             <h2 className='center f2 fw6'>{translationHIN.home_content.title}</h2>

@@ -12,6 +12,8 @@ import * as translationPUN from '../../translations/punjabi.json';
 import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
+import {gallery} from '../../Helpers/gallery';
+
 
 import '../../util/css/app.css';
 import Demoimage from '../../util/assets1/about-us.png';
@@ -50,6 +52,7 @@ class Galleryslides extends React.Component {
   
     render() {
       const { index, direction } = this.state;
+
   
       return (
         <Carousel
@@ -57,41 +60,7 @@ class Galleryslides extends React.Component {
           direction={direction}
           onSelect={this.handleSelect}
         >
-          <Carousel.Item>
-            <img
-              className="d-block w-70"
-              src={Demoimage}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>Nepal Visit : 29-04-2019</h3>
-              <p>(Some Description)</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-70"
-              src={Demoimage}
-              alt="Third slide"
-            />
-  
-            <Carousel.Caption>
-              <h3>Nepal Visit : 29-04-2019</h3>
-              <p>(Some Description)</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-70"
-              src={Demoimage}
-              alt="Third slide"
-            />
-  
-            <Carousel.Caption>
-              <h3>Nepal Visit : 29-04-2019</h3>
-              <p>(Some Description)</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {this.props.images}
         </Carousel>
       );
     }

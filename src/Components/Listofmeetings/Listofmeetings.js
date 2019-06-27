@@ -49,7 +49,7 @@ class Listofmeetings extends Component {
         
         return(
             <div className='meetings ba b--black pa2'>
-                <h1>
+                <h1 className="center">
                     MEETINGS
                 </h1>
                 <div className="meeting_box_combine ba b--black" >

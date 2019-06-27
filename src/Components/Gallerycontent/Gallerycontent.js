@@ -12,6 +12,8 @@ import * as translationPUN from '../../translations/punjabi.json';
 import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
+import {gallery} from '../../Helpers/gallery';
+
 
 import '../../util/css/app.css';
 import Demoimage from '../../util/assets1/about-us.png';
@@ -24,34 +26,64 @@ var ReactDOM = require('react-dom');
 
 
 
+
 class Gallerycontent extends Component {
+
+    state = {
+        index:""
+    }
+
+
+
+
     render() {
-        const {onChange, onClickItem, onClickThumb} = Carousel;
+
+        let gallerySlideHandler = (e,data) => {
+            this.setState({
+                index:e.target.getAttribute("data-key")
+            })
+            
+        }
+
+        let gallery_list = gallery.map((user,num)=> {
+            return(
+                <div className='gallery_list pointer'>
+                    <img   className='gallery_list_image' src={gallery[num].url[0]}/>
+                    <p key={num} data-key={num} onClick={gallerySlideHandler} className='gallery_list_text f2'>{gallery[num].visit}</p>   
+                </div>
+            );
+        })
+
+        let image_index = this.state.index;
+
+        let gallery_images = gallery[Number(image_index)].url.map((data,i) =>{
+            return(
+                <Carousel.Item>
+                <img
+                  className="gallery_slide_image w-70"
+                  src={gallery[Number(image_index)].url[i]}
+                  alt="Third slide"
+                />
+      
+                <Carousel.Caption>
+                  <h3>{gallery[Number(image_index)].visit}</h3>
+                  <p>{gallery[Number(image_index)].description}</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+        })
+
+        
+
         return(
             <div className='gallery_content bg-white'>
                 <p className='f2 fw6 gallery_header  pa0 ma0 b--black'>GALLERY</p>
                 <div className='gallery_combine_div'>
                     <div className="gallery_list_div b--black">
-                        <div className='gallery_list'>
-                            <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
-                        </div>
-                        <div className='gallery_list'>
-                            <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
-                        </div>
-                        <div className='gallery_list'>
-                            <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
-                        </div>
-                        <div className='gallery_list'>
-                            <img className='gallery_list_image' src={Demoimage}/>
-                            <p className='gallery_list_text f2'>ABD VISIT <br/> (29-04-2019)</p>   
-                        </div>
-                                              
+                        {gallery_list}           
                     </div>
                     <div className='gallery_slides ba b--black'>
-                        <Galleryslides/>
+                        <Galleryslides images={gallery_images} />
                     </div>  
                 </div>
             </div>
