@@ -60,7 +60,9 @@ class Galleryslides extends React.Component {
           direction={direction}
           onSelect={this.handleSelect}
         >
+
           {this.props.images}
+          
         </Carousel>
       );
     }

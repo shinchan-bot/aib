@@ -382,3 +382,292 @@ Hindi
 
 background-image: url("../../util/assets1/about-us.png");
     background-size: cover;
+
+
+
+
+
+
+
+
+
+
+
+    <div className="home_content">
+                    <Homeslides/> 
+                    <div className="about pa2 bg-white">
+                        <h2 className='center f2 fw6'>ABOUT</h2>
+                        <h3 className='center f3 fw6'>ALL INDIA BRICK AND TILE MANUFACTURING FEDERATION</h3>
+                        <p className='w-60 fw6 about_text'>We represent the Brick and tile manufacturers of India.
+                            We aim to inspire contemporary brick architecture and building design in all areas of the built environment: commercial, residential and landscape.
+                            f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                        </p>
+                        <div className='about_profile_div'>
+                            <img src={Face} />
+                            <div className="about_profile">
+                                <p>Name</p>
+                                <p>President</p>
+                                <p>AIBTM</p>
+                            </div>
+                            <img src={Face} />
+                            <div className="about_profile">
+                                <p>Name</p>
+                                <p>President</p>
+                                <p>AIBTM</p>
+                            </div>
+                            <img src={Face} />
+                            <div className="about_profile">
+                                <p>Name</p>
+                                <p>President</p>
+                                <p>AIBTM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer className='footer'>
+                        <div className='modified_left_div'>
+                            <div className='footer_leftdiv'>
+                                <img className='logo2 mt3' src={Logo} />
+                                <p className="ml4 w-70">
+                                    All India Brick & Tile Manufacturers Federation (AIBTMF)
+                                    Zone 6A, 3rd Floor, Indian Habitat Centre
+                                    Lodhi Road, New Delhi, India
+                                    011-24641853, 41504740<br/>
+            
+                                    <b>Contact Person:-</b><br/>
+                                    Sh. R. K. Verma (Executive Secretary)
+                                    Email: aibtmf@rediffmail.com
+                                </p>
+                            </div>
+                            <div className='share_div'>
+                                <img className='share_link' src={Twitter}/>
+                                <img className='share_link' src={Facebook}/>
+                            </div>
+                        </div>
+                        <div className=' ba b--black rightdiv'>
+                            <Link to="/location" exact target="_blank">
+                                <img className="location" target="_blank" src={Location} />
+                            </Link>
+                        </div>
+
+                    </footer>
+        
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className='mb0 main_header'>
+            <div className="language_nav  b--white">
+                <Languagenav context={props.context}/>
+            </div>
+            <hr/>
+            <div className="header_div11  pa2  b--white">
+                <Link to="/" exact >
+                    <img className="logo link pointer" src={Logo}/>
+                </Link>
+                <div className="header_div12  pa2  b--white">
+                    <p className="white header" id="header">AIBTMF</p>
+                    <p className="white header">All India Brick and Tile Manufacturing Federation</p>
+                </div>
+            </div>
+            <div className="nav mt2 pb3 b--white">
+                <div className="dropdown  b--white ">
+                    <Link to='/'>
+                        <button className="white pointer fw6 grow">Home</button>
+                    </Link>
+                </div>
+                <div className="dropdownnew   b--white ">
+                    <button className="white  fw6  grow">Management</button>
+                    <div className="dropdown_contentnew  b--white ">
+                        <Link to='/listofmembers'>
+                            <p className="pointer dim link mt1 optionnew">Management Committee</p>
+                        </Link>
+                        <Link>
+                            <p className="pointer dim link optionnew">List of Executives</p>
+                        </Link>
+                    </div>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <button className="white  fw6  grow">Members</button>
+                    <div className="dropdown_contentnew  b--white ">
+                        <Link>
+                            <p className="pointer dim mt1 link optionnew">Application Form</p>
+                        </Link>
+                        <Link>
+                            <p className="pointer dim link optionnew">List of Life Members</p>
+                        </Link>
+                    </div>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <button className="white  fw6  grow">Innovations</button>
+                    <div className="dropdown_contentnew  b--white ">
+                        <Link to='/machines'>
+                            <p className="pointer dim link mt1 optionnew">Machines</p>
+                        </Link>
+                    </div>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <button className="white  fw6  grow">News</button>
+                    <div className="dropdown_contentnew  b--white ">
+                        <p className="pointer dim link  mt1 optionnew">Articles</p>
+                        <p className="pointer dim link optionnew">News</p>
+                    </div>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <Link to='/listofmeetings'>
+                        <button className="white pointer fw6  grow ">Meetings</button>
+                    </Link>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <Link to='/gallery'>
+                        <button className="white pointer fw6  grow ">Gallery</button>
+                    </Link>
+                </div>
+                <div className="dropdownnew  b--white ">
+                    <Link to='/contactus'>
+                        <button className="white pointer fw6 grow">Contact Us</button>
+                    </Link>
+                </div>             
+                                
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+<div className="home_content">
+<Carousel>
+    <div className='home_slide_div' id='bg1'>
+        <div className='home_slide_text_div'>
+            <p className='home_slide_header f2 fw7'>
+                How to choose Bricks?
+            </p>
+            <p className='home_slide_text fw7 f4'>
+                The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+            </p>
+        </div>  
+        <img className='home_slide_image' src={Brick2} />                    
+    </div>
+    <div className='home_slide_div' id='bg2'>
+        <div className='home_slide_text_div'>
+            <p className='home_slide_header f2 fw7'>
+                How to choose Bricks?
+            </p>
+            <p className='home_slide_text fw7 f4'>
+                The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+            </p>
+        </div>  
+        <img className='home_slide_image w-30' src={Brick2} />                    
+    </div>
+    <div className='home_slide_div' id='bg3'>
+        <div className='home_slide_text_div'>
+            <p className='home_slide_header f2 fw7'>
+                How to choose Bricks?
+            </p>
+            <p className='home_slide_text fw7 f4'>
+                The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+            </p>
+        </div>  
+        <img className='home_slide_image w-30' src={Brick2} />                    
+    </div>
+    <div className='home_slide_div' id='bg4'>
+        <div className='home_slide_text_div'>
+            <p className='home_slide_header f2 fw7'>
+                How to choose Bricks?
+            </p>
+            <p className='home_slide_text fw7 f4'>
+                The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+            </p>
+        </div>  
+        <img className='home_slide_image w-30' src={Brick2} />                    
+    </div>
+    <div className='home_slide_div' id='bg5'>
+        <div className='home_slide_text_div'>
+            <p className='home_slide_header f2 fw7'>
+                How to choose Bricks?
+            </p>
+            <p className='home_slide_text fw7 f4'>
+                The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+            </p>
+        </div>  
+        <img className='home_slide_image w-30' src={Brick2} />                    
+    </div>      
+</Carousel>     
+</div>
+
+
+
+
+
+
+
+
+
+
+<div className="contactus">
+                <p className='f2 fw7 center'>CONTACT US</p>
+                 {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
+                <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+
+                </iframe>
+                <div className="contact_div mt3">
+                    <form className='message_form  b--black'>
+                        <div className='message_form2'>
+                            <div className='w-40'>
+                                <p className='fw6 ml1'>Name</p>
+                                <input className='input w-80' type='text' name='name'/>
+                            </div>
+                            <div className='w-45'>
+                                <p className='fw6 ml1'>Email</p>
+                                <input className='input w-100' type='email' name='email'/>
+                            </div>
+                        </div>
+                        <br/>
+                        <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder='Message'></textarea>
+                        <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
+                    </form>
+                    <div className="contact_details  b--black">
+                        <p className='f3 fw6 red'>All India Brick & Tile Manufacturers Federation (AIBTMF)</p>
+                        <p className='fw6'>
+                            All India Brick & Tile Manufacturers Federation (AIBTMF)
+                            Zone 6A, 3rd Floor, Indian Habitat Centre
+                            Lodhi Road, New Delhi, India
+                            011-24641853, 41504740
+                            Contact Person:-
+                            Sh. R. K. Verma 
+                            Email: aibtmf@rediffmail.com
+                        </p>
+                        <p className='f3 fw6 red'>
+                            Account Number : 1234567890
+                        </p>
+                        <p className='f3 fw6 red'>
+                            IFSC Code : IFB123456
+                        </p>
+                    </div>
+                </div>
+            </div>
