@@ -16,13 +16,8 @@ import {gallery} from '../../Helpers/gallery';
 
 
 import '../../util/css/app.css';
-import Demoimage from '../../util/assets1/about-us.png';
-import Back from '../../util/assets1/transparent.png';
-import Face from '../../util/assets1/president.jpg';
-import Logo from '../../util/assets1/brick-logo.jpg';
-import o from '../../util/assets1/1.jpg';
 import Galleryslides from '../Galleryslides/Galleryslides';
-var ReactDOM = require('react-dom');
+import Image from '../../util/assets1/bg20.jpg';
 
 
 
@@ -38,9 +33,9 @@ class Gallerycontent extends Component {
 
     render() {
 
-        let gallerySlideHandler = (e,data) => {
+        let gallerySlideHandler = (num) => {
             this.setState({
-                index:e.target.getAttribute("data-key")
+                index:num,
             })
             
         }
@@ -49,7 +44,7 @@ class Gallerycontent extends Component {
             return(
                 <div className='gallery_list pointer grow'>
                     <img   className='gallery_list_image' src={gallery[num].url[0]}/>
-                    <p key={num} data-key={num} onClick={gallerySlideHandler} className='gallery_list_text f2'>{gallery[num].visit}</p>   
+                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{gallery[num].visit}</p>   
                 </div>
             );
         })
@@ -73,6 +68,7 @@ class Gallerycontent extends Component {
             );
         })
 
+    
         
 
         return(
