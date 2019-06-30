@@ -328,6 +328,8 @@ span:hover{
   .share_div{
       display: flex;
       justify-content: flex-start;
+      margin-left: 15%;
+      
       
   }
 

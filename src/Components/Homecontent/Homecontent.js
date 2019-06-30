@@ -104,19 +104,19 @@ class Homecontent extends Component{
                                                 <div className="about_profile">
                                                     <p className=''>Devender B. Prajapati</p>
                                                     <p className='home_designation fw7'>President</p>
-                                                    <p className='fw7'>AIBTM</p>
+                                                    <p className='fw7'>AIBTMF</p>
                                                 </div>
                                                 <img className="home_face" src={Face2} />
                                                 <div className="about_profile">
                                                     <p className=''>Vijay Kumar Goel</p>
                                                     <p className='home_designation fw7'>General Secretary</p>
-                                                    <p className='fw7'>AIBTM</p>
+                                                    <p className='fw7'>AIBTMF</p>
                                                 </div>
                                                 <img className="home_face" src={Face3} />
                                                 <div className="about_profile">
                                                     <p className=''>Manish Gupta</p>
                                                     <p className='home_designation fw7'>Treasurer</p>
-                                                    <p className='fw7'>AIBTM</p>
+                                                    <p className='fw7'>AIBTMF</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -132,11 +132,11 @@ class Homecontent extends Component{
                                 
                                                         <b>Contact Person:-</b><br/>
                                                         Sh. R. K. Verma (Executive Secretary)
-                                                        Email: aibtmf@rediffmail.com
+                                                        <br/>Email: aibtmf@rediffmail.com
                                                     </p>
                                                 </div>
                                                 <div className='share_div'>
-                                                    <img className='share_link' src={Twitter}/>
+                                                    <img className='share_link ' src={Twitter}/>
                                                     <img className='share_link' src={Facebook}/>
                                                 </div>
                                             </div>
