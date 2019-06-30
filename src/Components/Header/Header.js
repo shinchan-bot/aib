@@ -16,6 +16,7 @@ import Logo from '../../util/assets1/brick-logo.png'
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Back from '../../util/assets1/transparent.png';
 import Languagenav from '../Languagenav/Languagenav';
+import News from '../../util/assets1/news.pdf'
 
 
 
@@ -35,7 +36,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link pointer" src={Logo}/>
+                                            <img className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">{translationHIN.header.title}</p>
@@ -114,7 +115,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link pointer" src={Logo}/>
+                                            <img className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">AIBTMF</p>
@@ -161,7 +162,9 @@ const Header = (props) => {
                                             <button className="white  fw6  grow">News</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <p className="pointer dim link  mt1 optionnew">Articles</p>
-                                                <p className="pointer dim link optionnew">News</p>
+                                                <a href={News} download={News}>
+                                                    <p className="pointer dim link mt1 center optionnew">News</p> 
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">

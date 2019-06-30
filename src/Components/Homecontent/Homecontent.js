@@ -13,7 +13,9 @@ import '../../util/css/app.css';
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Brick2 from '../../util/assets1/brick.png';
 import Back from '../../util/assets1/transparent.png';
-import Face from '../../util/assets1/president.jpg';
+import Face1 from '../../util/assets1/president.jpg';
+import Face2 from '../../util/assets1/face2.jpg';
+import Face3 from '../../util/assets1/face3.png';
 import Logo from '../../util/assets1/brick-logo.png';
 import Location from '../../util/assets1/location.png';
 import Demoimage from '../../util/assets1/gallery_demo_image.jpg';
@@ -40,24 +42,24 @@ class Homecontent extends Component{
                                             <h2 className='center f2 fw6'>{translationHIN.home_content.title}</h2>
                                             <h3 className='center f3 fw6'>{translationHIN.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>{translationHIN.home_content.purpose} </p>
-                                            <div className='about_profile_div'>
-                                                <img src={Face} />
+                                            <div className='about_profile_div '>
+                                                <img className="home_face" src={Face1} />
                                                 <div className="about_profile">
-                                                    <p className='fw7 '>{translationHIN.home_content.name1}</p>
-                                                    <p>{translationHIN.home_content.designation1}</p>
-                                                    <p>{translationHIN.header.title}</p>
+                                                    <p className=' '>{translationHIN.home_content.name1}</p>
+                                                    <p className='fw7'>{translationHIN.home_content.designation1}</p>
+                                                    <p className='fw7'>{translationHIN.header.title}</p>
                                                 </div>
-                                                <img src={Face} />
+                                                <img className="home_face" src={Face2} />
                                                 <div className="about_profile">
-                                                    <p className='fw7'>{translationHIN.home_content.name2}</p>
-                                                    <p>{translationHIN.home_content.designation2}</p>
-                                                    <p>{translationHIN.header.title}</p>
+                                                    <p className=''>{translationHIN.home_content.name2}</p>
+                                                    <p className='fw7'>{translationHIN.home_content.designation2}</p>
+                                                    <p className='fw7'>{translationHIN.header.title}</p>
                                                 </div>
-                                                <img src={Face} />
+                                                <img className="home_face" src={Face3} />
                                                 <div className="about_profile">
-                                                    <p className='fw7'>{translationHIN.home_content.name3}</p>
-                                                    <p>{translationHIN.home_content.designation3}</p>
-                                                    <p>{translationHIN.header.title}</p>
+                                                    <p className='  '>{translationHIN.home_content.name3}</p>
+                                                    <p className='fw7'>{translationHIN.home_content.designation3}</p>
+                                                    <p className='fw7'>{translationHIN.header.title}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -88,33 +90,33 @@ class Homecontent extends Component{
                                 );
                             }else{
                                 return(
-                                    <div className="home_content">
+                                    <div className="home_content ">
                                         <Homeslides/> 
-                                        <div className="about pa2 bg-white">
+                                        <div className="about pa2 bg-white ">
                                             <h2 className='center f2 fw6'>ABOUT</h2>
-                                            <h3 className='center f3 fw6'>ALL INDIA BRICK AND TILE MANUFACTURING FEDERATION</h3>
+                                            <h3 className='center f3 fw6 underline'>ALL INDIA BRICK AND TILE MANUFACTURING FEDERATION</h3>
                                             <p className='w-60 fw6 about_text'>We represent the Brick and tile manufacturers of India.
                                                 We aim to inspire contemporary brick architecture and building design in all areas of the built environment: commercial, residential and landscape.
                                                 f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
                                             </p>
-                                            <div className='about_profile_div'>
-                                                <img src={Face} />
+                                            <div className='about_profile_div '>
+                                                <img className="home_face " src={Face1} />
                                                 <div className="about_profile">
-                                                    <p className='fw7'>Devender B. Prajapati</p>
-                                                    <p>President</p>
-                                                    <p>AIBTM</p>
+                                                    <p className=''>Devender B. Prajapati</p>
+                                                    <p className='fw7'>President</p>
+                                                    <p className='fw7'>AIBTM</p>
                                                 </div>
-                                                <img src={Face} />
+                                                <img className="home_face" src={Face2} />
                                                 <div className="about_profile">
-                                                    <p className='fw7'>Vijay Kumar Goel</p>
-                                                    <p>General Secretary</p>
-                                                    <p>AIBTM</p>
+                                                    <p className=''>Vijay Kumar Goel</p>
+                                                    <p className='fw7'>General Secretary</p>
+                                                    <p className='fw7'>AIBTM</p>
                                                 </div>
-                                                <img src={Face} />
+                                                <img className="home_face" src={Face3} />
                                                 <div className="about_profile">
-                                                    <p className='fw7'>Manish Gupta</p>
-                                                    <p>Treasurer</p>
-                                                    <p>AIBTM</p>
+                                                    <p className=''>Manish Gupta</p>
+                                                    <p className='fw7'>Treasurer</p>
+                                                    <p className='fw7'>AIBTM</p>
                                                 </div>
                                             </div>
                                         </div>

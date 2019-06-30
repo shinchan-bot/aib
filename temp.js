@@ -671,3 +671,26 @@ background-image: url("../../util/assets1/about-us.png");
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+                                        <div className='home_slide_div' id='bg1'>
+                                            <div className='home_slide_text_div'>
+                                                <p className='home_slide_header f2 fw7'>
+                                                    Brick Making : One of the Oldest Profession
+                                                </p>
+                                                <p className='home_slide_text fw7 f4'>
+                                                    Man has used brick for building purpose for thousands of years. Bricks date back to 7000 BC, which makes them one of the oldest known building materials. They were discovered in southern Turkey at the site of an ancient settlement around the city of Jericho.<br/><br/> 
+
+                                                    The first bricks, made in areas with warm climates, were mud bricks dried in the sun for hardening. 
+                                                    Ancient Egyptian bricks were made of clay mixed with straw. The evidence of this can be seen today at ruins of Harappa Buhen and Mohenjo-daro. Paintings on the tomb walls of Thebes portray Egyptian slaves mixing, tempering and carrying clay for the sun dried bricks. 
+                                                </p>
+                                            </div>  
+                                        </div>

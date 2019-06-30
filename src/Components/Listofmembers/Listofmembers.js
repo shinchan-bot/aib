@@ -33,37 +33,6 @@ const Listofmembers = () => {
                     <p className='member_name fw7'>Treasurer of AIBTMF</p>
                     <p>State Uttar Pradesh</p>
                 </div>
-                <div className="member ba b--black shadow-4 br2">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-                <div className="member ba b--black shadow-4">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-                <div className="member ba b--black shadow-4 br2">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-                <div className="member ba b--black shadow-4 br2">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-                <div className="member ba b--black shadow-4 br2">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-                <div className="member ba b--black shadow-4 br2">
-                    <p className='member_name red fw6'>Name</p>
-                    <p className='member_name fw7'>Designation</p>
-                    <p>State</p>
-                </div>
-
             </div>
             
         </div>

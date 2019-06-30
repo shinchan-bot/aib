@@ -12,10 +12,10 @@ class Languagenav extends Component {
   render() {
     return (
                 <div className="dropdownnew   b--white ">
-                    <button className="white  fw6  grow">Language</button>
-                    <div className="dropdown_contentnew  b--white ">
+                    <button className="red  fw6  grow">Language</button>
+                    <div className="dropdown_contentnew b--white ">
                         <a
-                            className="pointer dim link mt1 optionnew"
+                            className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="en"
                         >
@@ -23,7 +23,7 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            className="pointer dim link mt1 optionnew"
+                            className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="hindi"
                         >
@@ -31,7 +31,7 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            className="pointer dim link mt1 optionnew"
+                            className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="punjabi"
                         >
@@ -39,7 +39,7 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            className="pointer dim link mt1 optionnew"
+                            className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="gujarati"
                         >
@@ -47,7 +47,7 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            className="pointer dim link mt1 optionnew"
+                            className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="marathi"
                         >
