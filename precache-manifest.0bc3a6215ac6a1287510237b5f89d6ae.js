@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c3c0fb14c50dc4eb979854868d2b2aa",
+    "revision": "018dbf2555112d897deef0014c588809",
     "url": "/aib/index.html"
   },
   {
-    "revision": "c18788480551b8335b8d",
-    "url": "/aib/static/css/2.1e716af8.chunk.css"
+    "revision": "5c56ef742179ad86e86d",
+    "url": "/aib/static/css/2.320b2547.chunk.css"
   },
   {
-    "revision": "84ff03f1cdf988f082df",
-    "url": "/aib/static/css/main.d4f5c34a.chunk.css"
+    "revision": "8de8dc28ed55c33406ff",
+    "url": "/aib/static/css/main.816fefb1.chunk.css"
   },
   {
-    "revision": "c18788480551b8335b8d",
-    "url": "/aib/static/js/2.c1aa4485.chunk.js"
+    "revision": "5c56ef742179ad86e86d",
+    "url": "/aib/static/js/2.895b6458.chunk.js"
   },
   {
-    "revision": "84ff03f1cdf988f082df",
-    "url": "/aib/static/js/main.d0790bec.chunk.js"
+    "revision": "8de8dc28ed55c33406ff",
+    "url": "/aib/static/js/main.778abb7f.chunk.js"
   },
   {
     "revision": "4a7e075f216939ea7a46",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aib/static/media/about-us.b090e2b3.png"
   },
   {
-    "revision": "d055591dc4ef642359e0c65768c7e980",
-    "url": "/aib/static/media/bg10.d055591d.jpg"
+    "revision": "b85766e08bd1e50c1c3cad310ff31e91",
+    "url": "/aib/static/media/bg17.b85766e0.jpg"
   },
   {
-    "revision": "1ae36b214ceb37ad3029227ceefe5a3b",
-    "url": "/aib/static/media/bg11.1ae36b21.jpg"
+    "revision": "a4c54ae206717695fef5335a1390998c",
+    "url": "/aib/static/media/bg18.a4c54ae2.jpg"
   },
   {
-    "revision": "07b36c26cba8dcb7467eb6c92cff1e99",
-    "url": "/aib/static/media/bg9.07b36c26.jpg"
+    "revision": "a9dfa0c81f5332a7daf136929ae63578",
+    "url": "/aib/static/media/bg20.a9dfa0c8.jpg"
   },
   {
     "revision": "1289840d7449c127073f28f0dc33b8e0",
@@ -58,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56095f0046fb67b2e11a5a07d0e81881",
     "url": "/aib/static/media/brick.56095f00.png"
+  },
+  {
+    "revision": "c682a67892b39d6986e8fee1a2c17360",
+    "url": "/aib/static/media/face2.c682a678.jpg"
+  },
+  {
+    "revision": "65943a925e0c3fd6cab0a3b361862df1",
+    "url": "/aib/static/media/face3.65943a92.png"
   },
   {
     "revision": "5402c34f775e7adc297bcec405a81ddc",
@@ -78,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "baea5a801d64f8245d33f38b47f97121",
     "url": "/aib/static/media/mtb-clay-bricks.baea5a80.jpg"
+  },
+  {
+    "revision": "6a4ae81f6911d5acb5619c3f99c68f41",
+    "url": "/aib/static/media/news.6a4ae81f.pdf"
   },
   {
     "revision": "6b5fd17848f8e1a0771202a14a772f87",
