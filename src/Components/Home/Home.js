@@ -26,9 +26,9 @@ import Notfound from '../Notfound/Notfound';
 
 
 
-import BG1 from '../../util/assets1/bg17.jpg';
-import BG2 from '../../util/assets1/bg18.jpg';
-import BG3 from '../../util/assets1/bg20.jpg';
+import BG1 from '../../util/assets1/about-us.png';
+import BG2 from '../../util/assets1/brick-making.png';
+import BG3 from '../../util/assets1/bg3.png';
 
 
 const Home = () => {
