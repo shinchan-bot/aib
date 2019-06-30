@@ -47,15 +47,16 @@ class Listofmeetings extends Component {
                     MEETINGS
                 </h1>
                 <div className="meeting_box_combine  b--black" >
+                    <div className="meeting_list_box ba b--white br4 shadow-5">
+                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br4 pa2 tc bg-white ">Meetings in the past.</h3>
+                        {meeting_array}
+                    </div>
                     <div className="meeting_details bt bb bw2 b--black br4 mb2 mt4 pa2 shadow">
                         <h3 className="f3 fw8">{meetings[Number(this.state.num)].title}</h3>
                         <p className='f4 fw5 red'><i>{meetings[Number(this.state.num)].description}</i></p>
                         <p className="f5 fw7 mt4 tj "><i>{meetings[Number(this.state.num)].details}</i></p>
                     </div>
-                    <div className="meeting_list_box ba b--white br4 shadow-5">
-                        <h3 className="meeting_list_header f3 fw8 bt bb b--gray bw1 shadow-2 br4 pa2 tc bg-white ">Meetings in the past.</h3>
-                        {meeting_array}
-                    </div>
+                    
                 </div>
             </div>
     
