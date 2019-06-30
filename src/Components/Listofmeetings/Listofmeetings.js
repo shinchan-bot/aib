@@ -14,12 +14,6 @@ import {meetings} from '../../Helpers/meetings';
 
 
 
-
-const meeting_detail = (e) => {
-    
-}
-
-
 class Listofmeetings extends Component {
         
     state = {
@@ -38,8 +32,8 @@ class Listofmeetings extends Component {
         
         const meeting_array = meetings.map((user,num) =>{
             return(
-                <div className="ba b--black">
-                    <p data-key={num} key={num} onClick={meeting_handler} className="red">{meetings[num].date}</p>
+                <div className="bt bb bw1 b--gray br3 mb2 pa2">
+                    <p data-key={num} key={num} onClick={meeting_handler} className="red link pointer dim "><i>{meetings[num].date}</i></p>
                     <p  className="meet">{meetings[num].description}</p>
                 </div> 
             );           
@@ -52,14 +46,14 @@ class Listofmeetings extends Component {
                 <h1 className="center">
                     MEETINGS
                 </h1>
-                <div className="meeting_box_combine ba b--black" >
-                    <div className="meeting_details ba b--black">
-                        <h3>{meetings[Number(this.state.num)].title}</h3>
-                        <p className='red'>{meetings[Number(this.state.num)].description}</p>
-                        <p>{meetings[Number(this.state.num)].details}</p>
+                <div className="meeting_box_combine  b--black" >
+                    <div className="meeting_details bt bb bw2 b--black br4 mb2 mt4 pa2 shadow">
+                        <h3 className="f3 fw8">{meetings[Number(this.state.num)].title}</h3>
+                        <p className='f4 fw5 red'><i>{meetings[Number(this.state.num)].description}</i></p>
+                        <p className="f5 fw7 mt4 tj "><i>{meetings[Number(this.state.num)].details}</i></p>
                     </div>
-                    <div className="meeting_list_box ba b--black">
-                        <h3>Meetings in the past.</h3>
+                    <div className="meeting_list_box ba b--white br4 shadow-5">
+                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br4 pa2 tc bg-white ">Meetings in the past.</h3>
                         {meeting_array}
                     </div>
                 </div>

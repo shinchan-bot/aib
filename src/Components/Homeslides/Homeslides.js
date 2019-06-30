@@ -42,10 +42,10 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
+                                                <p className='home_slide_header w-40 f2 fw7'>
                                                    {translationHIN.home_slides.title1}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text w-50 fw7 f4'>
                                                 {translationHIN.home_slides.detail1}
                                                 </p>
                                             </div>  
@@ -54,47 +54,23 @@ class Homeslides extends Component{
                                         <div className='home_slide_div' id='bg2'>
                                             <div className='home_slide_text_div'>
                                                 <p className='home_slide_header f2 fw7'>
-                                                    {translationHIN.home_slides.title1}
+                                                    {translationHIN.home_slides.title2}
                                                 </p>
                                                 <p className='home_slide_text fw7 f4'>
-                                                    {translationHIN.home_slides.detail1}
+                                                    {translationHIN.home_slides.detail2}
                                                 </p>
                                             </div>  
-                                            <img className='home_slide_image w-30' src={Brick2} />                    
                                         </div>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
                                                 <p className='home_slide_header f2 fw7'>
-                                                    {translationHIN.home_slides.title1}
+                                                    {translationHIN.home_slides.title3}
                                                 </p>
                                                 <p className='home_slide_text fw7 f4'>
-                                                    {translationHIN.home_slides.detail1}
+                                                    {translationHIN.home_slides.detail3}
                                                 </p>
                                             </div>  
-                                            <img className='home_slide_image w-30' src={Brick2} />                    
                                         </div>
-                                        <div className='home_slide_div' id='bg4'>
-                                            <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
-                                                    {translationHIN.home_slides.title1}
-                                                </p>
-                                                <p className='home_slide_text fw7 f4'>
-                                                    {translationHIN.home_slides.detail1}
-                                                </p>
-                                            </div>  
-                                            <img className='home_slide_image w-30' src={Brick2} />                    
-                                        </div>
-                                        <div className='home_slide_div' id='bg5'>
-                                            <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
-                                                    {translationHIN.home_slides.title1}
-                                                </p>
-                                                <p className='home_slide_text fw7 f4'>
-                                                    {translationHIN.home_slides.detail1}
-                                                </p>
-                                            </div>  
-                                            <img className='home_slide_image w-30' src={Brick2} />                    
-                                        </div>      
                                     </Carousel>     
                                 </div>
 

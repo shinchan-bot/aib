@@ -47,7 +47,7 @@ class Gallerycontent extends Component {
 
         let gallery_list = gallery.map((user,num)=> {
             return(
-                <div className='gallery_list pointer'>
+                <div className='gallery_list pointer grow'>
                     <img   className='gallery_list_image' src={gallery[num].url[0]}/>
                     <p key={num} data-key={num} onClick={gallerySlideHandler} className='gallery_list_text f2'>{gallery[num].visit}</p>   
                 </div>
@@ -60,7 +60,7 @@ class Gallerycontent extends Component {
             return(
                 <Carousel.Item>
                 <img
-                  className="gallery_slide_image w-70"
+                  className="gallery_slide_image w-70 "
                   src={gallery[Number(image_index)].url[i]}
                   alt="Third slide"
                 />
@@ -79,10 +79,10 @@ class Gallerycontent extends Component {
             <div className='gallery_content bg-white'>
                 <p className='f2 fw6 gallery_header  pa0 ma0 b--black'>GALLERY</p>
                 <div className='gallery_combine_div'>
-                    <div className="gallery_list_div b--black">
+                    <div className="gallery_list_div b--black ">
                         {gallery_list}           
                     </div>
-                    <div className='gallery_slides ba b--black'>
+                    <div className='gallery_slides ba b--black '>
                         <Galleryslides images={gallery_images} />
                     </div>  
                 </div>

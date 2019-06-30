@@ -16,7 +16,8 @@ import Logo from '../../util/assets1/brick-logo.png'
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Back from '../../util/assets1/transparent.png';
 import Languagenav from '../Languagenav/Languagenav';
-import News from '../../util/assets1/news.pdf'
+import News from '../../util/assets1/news.pdf';
+import Application_form from '../../util/assets1/application_form.pdf';
 
 
 
@@ -142,9 +143,9 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">Members</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link>
-                                                    <p className="pointer dim mt1 link optionnew">Application Form</p>
-                                                </Link>
+                                                <a href={Application_form} download={News}>
+                                                    <p className="pointer dim link mt1 center optionnew">Application Form</p> 
+                                                </a>
                                                 <Link>
                                                     <p className="pointer dim link optionnew">List of Life Members</p>
                                                 </Link>

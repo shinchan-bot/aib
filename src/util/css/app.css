@@ -298,7 +298,10 @@ span:hover{
   .about_profile{
       margin-left: -30px;
   }
-
+  .home_designation{
+      margin-top: -15px;
+      margin-bottom: 0px;
+  }
   .home_face{
       width:10%;
       height: 10%;
@@ -317,6 +320,7 @@ span:hover{
       text-align: justify;
       font-family: AvenirNext;
   }
+ 
   .modified_left_div{
       display: flex;
       flex-direction: column;
@@ -332,8 +336,7 @@ span:hover{
   }
 
   .location{
-      width: 600px;
-      height: 250px;
+      width: 100%;;
   }
 
   .list_of_members{
@@ -346,12 +349,12 @@ span:hover{
   }
 
   .table{
-      width: 40%;
-      margin-left: 30%;
+      width: 30%;
+      margin-left:10px;
   }
   td{
       text-align: left;
-    
+      
   }
 
   .members{
@@ -377,6 +380,7 @@ span:hover{
       background:white;
       display: flex;
       flex-direction: column;
+      
   }
 
 
@@ -389,7 +393,7 @@ span:hover{
   }
   .meeting_details{
       width: 50%;
-      height:50%;
+      font-family: AvenirNext;
   }
 
   .meeting_list_box{
@@ -397,12 +401,13 @@ span:hover{
       height: 450px;
       overflow-y: scroll;
       scroll-behavior: smooth;
+      font-family: AvenirNext;
       
   }
 
-  .meeting_list{
-
-
+  .meeting_list_header{
+      position: sticky;
+      top:0px;
   }
 
 
