@@ -107,6 +107,164 @@ const Header = (props) => {
                                 </div>
 
                             );
+                        }else if(context.state.language === 'punjabi'){
+                            return(
+                                <div className='mb0 main_header'>
+                                    <div className="language_nav  b--white">
+                                        <Languagenav context={props.context}/>
+                                    </div>
+                                    <hr/>
+                                    <div className="header_div11  pa2  b--white">
+                                        <Link to="/" exact >
+                                            <img className="logo link  pointer" src={Logo}/>
+                                        </Link>
+                                        <div className="header_div12  pa2  b--white">
+                                            <p className="white header" id="header">{translationPUN.header.title}</p>
+                                            <p className="white header">{translationPUN.header.header}</p>
+                                        </div>
+                                    </div>
+                                    <div className="nav mt2 pb3 b--white">
+                                        <div className="dropdown  b--white ">
+                                            <Link to='/'>
+                                                <button className="white pointer fw6 grow">{translationPUN.header.nav.option1}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew   b--white ">
+                                            <button className="white  fw6  grow">{translationPUN.header.nav.option2}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/listofmembers'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption1}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationPUN.header.nav.suboption2}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationPUN.header.nav.option3}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link>
+                                                    <p className="pointer dim mt1 link optionnew">{translationPUN.header.nav.suboption3}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationPUN.header.nav.suboption4}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationPUN.header.nav.option4}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/machines'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption5}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationPUN.header.nav.option5}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <p className="pointer dim link  mt1 optionnew">{translationPUN.header.nav.suboption6}</p>
+                                                <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption7}</p>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/listofmeetings'>
+                                                <button className="white pointer fw6  grow ">{translationPUN.header.nav.option6}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/gallery'>
+                                                <button className="white pointer fw6  grow ">{translationPUN.header.nav.option7}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/contactus'>
+                                                <button className="white pointer fw6 grow">{translationPUN.header.nav.option8}</button>
+                                            </Link>
+                                        </div>             
+                                                        
+                                    </div>
+                                </div>
+
+                            );
+                        }else if(context.state.language === 'marathi'){
+                            return(
+                                <div className='mb0 main_header'>
+                                    <div className="language_nav  b--white">
+                                        <Languagenav context={props.context}/>
+                                    </div>
+                                    <hr/>
+                                    <div className="header_div11  pa2  b--white">
+                                        <Link to="/" exact >
+                                            <img className="logo link  pointer" src={Logo}/>
+                                        </Link>
+                                        <div className="header_div12  pa2  b--white">
+                                            <p className="white header" id="header">{translationMAR.header.title}</p>
+                                            <p className="white header">{translationMAR.header.header}</p>
+                                        </div>
+                                    </div>
+                                    <div className="nav mt2 pb3 b--white">
+                                        <div className="dropdown  b--white ">
+                                            <Link to='/'>
+                                                <button className="white pointer fw6 grow">{translationMAR.header.nav.option1}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew   b--white ">
+                                            <button className="white  fw6  grow">{translationMAR.header.nav.option2}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/listofmembers'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationMAR.header.nav.suboption1}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationMAR.header.nav.suboption2}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationMAR.header.nav.option3}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link>
+                                                    <p className="pointer dim mt1 link optionnew">{translationMAR.header.nav.suboption3}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationMAR.header.nav.suboption4}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationMAR.header.nav.option4}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/machines'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationMAR.header.nav.suboption5}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationMAR.header.nav.option5}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <p className="pointer dim link  mt1 optionnew">{translationMAR.header.nav.suboption6}</p>
+                                                <p className="pointer dim link optionnew">{translationMAR.header.nav.suboption7}</p>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/listofmeetings'>
+                                                <button className="white pointer fw6  grow ">{translationMAR.header.nav.option6}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/gallery'>
+                                                <button className="white pointer fw6  grow ">{translationMAR.header.nav.option7}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/contactus'>
+                                                <button className="white pointer fw6 grow">{translationMAR.header.nav.option8}</button>
+                                            </Link>
+                                        </div>             
+                                                        
+                                    </div>
+                                </div>
+
+                            );
                         }else if(context.state.language === 'gujarati'){
                             return(
                                 <div className='mb0 main_header'>

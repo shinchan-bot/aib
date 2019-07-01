@@ -92,13 +92,142 @@ class Homeslides extends Component{
                                                 <p className='home_slide_text fw7 f4'>
                                                     {translationHIN.home_slides.detail3}
                                                 </p>
+                                                <form className='message_form ml4 b--black'>
+                                                <div className='message_form2 ml4'>
+                                                    <div className='w-40 mh2'>
+                                                        <p className='fw6 ml1 red white'>{translationHIN.home_slides.height}</p>
+                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
+                                                    </div>
+                                                    <div className='w-40'>
+                                                        <p className='fw6 ml1 red white'>{translationHIN.home_slides.length}</p>
+                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
+                                                    </div>
+                                                    <div className='w-40 ml2'>
+                                                        <p className='fw6 ml1 green white'>{translationHIN.home_slides.bricks}</p>
+                                                        <input className='input green w-200' type='text'  placeholder={translationHIN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
+                                                    </div>
+                                                    
+                                                </div>
+                                                </form>
                                             </div>  
                                         </div>
                                     </Carousel>     
                                 </div>
 
                                );
-                           }else if(context.state.language === 'gujarati'){
+                           }else if(context.state.language === 'punjabi'){
+                            return(
+                             <div className="home_content">
+                                 <Carousel>
+                                     <div className='home_slide_div' id='bg1'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header w-40 f2 fw7'>
+                                                {translationPUN.home_slides.title1}
+                                             </p>
+                                             <p className='home_slide_text w-50 fw7 f4'>
+                                             {translationPUN.home_slides.detail1}
+                                             </p>
+                                         </div>  
+                                         <img className='home_slide_image' src={Brick2} />                    
+                                     </div>
+                                     <div className='home_slide_div' id='bg2'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header f2 fw7'>
+                                                 {translationPUN.home_slides.title2}
+                                             </p>
+                                             <p className='home_slide_text fw7 f4'>
+                                                 {translationPUN.home_slides.detail2}
+                                             </p>
+                                         </div>  
+                                     </div>
+                                     <div className='home_slide_div' id='bg3'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header f2 fw7'>
+                                                 {translationPUN.home_slides.title3}
+                                             </p>
+                                             <p className='home_slide_text fw7 f4'>
+                                                 {translationPUN.home_slides.detail3}
+                                             </p>
+                                             <form className='message_form ml4 b--black'>
+                                             <div className='message_form2 ml4'>
+                                                 <div className='w-40 mh2'>
+                                                     <p className='fw6 ml1 red white'>{translationPUN.home_slides.height}</p>
+                                                     <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
+                                                 </div>
+                                                 <div className='w-40'>
+                                                     <p className='fw6 ml1 red white'>{translationPUN.home_slides.length}</p>
+                                                     <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
+                                                 </div>
+                                                 <div className='w-40 ml2'>
+                                                     <p className='fw6 ml1 green white'>{translationPUN.home_slides.bricks}</p>
+                                                     <input className='input green w-200' type='text'  placeholder={translationPUN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
+                                                 </div>
+                                                 
+                                             </div>
+                                             </form>
+                                         </div>  
+                                     </div>
+                                 </Carousel>     
+                             </div>
+
+                            );
+                        }else if(context.state.language === 'marathi'){
+                            return(
+                             <div className="home_content">
+                                 <Carousel>
+                                     <div className='home_slide_div' id='bg1'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header w-40 f2 fw7'>
+                                                {translationMAR.home_slides.title1}
+                                             </p>
+                                             <p className='home_slide_text w-50 fw7 f4'>
+                                             {translationMAR.home_slides.detail1}
+                                             </p>
+                                         </div>  
+                                         <img className='home_slide_image' src={Brick2} />                    
+                                     </div>
+                                     <div className='home_slide_div' id='bg2'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header f2 fw7'>
+                                                 {translationMAR.home_slides.title2}
+                                             </p>
+                                             <p className='home_slide_text fw7 f4'>
+                                                 {translationMAR.home_slides.detail2}
+                                             </p>
+                                         </div>  
+                                     </div>
+                                     <div className='home_slide_div' id='bg3'>
+                                         <div className='home_slide_text_div'>
+                                             <p className='home_slide_header f2 fw7'>
+                                                 {translationMAR.home_slides.title3}
+                                             </p>
+                                             <p className='home_slide_text fw7 f4'>
+                                                 {translationMAR.home_slides.detail3}
+                                             </p>
+                                             <form className='message_form ml4 b--black'>
+                                             <div className='message_form2 ml4'>
+                                                 <div className='w-40 mh2'>
+                                                     <p className='fw6 ml1 red white'>{translationMAR.home_slides.height}</p>
+                                                     <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
+                                                 </div>
+                                                 <div className='w-40'>
+                                                     <p className='fw6 ml1 red white'>{translationMAR.home_slides.length}</p>
+                                                     <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
+                                                 </div>
+                                                 <div className='w-40 ml2'>
+                                                     <p className='fw6 ml1 green white'>{translationMAR.home_slides.bricks}</p>
+                                                     <input className='input green w-200' type='text'  placeholder={translationMAR.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
+                                                 </div>
+                                                 
+                                             </div>
+                                             </form>
+                                         </div>  
+                                     </div>
+                                 </Carousel>     
+                             </div>
+
+                            );
+                        }else if(context.state.language === 'gujarati'){
                                 return(
                                 <div className="home_content">
                                     <Carousel>
@@ -131,6 +260,23 @@ class Homeslides extends Component{
                                                 <p className='home_slide_text fw7 f4'>
                                                     {translationGUJ.home_slides.detail3}
                                                 </p>
+                                                <form className='message_form ml4 b--black'>
+                                                <div className='message_form2 ml4'>
+                                                    <div className='w-40 mh2'>
+                                                        <p className='fw6 ml1 red white'>{translationGUJ.home_slides.height}</p>
+                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
+                                                    </div>
+                                                    <div className='w-40'>
+                                                        <p className='fw6 ml1 red white'>{translationGUJ.home_slides.length}</p>
+                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
+                                                    </div>
+                                                    <div className='w-40 ml2'>
+                                                        <p className='fw6 ml1 green white'>{translationGUJ.home_slides.bricks}</p>
+                                                        <input className='input green w-200' type='text'  placeholder={translationGUJ.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
+                                                    </div>
+                                                    
+                                                </div>
+                                                </form>
                                             </div>  
                                         </div>
                                     </Carousel>     
