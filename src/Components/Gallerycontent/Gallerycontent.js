@@ -25,11 +25,12 @@ import Image from '../../util/assets1/bg20.jpg';
 class Gallerycontent extends Component {
 
     state = {
-        index:""
+        index:"0",
+        
     }
 
 
-
+    
 
     render() {
 

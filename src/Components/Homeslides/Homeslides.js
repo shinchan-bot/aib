@@ -30,7 +30,34 @@ var ReactDOM = require('react-dom');
 
 
 class Homeslides extends Component{
+
+    state = {
+        length:'',
+        breadth:''
+    }
+
+
+        
+
+    onLengthChange = (event) => {
+        this.setState({length: event.target.value})
+    }
+
+    onHeightChange = (event) => {
+        this.setState({breadth: event.target.value})
+    }
+
+
     render(){
+        
+        let wall = Number(this.state.length)*Number(this.state.breadth);
+        let no_of_bricks = Number(wall)/0.262596359;
+           
+        
+
+
+
+
         return(
            <MyContext.Consumer>
                {(context)=>(
@@ -115,15 +142,15 @@ class Homeslides extends Component{
                                                 <div className='message_form2 ml4'>
                                                     <div className='w-40 mh2'>
                                                         <p className='fw6 ml1 red white'>Height of Wall</p>
-                                                        <input className='input red w-100 ' type='text' name='name' placeholder='feet' />
+                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='name' placeholder='feet' />
                                                     </div>
                                                     <div className='w-40'>
                                                         <p className='fw6 ml1 red white'>Length of Wall</p>
-                                                        <input className='input red w-100' type='email' name='email' placeholder='feet' />
+                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='email' name='email' placeholder='feet' />
                                                     </div>
                                                     <div className='w-40 ml2'>
                                                         <p className='fw6 ml1 green white'>No. of bricks</p>
-                                                        <input className='input green w-100' type='email' name='email' placeholder='No.' value={'1000'+'  Bricks'} />
+                                                        <input className='input green w-200' type='email' name='email' placeholder='No.' value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
                                                     </div>
                                                     
                                                 </div>
