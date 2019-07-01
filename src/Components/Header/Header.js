@@ -107,6 +107,85 @@ const Header = (props) => {
                                 </div>
 
                             );
+                        }else if(context.state.language === 'gujarati'){
+                            return(
+                                <div className='mb0 main_header'>
+                                    <div className="language_nav  b--white">
+                                        <Languagenav context={props.context}/>
+                                    </div>
+                                    <hr/>
+                                    <div className="header_div11  pa2  b--white">
+                                        <Link to="/" exact >
+                                            <img className="logo link  pointer" src={Logo}/>
+                                        </Link>
+                                        <div className="header_div12  pa2  b--white">
+                                            <p className="white header" id="header">{translationGUJ.header.title}</p>
+                                            <p className="white header">{translationGUJ.header.header}</p>
+                                        </div>
+                                    </div>
+                                    <div className="nav mt2 pb3 b--white">
+                                        <div className="dropdown  b--white ">
+                                            <Link to='/'>
+                                                <button className="white pointer fw6 grow">{translationGUJ.header.nav.option1}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew   b--white ">
+                                            <button className="white  fw6  grow">{translationGUJ.header.nav.option2}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/listofmembers'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationGUJ.header.nav.suboption1}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationGUJ.header.nav.suboption2}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationGUJ.header.nav.option3}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link>
+                                                    <p className="pointer dim mt1 link optionnew">{translationGUJ.header.nav.suboption3}</p>
+                                                </Link>
+                                                <Link>
+                                                    <p className="pointer dim link optionnew">{translationGUJ.header.nav.suboption4}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationGUJ.header.nav.option4}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <Link to='/machines'>
+                                                    <p className="pointer dim link mt1 optionnew">{translationGUJ.header.nav.suboption5}</p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <button className="white  fw6  grow">{translationGUJ.header.nav.option5}</button>
+                                            <div className="dropdown_contentnew  b--white ">
+                                                <p className="pointer dim link  mt1 optionnew">{translationGUJ.header.nav.suboption6}</p>
+                                                <p className="pointer dim link optionnew">{translationGUJ.header.nav.suboption7}</p>
+                                            </div>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/listofmeetings'>
+                                                <button className="white pointer fw6  grow ">{translationGUJ.header.nav.option6}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/gallery'>
+                                                <button className="white pointer fw6  grow ">{translationGUJ.header.nav.option7}</button>
+                                            </Link>
+                                        </div>
+                                        <div className="dropdownnew  b--white ">
+                                            <Link to='/contactus'>
+                                                <button className="white pointer fw6 grow">{translationGUJ.header.nav.option8}</button>
+                                            </Link>
+                                        </div>             
+                                                        
+                                    </div>
+                                </div>
+
+                            );
                         }else{
                             return(
                                 <div className='mb0 main_header'>
@@ -119,68 +198,68 @@ const Header = (props) => {
                                             <img className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
-                                            <p className="white header" id="header">AIBTMF</p>
-                                            <p className="white header">All India Brick and Tile Manufacturing Federation</p>
+                                            <p className="white header" id="header">{translationEN.header.title}</p>
+                                            <p className="white header">{translationEN.header.header}</p>
                                         </div>
                                     </div>
                                     <div className="nav mt2 pb3 b--white">
                                         <div className="dropdown  b--white ">
                                             <Link to='/'>
-                                                <button className="white pointer fw6 grow">Home</button>
+                                                <button className="white pointer fw6 grow">{translationEN.header.nav.option1}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew   b--white ">
-                                            <button className="white  fw6  grow">Management</button>
+                                            <button className="white  fw6  grow">{translationEN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/listofmembers'>
-                                                    <p className="pointer dim link mt1 optionnew">Management Committee</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption1}</p>
                                                 </Link>
                                                 <Link>
-                                                    <p className="pointer dim link optionnew">List of Executives</p>
+                                                    <p className="pointer dim link optionnew">{translationEN.header.nav.suboption2} </p>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">Members</button>
+                                            <button className="white  fw6  grow">{translationEN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <a href={Application_form} download={News}>
-                                                    <p className="pointer dim link mt1 center optionnew">Application Form</p> 
+                                                    <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link>
-                                                    <p className="pointer dim link optionnew">List of Life Members</p>
+                                                    <p className="pointer dim link optionnew">{translationEN.header.nav.suboption4}</p>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">Innovations</button>
+                                            <button className="white  fw6  grow">{translationEN.header.nav.option4}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/machines'>
-                                                    <p className="pointer dim link mt1 optionnew">Machines</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption5}</p>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">News</button>
+                                            <button className="white  fw6  grow">{translationEN.header.nav.option5}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <p className="pointer dim link  mt1 optionnew">Articles</p>
+                                                <p className="pointer dim link  mt1 optionnew">{translationEN.header.nav.suboption6}</p>
                                                 <a href={News} download={News}>
-                                                    <p className="pointer dim link mt1 center optionnew">News</p> 
+                                                    <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption7}</p> 
                                                 </a>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/listofmeetings'>
-                                                <button className="white pointer fw6  grow ">Meetings</button>
+                                                <button className="white pointer fw6  grow ">{translationEN.header.nav.option6}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/gallery'>
-                                                <button className="white pointer fw6  grow ">Gallery</button>
+                                                <button className="white pointer fw6  grow ">{translationEN.header.nav.option7}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/contactus'>
-                                                <button className="white pointer fw6 grow">Contact Us</button>
+                                                <button className="white pointer fw6 grow">{translationEN.header.nav.option8}</button>
                                             </Link>
                                         </div>             
                                                         

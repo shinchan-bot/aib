@@ -54,10 +54,6 @@ class Homeslides extends Component{
         let no_of_bricks = Number(wall)/0.262596359;
            
         
-
-
-
-
         return(
            <MyContext.Consumer>
                {(context)=>(
@@ -102,17 +98,56 @@ class Homeslides extends Component{
                                 </div>
 
                                );
-                           }else{
+                           }else if(context.state.language === 'gujarati'){
+                                return(
+                                <div className="home_content">
+                                    <Carousel>
+                                        <div className='home_slide_div' id='bg1'>
+                                            <div className='home_slide_text_div'>
+                                                <p className='home_slide_header w-40 f2 fw7'>
+                                                    {translationGUJ.home_slides.title1}
+                                                </p>
+                                                <p className='home_slide_text w-50 fw7 f4'>
+                                                {translationGUJ.home_slides.detail1}
+                                                </p>
+                                            </div>  
+                                            <img className='home_slide_image' src={Brick2} />                    
+                                        </div>
+                                        <div className='home_slide_div' id='bg2'>
+                                            <div className='home_slide_text_div'>
+                                                <p className='home_slide_header f2 fw7'>
+                                                    {translationGUJ.home_slides.title2}
+                                                </p>
+                                                <p className='home_slide_text fw7 f4'>
+                                                    {translationGUJ.home_slides.detail2}
+                                                </p>
+                                            </div>  
+                                        </div>
+                                        <div className='home_slide_div' id='bg3'>
+                                            <div className='home_slide_text_div'>
+                                                <p className='home_slide_header f2 fw7'>
+                                                    {translationGUJ.home_slides.title3}
+                                                </p>
+                                                <p className='home_slide_text fw7 f4'>
+                                                    {translationGUJ.home_slides.detail3}
+                                                </p>
+                                            </div>  
+                                        </div>
+                                    </Carousel>     
+                                </div>
+
+                            );
+                        }else{
                             return(
                                 <div className="home_content">
                                     <Carousel>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
                                                 <p className='home_slide_header underline w-40 f2 fw7'>
-                                                    How to choose Bricks?
+                                                    {translationEN.home_slides.title1}
                                                 </p>
                                                 <p className='home_slide_text w-50 fw7 f4'>
-                                                    The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.
+                                                    {translationEN.home_slides.detail1}
                                                 </p>
                                             </div>  
                                             <img className='home_slide_image w-30' src={Brick2} />                    
@@ -120,37 +155,34 @@ class Homeslides extends Component{
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
                                                 <p className='home_slide_header underline f2 fw7'>
-                                                    Brick Making : One of the Oldest Profession
+                                                    {translationEN.home_slides.title2}
                                                 </p>
                                                 <p className='home_slide_text fw7 f4'>
-                                                    Man has used brick for building purpose for thousands of years. Bricks date back to 7000 BC, which makes them one of the oldest known building materials. They were discovered in southern Turkey at the site of an ancient settlement around the city of Jericho.<br/><br/> 
-
-                                                    The first bricks, made in areas with warm climates, were mud bricks dried in the sun for hardening. 
-                                                    Ancient Egyptian bricks were made of clay mixed with straw. The evidence of this can be seen today at ruins of Harappa Buhen and Mohenjo-daro. Paintings on the tomb walls of Thebes portray Egyptian slaves mixing, tempering and carrying clay for the sun dried bricks. 
+                                                    {translationEN.home_slides.detail2}
                                                 </p>
                                             </div>  
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
                                                 <p className='home_slide_header underline f2 fw7'>
-                                                    Brick Calculator
+                                                    {translationEN.home_slides.title3}
                                                 </p>
                                                 <p className='home_slide_text  fw7 f4'>
-                                                    Our online tools will provide quick answers to your calculation and conversion needs. On this page, you can calculate the number of bricks and amount of mortar required for a given wall area. Once the quantities are known, it is easy to estimate the cost with the rates prevailing in your area.                                               
+                                                    {translationEN.home_slides.detail3}
                                                 </p>
                                                 <form className='message_form ml4 b--black'>
                                                 <div className='message_form2 ml4'>
                                                     <div className='w-40 mh2'>
-                                                        <p className='fw6 ml1 red white'>Height of Wall</p>
-                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='name' placeholder='feet' />
+                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.height}</p>
+                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
                                                     </div>
                                                     <div className='w-40'>
-                                                        <p className='fw6 ml1 red white'>Length of Wall</p>
-                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='email' name='email' placeholder='feet' />
+                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.length}</p>
+                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
                                                     </div>
                                                     <div className='w-40 ml2'>
-                                                        <p className='fw6 ml1 green white'>No. of bricks</p>
-                                                        <input className='input green w-200' type='email' name='email' placeholder='No.' value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
+                                                        <p className='fw6 ml1 green white'>{translationEN.home_slides.bricks}</p>
+                                                        <input className='input green w-200' type='text'  placeholder={translationEN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
                                                     </div>
                                                     
                                                 </div>
@@ -158,7 +190,7 @@ class Homeslides extends Component{
                                             </div>  
                                         </div>                                        
                                     </Carousel>     
-                                    </div>
+                                </div>
 
                             );
                         }

@@ -1,3 +1,73 @@
 {
-    "p":"List of Members"
+
+    "header":{
+        "title":"AIBTMF",
+        "header":"All India Brick and Tile Manufacturing Federation",
+        "nav":{
+            "option1":"Home",
+            "option2":"Management",
+            "option3":"Members",
+            "option4":"Innovations",
+            "option5":"News",
+            "option6":"Meetings",
+            "option7":"Gallery",
+            "option8":"Contact Us",
+            "suboption1":"Management Committe",
+            "suboption2":"List of Executives",
+            "suboption3":"Application Form",
+            "suboption4":"List of Life Members",
+            "suboption5":"Machines",
+            "suboption6":"Articles",
+            "suboption7":"News"
+        }
+        
+    },
+
+    "home_slides":{
+        "title1":"How to Choose Bricks?",
+        "detail1":"The material that your house is built from also forms the foundation (literally) of its aesthetic appeal. The colour, shape, size and texture of the bricks you choose will influence the overall look and feel of your house. Before you make your final decision, it’s worth gathering ideas from the internet, display homes, websites and magazines….more.",
+        "title2":"Brick Making : One of the Oldest Profession",
+        "detail2": "Man has used brick for building purpose for thousands of years. Bricks date back to 7000 BC, which makes them one of the oldest known building materials. They were discovered in southern Turkey at the site of an ancient settlement around the city of Jericho.The first bricks, made in areas with warm climates, were mud bricks dried in the sun for hardening. Ancient Egyptian bricks were made of clay mixed with straw. The evidence of this can be seen today at ruins of Harappa Buhen and Mohenjo-daro. Paintings on the tomb walls of Thebes portray Egyptian slaves mixing, tempering and carrying clay for the sun dried bricks. ",
+        "title3":"Brick Calculator",
+        "detail3": "Our online tools will provide quick answers to your calculation and conversion needs. On this page, you can calculate the number of bricks and amount of mortar required for a given wall area. Once the quantities are known, it is easy to estimate the cost with the rates prevailing in your area.",
+        "height":"Height of Wall",
+        "length":"Length of Wall",
+        "feet":"feet",
+        "bricks":"No. of Bricks",
+        "brick":"Bricks"
+    
+    
+    },
+
+    "home_content":
+    {
+        "title":"ABOUT",
+        "header":"All India Brick and Tile Manufacturers Federation",
+        "purpose":"We represent the Brick and tile manufacturers of India. We aim to inspire contemporary brick architecture and building design in all areas of the built environment: commercial, residential and landscape. f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "name1":"Devender Bhai Prajapati",
+        "name2":"Vijay Kumar Goel",
+        "name3":"Manish Gupta",
+        "designation1":"President",
+        "designation2":"General Secretary",
+        "designation3":"Treasurer",
+        "address_line1":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India 011-24641853, 41504740",
+        "address_line2":"Contact Person:-Sh. R. K. Verma (Executive Secretary)",
+        "address_line3":" Email: aibtmf@rediffmail.com",
+        "address:":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India 011-24641853, 41504740Contact Person:-Sh. R. K. Verma (Executive Secretary)Email: aibtmf@rediffmail.com"
+    },
+
+
+    "contact_us":{
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "account_number":"Account Number",
+        "ifsc":"IFSC"
+    },
+
+
+   "meeting_list":
+   {
+        "p":"सदस्यों की सूची"
+   } 
 }
