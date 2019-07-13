@@ -567,3 +567,8 @@ span:hover{
     font-family: AvenirNext;  
 }
 
+.admin_meeting_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}

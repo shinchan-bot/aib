@@ -29,6 +29,8 @@ import Notfound from '../Notfound/Notfound';
 import BG1 from '../../util/assets1/about-us.png';
 import BG2 from '../../util/assets1/brick-making.png';
 import BG3 from '../../util/assets1/bg3.png';
+import Admin from '../../admin/Admin';
+import Pushmeetings from '../../admin/Pushmeetings';
 
 
 const Home = () => {
@@ -48,7 +50,8 @@ const Home = () => {
                     <Route exact path='/news' component={Newscontent}/> 
                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
                     <Route exact path='/gallery' component={Gallerycontent}/> 
-                    <Route exact path='/contactus' component={Contactus}/> 
+                    <Route exact path='/contactus' component={Contactus}/>
+                    <Route exact path='/adminlogin' component={Admin}/>                                          
                     <Route exact path='/location' component={Googlemaps}/> 
                     <Route exact path={process.env.PUBLIC_URL + '/'} component={Homecontent}/>
                 </div>
