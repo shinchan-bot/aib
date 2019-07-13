@@ -23,6 +23,7 @@ import Gallerycontent from '../Gallerycontent/Gallerycontent';
 import Contactus from '../Contactus/Contactus';
 import Machinecontent from '../Machinecontent/Machinecontent';
 import Notfound from '../Notfound/Notfound';
+import Articles from '../Articles/Articles';
 
 
 
@@ -31,6 +32,7 @@ import BG2 from '../../util/assets1/brick-making.png';
 import BG3 from '../../util/assets1/bg3.png';
 import Admin from '../../admin/Admin';
 import Pushmeetings from '../../admin/Pushmeetings';
+import Vendors from '../Vendors/Vendors';
 
 
 const Home = () => {
@@ -45,9 +47,10 @@ const Home = () => {
                 />
                 <Header1 context={context}/>
                     <Route exact path='/management' component={Listofmembers}/> 
-                    <Route exact path='/listofmembers' component={Listofmembers}/> 
+                    <Route exact path='/vendors' component={Vendors}/> 
                     <Route exact path='/machines' component={Machinecontent}/> 
                     <Route exact path='/news' component={Newscontent}/> 
+                    <Route exact path='/articles' component={Articles}/> 
                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
                     <Route exact path='/gallery' component={Gallerycontent}/> 
                     <Route exact path='/contactus' component={Contactus}/>
