@@ -3,37 +3,63 @@ import 'tachyons';
 import { Document } from 'react-pdf';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { MyContext } from '../../context';
-
-
-import News from '../../util/assets1/news.pdf';
+import axios from 'axios';
 
 
 
 
 
 class Newscontent extends Component {
-    state = {
-        numPages: null,
-        pageNumber: 1,
-      }
-     
-      onDocumentLoadSuccess = ({ numPages }) => {
-        this.setState({ numPages });
-      }
-    render(){
 
-        const { pageNumber, numPages } = this.state;
+
+    constructor(props){
+        super(props);
+        this.state = {
+            num:'0',
+            news:[],
+        }
+
+    }
+
+    componentDidMount(){
+        axios.get('http://localhost:3001/fetchnews')
+            .then(response =>{
+                console.log(response);
+                this.setState({news:response.data});
+            });
+    }
+    
+    render(){
+        let newsPostsstore = this.state.news
+
+        let news_handler = (num) =>{
+            return(
+                this.setState({num : num })
+        
+            );
+        }
+        const news_array = newsPostsstore.map((user,num) =>{
+            return(
+                <div className=" bl bb b--gray br4 mb2 shadow-2 pa2">
+                    
+                    <p data-key={num} key={num} onClick={() =>news_handler(num)} className="red link pointer dim "><i>{newsPostsstore[num].date}</i></p>
+                    <p  className="meet f4 fw6">{newsPostsstore[num].heading}</p>
+                    <p  className="meet f5 ">{newsPostsstore[num].description}</p>
+                    <p  className="meet f6 fw6">{newsPostsstore[num].details}</p>
+
+                </div> 
+            );           
+        });
+
 
         return(
-            <div>
-                {/* <Document
-                file={News}
-                onLoadSuccess={this.onDocumentLoadSuccess}
-                >
-                <Page pageNumber={pageNumber} />
-                </Document>
-                <p>Page {pageNumber} of {numPages}</p> */}
-                {/* <Document file={News} /> */}
+            <div className=' bg-white w-100 ba b--black pa2'>
+                <h1 className="tc">
+                    NEWS
+                </h1>
+                    <div className="meeting_list_box w-100 bt bb bw1 b--black br4 shadow-5">
+                        {news_array}
+                    </div>
             </div>
         );
     }

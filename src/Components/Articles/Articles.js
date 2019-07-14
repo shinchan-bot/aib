@@ -15,6 +15,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Articles() {
     return (
         <div className='bg-white vendors'>
+            <h1 className="tc bw6">
+                    ARTICLES
+                </h1>
         <Accordion>
             <AccordionItem>
                 <AccordionItemHeading>

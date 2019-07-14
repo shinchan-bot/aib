@@ -369,10 +369,10 @@ const Header = (props) => {
                                         <div className="dropdownnew   b--white ">
                                             <button className="white  fw6  grow">{translationEN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link to='/listofmembers'>
+                                                <Link to='/management'>
                                                     <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption1}</p>
                                                 </Link>
-                                                <Link to='/vendors'>
+                                                <Link to='executives'>
                                                     <p className="pointer dim link optionnew">{translationEN.header.nav.suboption2} </p>
                                                 </Link>
                                             </div>
@@ -394,6 +394,9 @@ const Header = (props) => {
                                                 <Link to='/machines'>
                                                     <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption5}</p>
                                                 </Link>
+                                                <Link to='/vendors'>
+                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
@@ -402,9 +405,9 @@ const Header = (props) => {
                                                 <Link to='/articles'>
                                                     <p className="pointer dim link  mt1 optionnew">{translationEN.header.nav.suboption6}</p>
                                                 </Link>
-                                                <a href={News} download={News}>
+                                                <Link to="/newscontent">
                                                     <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption7}</p> 
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">

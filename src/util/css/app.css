@@ -578,3 +578,10 @@ span:hover{
 .vendors{
     font-family: AvenirNext;
 }
+
+
+.executive_list{
+    font-family: AvenirNext;
+    list-style: none;
+}
+

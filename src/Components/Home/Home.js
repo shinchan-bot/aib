@@ -32,7 +32,9 @@ import BG2 from '../../util/assets1/brick-making.png';
 import BG3 from '../../util/assets1/bg3.png';
 import Admin from '../../admin/Admin';
 import Pushmeetings from '../../admin/Pushmeetings';
-import Vendors from '../Vendors/Vendors';
+import Vendorcontent from '../Vendors/Vendorcontent';
+import Listofexecutives from '../Listofexecutives/Listofexecutives';
+import Listofexecutives2 from '../Listofexecutives/Listofexecutives2';
 
 
 const Home = () => {
@@ -47,9 +49,10 @@ const Home = () => {
                 />
                 <Header1 context={context}/>
                     <Route exact path='/management' component={Listofmembers}/> 
-                    <Route exact path='/vendors' component={Vendors}/> 
+                    <Route exact path='/executives' component={Listofexecutives}/> 
+                    <Route exact path='/vendors' component={Vendorcontent}/> 
                     <Route exact path='/machines' component={Machinecontent}/> 
-                    <Route exact path='/news' component={Newscontent}/> 
+                    <Route exact path='/newscontent' component={Newscontent}/> 
                     <Route exact path='/articles' component={Articles}/> 
                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
                     <Route exact path='/gallery' component={Gallerycontent}/> 
