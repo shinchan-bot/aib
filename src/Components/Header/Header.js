@@ -55,21 +55,21 @@ const Header = (props) => {
                                         <div className="dropdownnew   b--white ">
                                             <button className="white  fw6  grow">{translationHIN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link to='/listofmembers'>
+                                                <Link to='/management'>
                                                     <p className="pointer dim link mt1 optionnew">{translationHIN.header.nav.suboption1}</p>
                                                 </Link>
-                                                <Link>
-                                                    <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption2}</p>
+                                                <Link to='executives'>
+                                                    <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption2} </p>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationHIN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link>
-                                                    <p className="pointer dim mt1 link optionnew">{translationHIN.header.nav.suboption3}</p>
-                                                </Link>
-                                                <Link>
+                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                    <p className="pointer dim link mt1 center optionnew">{translationHIN.header.nav.suboption3}</p> 
+                                                </a>
+                                                <Link to='lifemembers' >
                                                     <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption4}</p>
                                                 </Link>
                                             </div>
@@ -80,13 +80,20 @@ const Header = (props) => {
                                                 <Link to='/machines'>
                                                     <p className="pointer dim link mt1 optionnew">{translationHIN.header.nav.suboption5}</p>
                                                 </Link>
+                                                <Link to='/vendors'>
+                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationHIN.header.nav.option5}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <p className="pointer dim link  mt1 optionnew">{translationHIN.header.nav.suboption6}</p>
-                                                <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption7}</p>
+                                                <Link to='/articles'>
+                                                    <p className="pointer dim link  mt1 optionnew">{translationHIN.header.nav.suboption7}</p>
+                                                </Link>
+                                                <Link to="/newscontent">
+                                                    <p className="pointer dim link mt1 center optionnew">{translationHIN.header.nav.suboption8}</p> 
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
@@ -106,6 +113,7 @@ const Header = (props) => {
                                         </div>             
                                                         
                                     </div>
+                                    
                                 </div>
 
                             );
@@ -134,21 +142,21 @@ const Header = (props) => {
                                         <div className="dropdownnew   b--white ">
                                             <button className="white  fw6  grow">{translationPUN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link to='/listofmembers'>
+                                                <Link to='/management'>
                                                     <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption1}</p>
                                                 </Link>
-                                                <Link>
-                                                    <p className="pointer dim link optionnew">{translationPUN.header.nav.suboption2}</p>
+                                                <Link to='executives'>
+                                                    <p className="pointer dim link optionnew">{translationPUN.header.nav.suboption2} </p>
                                                 </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationPUN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <Link>
-                                                    <p className="pointer dim mt1 link optionnew">{translationPUN.header.nav.suboption3}</p>
-                                                </Link>
-                                                <Link>
+                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                    <p className="pointer dim link mt1 center optionnew">{translationPUN.header.nav.suboption3}</p> 
+                                                </a>
+                                                <Link to='lifemembers' >
                                                     <p className="pointer dim link optionnew">{translationPUN.header.nav.suboption4}</p>
                                                 </Link>
                                             </div>
@@ -159,13 +167,20 @@ const Header = (props) => {
                                                 <Link to='/machines'>
                                                     <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption5}</p>
                                                 </Link>
+                                                <Link to='/vendors'>
+                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationPUN.header.nav.option5}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <p className="pointer dim link  mt1 optionnew">{translationPUN.header.nav.suboption6}</p>
-                                                <p className="pointer dim link optionnew">{translationHIN.header.nav.suboption7}</p>
+                                                <Link to='/articles'>
+                                                    <p className="pointer dim link  mt1 optionnew">{translationPUN.header.nav.suboption7}</p>
+                                                </Link>
+                                                <Link to="/newscontent">
+                                                    <p className="pointer dim link mt1 center optionnew">{translationPUN.header.nav.suboption8}</p> 
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
@@ -185,6 +200,7 @@ const Header = (props) => {
                                         </div>             
                                                         
                                     </div>
+                                    
                                 </div>
 
                             );

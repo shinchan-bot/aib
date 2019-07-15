@@ -1373,15 +1373,22 @@ span:hover{
         background: transparent;
     
     }
+    .languagenav_div{
+        display: flex;
+        width: 100%;
+        margin-bottom: -20px;
+        justify-content: space-between;
+    }
     
     .language_nav{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         
         
     }
     hr{
         border-top: 1px solid white !important;
+        margin-bottom: -5px;
     }
     .logo{
         width: 50%;
@@ -1586,7 +1593,7 @@ span:hover{
       }
     
       .home_slide_div{
-        height: 350px;    
+        height: 300px;    
       }
     
       .home_slide_header{
@@ -1594,7 +1601,7 @@ span:hover{
           z-index: 100000;
           color: white;
           margin-top: 15px;
-          font-size: 25px;
+          font-size: 15px;
           left: 5%;
           width: 100%;
           font-family: AvenirNext;
@@ -1604,7 +1611,7 @@ span:hover{
           color:white;
           position: relative;
           z-index: 100000;
-          font-size: 14px;
+          font-size: 11px;
           left:5%;
           width: 90%;
           text-align: justify;
@@ -1613,9 +1620,9 @@ span:hover{
       .home_slide_image{
           position: relative !important;
           top: -150px;
-          left: 70%;
-          width: 180px !important;
-          height: 130px;
+          left: 60%;
+          width: 100px !important;
+          height: 50px;
       }
     
      
@@ -1628,17 +1635,17 @@ span:hover{
       }
 
       #about1{
-          font-size: 25px;
+          font-size: 20px;
       }
 
       #about2{
-          font-size: 18px;
+          font-size: 13px;
           text-decoration: none;
       }
     
       .about_text{
           margin-left:10%;
-          font-size: 14px;
+          font-size: 11px;
           text-align: justify;
           font-family: AvenirNext;
           width: 80%;
@@ -1646,15 +1653,18 @@ span:hover{
     
       .about_profile_div{
           display: flex;
-          width: 90%;
-          justify-content: space-evenly;
-          margin-left: 5%;
-          margin-top: 50px;
+          flex-wrap: wrap;
+          justify-content: center;
+          width: 100%;
+          margin-left: 0%;
+          margin-top: 10px;
           font-family: AvenirNext;
     
       }
       .about_profile{
-          margin-left: -30px;
+          margin-left: 0px;
+          width: 100%;
+          text-align: center;
       }
       .home_designation{
           margin-top: -15px;
@@ -1662,15 +1672,15 @@ span:hover{
           font-size: 14px;
       }
       .home_face{
-          width:10%;
-          margin-right: 25px;
+          width:35%;
+         margin-left: 10%;
       }
       .home_name{
-          font-size:13px;
+          font-size:11px;
       }
       .footer{
           display: flex;
-          justify-content: center;
+          flex-wrap: wrap;
           margin-top: 40px;
           padding: 10px;
           background:#d8d8d8;
@@ -1681,17 +1691,19 @@ span:hover{
           display: flex;
           text-align: justify;
           font-family: AvenirNext;
+          
 
       }
 
       .footer_text{
           margin-left: 10px;
-          font-size: 13px;
+          font-size: 11px;
       }
      
       .modified_left_div{
           display: flex;
           flex-direction: column;
+          margin-bottom: 5%;
       }
       .share_div{
           display: flex;
@@ -1706,12 +1718,13 @@ span:hover{
       }
     
       .location{
-          width: 100%;;
+          width: 100%;
       }
 
 
       .list_of_members_header{
-          font-size: 20px;
+          font-size: 16px;
+          text-align: center;
       }
     
       .list_of_members{
@@ -1724,8 +1737,8 @@ span:hover{
       }
     
       .table{
-          width: 70%;
-          margin-left:10px;
+          width: 100%;
+          margin-left:0px;
       }
       td{
           text-align: left;
@@ -1740,20 +1753,19 @@ span:hover{
       }
     
       .member{
-          width: 20%;
-          margin: 30px 2%;
-          width:30%;
+          width: 90%;
+          margin: 10px ;
           padding-left:5px;
           line-height: 2;
     }
     
     .member_name{
         margin-bottom: 0px;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .meetings_header{
-        font-size: 20px;
+        font-size: 16px;
     }
     
       .meetings{
@@ -1767,18 +1779,17 @@ span:hover{
       .meeting_box_combine{
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-around;
           text-align: left;
           font-family: AvenirNext;
       }
       .meeting_details{
-          width: 50%;
+          width: 100%;
           font-family: AvenirNext;
       }
     
       .meeting_list_box{
-          width:40%;
-          height: 450px;
+          width:90%;
+          height: 250px;
           overflow-y: scroll;
           scroll-behavior: smooth;
           font-family: AvenirNext;
@@ -1788,11 +1799,11 @@ span:hover{
       .meeting_list_header{
           position: sticky;
           top:0px;
-          font-size: 17px;
+          font-size: 15px;
       }
 
       .meeting_title{
-          font-size: 20px;
+          font-size: 16px;
       }
 
       .meeting_description{

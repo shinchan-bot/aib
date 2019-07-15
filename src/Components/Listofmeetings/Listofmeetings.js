@@ -47,7 +47,7 @@ class Listofmeetings extends Component {
         }
         const meeting_array = meetingPostsstore.map((user,num) =>{
             return(
-                <div className="bl bb b--gray br4 mb2 shadow-2 pa2">
+                <div className="bl meetingmobile bb b--gray br4 mb2 shadow-2 pa2">
                     <p className='meeting_date' data-key={user} key={user} onClick={() =>meeting_handler(user)} className="red link pointer dim "><i>{user.date}</i></p>
                     <p  className="meet">{user.description}</p>
                 </div> 

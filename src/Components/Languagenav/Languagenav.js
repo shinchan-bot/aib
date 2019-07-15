@@ -5,14 +5,20 @@ import 'tachyons';
 import { MyContext } from '../../context';
 
 
+
+
+
 import '../../util/css/app.css';
+import Headernav from '../Header/Headernav';
 
 
 class Languagenav extends Component {
   render() {
     return (
-                <div className="dropdownnew   b--white ">
-                    <button className="red  fw6  grow">Language</button>
+        <div className='languagenav_div' >
+                    <Headernav/>
+            <div className="dropdownnew   b--white ">
+                    <button className="red f6   fw6  grow">Language</button>
                     <div className="dropdown_contentnew b--white ">
                         <a
                             className="pointer grow dim link mt1 optionnew"
@@ -55,7 +61,9 @@ class Languagenav extends Component {
                         </a>
 
                     </div>
-                </div>   
+                </div> 
+
+        </div>  
     )
   }
 }
