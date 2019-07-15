@@ -825,7 +825,7 @@ export default Listofmeetings;
 
 
 
-<div>
+            <div>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='navbar'>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

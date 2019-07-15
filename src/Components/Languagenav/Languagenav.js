@@ -18,7 +18,7 @@ class Languagenav extends Component {
         <div className='languagenav_div' >
                     <Headernav/>
             <div className="dropdownnew   b--white ">
-                    <button className="red f6   fw6  grow">Language</button>
+                    <button className="red f6 language_button  fw6  grow">Language</button>
                     <div className="dropdown_contentnew b--white ">
                         <a
                             className="pointer grow dim link mt1 optionnew"

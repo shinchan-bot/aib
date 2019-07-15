@@ -22,7 +22,7 @@ export default function Articles() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       HEADING OF THE ARTICLE
+                       THE GAZETTE OF INDIA
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

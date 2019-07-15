@@ -27,31 +27,25 @@ class Contactus extends Component {
                                         <div className="contact_div mt3">
                                             <form className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                    <div className='w-40 '>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationHIN.contact_us.name}</p>
                                                         <input className='input w-80' type='text' name='name'/>
                                                     </div>
-                                                    <div className='w-45'>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationHIN.contact_us.email}</p>
                                                         <input className='input w-100' type='email' name='email'/>
                                                     </div>
                                                 </div>
                                                 <br/>
-                                                <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder={translationHIN.contact_us.message}></textarea>
+                                                <textarea className='input w-80-ns text_area ' id='input' type='text' name='message' placeholder={translationHIN.contact_us.message}></textarea>
                                                 <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                                             </form>
                                             <div className="contact_details  b--black">
-                                                <p className='f3 fw6 red'>{translationHIN.header.header} ({translationHIN.header.title})</p>
-                                                <p className='fw6'>
-                                                    {translationHIN.home_content.address_line1}<br/>
+                                                <p className='f3-ns contact_header fw6 red'>{translationHIN.home_content.header}</p>
+                                                <p className='contact_address fw6'>
+                                                {translationHIN.home_content.address_line1}<br/>
                                                     {translationHIN.home_content.address_line2}<br/>
                                                     {translationHIN.home_content.address_line3}<br/>
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationHIN.contact_us.account_number} : 1234567890
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationHIN.contact_us.ifsc} : IFB123456
                                                 </p>
                                             </div>
                                         </div>
@@ -68,31 +62,25 @@ class Contactus extends Component {
                                         <div className="contact_div mt3">
                                             <form className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                    <div className='w-40 '>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationGUJ.contact_us.name}</p>
                                                         <input className='input w-80' type='text' name='name'/>
                                                     </div>
-                                                    <div className='w-45'>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationGUJ.contact_us.email}</p>
                                                         <input className='input w-100' type='email' name='email'/>
                                                     </div>
                                                 </div>
                                                 <br/>
-                                                <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder={translationGUJ.contact_us.message}></textarea>
+                                                <textarea className='input w-80-ns text_area ' id='input' type='text' name='message' placeholder={translationGUJ.contact_us.message}></textarea>
                                                 <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                                             </form>
                                             <div className="contact_details  b--black">
-                                                <p className='f3 fw6 red'>{translationGUJ.header.header} ({translationGUJ.header.title})</p>
-                                                <p className='fw6'>
-                                                    {translationGUJ.home_content.address_line1}<br/>
+                                                <p className='f3-ns contact_header fw6 red'>{translationGUJ.home_content.header}</p>
+                                                <p className='contact_address fw6'>
+                                                {translationGUJ.home_content.address_line1}<br/>
                                                     {translationGUJ.home_content.address_line2}<br/>
                                                     {translationGUJ.home_content.address_line3}<br/>
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationGUJ.contact_us.account_number} : 1234567890
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationGUJ.contact_us.ifsc} : IFB123456
                                                 </p>
                                             </div>
                                         </div>
@@ -109,31 +97,25 @@ class Contactus extends Component {
                                         <div className="contact_div mt3">
                                             <form className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                    <div className='w-40 '>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationMAR.contact_us.name}</p>
                                                         <input className='input w-80' type='text' name='name'/>
                                                     </div>
-                                                    <div className='w-45'>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationMAR.contact_us.email}</p>
                                                         <input className='input w-100' type='email' name='email'/>
                                                     </div>
                                                 </div>
                                                 <br/>
-                                                <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder={translationMAR.contact_us.message}></textarea>
+                                                <textarea className='input w-80-ns text_area ' id='input' type='text' name='message' placeholder={translationMAR.contact_us.message}></textarea>
                                                 <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                                             </form>
                                             <div className="contact_details  b--black">
-                                                <p className='f3 fw6 red'>{translationMAR.header.header} ({translationMAR.header.title})</p>
-                                                <p className='fw6'>
-                                                    {translationMAR.home_content.address_line1}<br/> 
+                                                <p className='f3-ns contact_header fw6 red'>{translationMAR.home_content.header}</p>
+                                                <p className='contact_address fw6'>
+                                                {translationMAR.home_content.address_line1}<br/>
                                                     {translationMAR.home_content.address_line2}<br/>
                                                     {translationMAR.home_content.address_line3}<br/>
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationMAR.contact_us.account_number} : 1234567890
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationMAR.contact_us.ifsc} : IFB123456
                                                 </p>
                                             </div>
                                         </div>
@@ -150,31 +132,25 @@ class Contactus extends Component {
                                         <div className="contact_div mt3">
                                             <form className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                    <div className='w-40 '>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationPUN.contact_us.name}</p>
                                                         <input className='input w-80' type='text' name='name'/>
                                                     </div>
-                                                    <div className='w-45'>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationPUN.contact_us.email}</p>
                                                         <input className='input w-100' type='email' name='email'/>
                                                     </div>
                                                 </div>
                                                 <br/>
-                                                <textarea className='input w-80 h-100' id='input' type='text' name='messagw' placeholder={translationPUN.contact_us.message}></textarea>
+                                                <textarea className='input w-80-ns text_area ' id='input' type='text' name='message' placeholder={translationPUN.contact_us.message}></textarea>
                                                 <button type='submit' className='bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
                                             </form>
                                             <div className="contact_details  b--black">
-                                                <p className='f3 fw6 red'>{translationPUN.header.header} ({translationPUN.header.title})</p>
-                                                <p className='fw6'>
-                                                    {translationPUN.home_content.address_line1}<br/>
+                                                <p className='f3-ns contact_header fw6 red'>{translationPUN.home_content.header}</p>
+                                                <p className='contact_address fw6'>
+                                                {translationPUN.home_content.address_line1}<br/>
                                                     {translationPUN.home_content.address_line2}<br/>
                                                     {translationPUN.home_content.address_line3}<br/>
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationPUN.contact_us.account_number} : 1234567890
-                                                </p>
-                                                <p className='f3 fw6 red'>
-                                                    {translationPUN.contact_us.ifsc} : IFB123456
                                                 </p>
                                             </div>
                                         </div>
@@ -191,11 +167,11 @@ class Contactus extends Component {
                                         <div className="contact_div mt3">
                                             <form className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                    <div className=''>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationEN.contact_us.name}</p>
                                                         <input className='input w-80' type='text' name='name'/>
                                                     </div>
-                                                    <div className=''>
+                                                    <div className='inputname'>
                                                         <p className='fw6 ml1'>{translationEN.contact_us.email}</p>
                                                         <input className='input w-100' type='email' name='email'/>
                                                     </div>
