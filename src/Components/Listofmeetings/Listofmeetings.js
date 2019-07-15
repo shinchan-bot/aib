@@ -48,7 +48,7 @@ class Listofmeetings extends Component {
         const meeting_array = meetingPostsstore.map((user,num) =>{
             return(
                 <div className="bl bb b--gray br4 mb2 shadow-2 pa2">
-                    <p data-key={user} key={user} onClick={() =>meeting_handler(user)} className="red link pointer dim "><i>{user.date}</i></p>
+                    <p className='meeting_date' data-key={user} key={user} onClick={() =>meeting_handler(user)} className="red link pointer dim "><i>{user.date}</i></p>
                     <p  className="meet">{user.description}</p>
                 </div> 
             );           
@@ -58,9 +58,9 @@ class Listofmeetings extends Component {
                 this.state.meetingPosts 
                 ?
                     <div className="meeting_details bt bb bw2 b--black br4 mb2 mt4 pa2">
-                        <h3 className="f3 fw8">{this.state.num.title}</h3>
-                        <p className='f4 fw5 red'><i>{this.state.num.description}</i></p>
-                        <p className="f5 fw7 mt4 tj "><i>{this.state.num.details}</i></p>
+                        <h3 className="meeting_title fw8">{this.state.num.title}</h3>
+                        <p className='meeting_description  fw5 red'><i>{this.state.num.description}</i></p>
+                        <p className="meeting_detail fw7 mt4 tj "><i>{this.state.num.details}</i></p>
                     </div>
                 :
                 <div></div>
@@ -72,7 +72,7 @@ class Listofmeetings extends Component {
         return(
             
             <div className='meetings ba b--black pa2'>
-                <h1 className="center">
+                <h1 className="center meetings_header">
                     MEETINGS
                 </h1>
                 <div className="meeting_box_combine  b--black" >

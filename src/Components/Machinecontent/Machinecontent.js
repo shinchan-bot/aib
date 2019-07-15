@@ -19,11 +19,11 @@ class Machinecontent extends Component {
     render(){
         return(
             <div className='machines bg-white  b--black'>
-                <p className='f2 fw6'>INNOVATIONS AND MACHINES</p>
+                <p className='f2 machine_header fw6'>INNOVATIONS AND MACHINES</p>
                 <div className='machine_div  b--black'>
-                    <p className='machine_name f4 '>Vertical Shaft Kiln</p>
+                    <p className='machine_name f4-ns '>Vertical Shaft Kiln</p>
                     <div className="machine  b--black">
-                        <img src={Machine1} className='h-50 mt4' />
+                        <img src={Machine1} className='h-50-ns machine1  mt4' />
                         <div className='machine_details  b--black'>
                             <p className='machine_name '>Vertical Shaft Kiln</p>
                             <p className='fw6 machine_description'>Operation is round-the-clock and annual production of up to 60 lakh bricks has been achieved from commercial VSBK’s operating in India and across. The kiln can be operated throughout the year and even during monsoon time.</p>
@@ -36,9 +36,9 @@ class Machinecontent extends Component {
                     </div>
                 </div>
                 <div className='machine_div  b--black'>
-                    <p className='machine_name f4 '>Hoffman Kiln</p>
+                    <p className='machine_name f4-ns '>Hoffman Kiln</p>
                     <div className="machine  b--black">
-                        <img src={Machine2} className='h-50 mt4' />
+                        <img src={Machine2} className='h-50-ns machine2 mt4' />
                         <div className='machine_details  b--black'>
                             <p className='machine_name '>Hoffman Kiln</p>
                             <p className='fw6 machine_description'>Along the brick kiln, every 4 to 5 meters, an inlet and outlet span is erected. The distance between each two spans is called a Ghamir. The roof of the brick kiln has some holes at regular distances of 60 to 70cm from each other. These holes are called carburetor-jets. Some valves for air vacuum are also available in the lower part of the brick kiln.</p>

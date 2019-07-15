@@ -24,7 +24,6 @@ class Newscontent extends Component {
     componentDidMount(){
         axios.get('http://localhost:3001/fetchnews')
             .then(response =>{
-                console.log(response);
                 this.setState({news:response.data});
             });
     }

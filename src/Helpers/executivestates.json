@@ -1,0 +1,40 @@
+{
+    "states":[
+        {
+            "FIELD1": "SPECIAL INVITEES:--",
+            "FIELD2": "",
+            "FIELD3": "",
+            "FIELD4": "",
+            "FIELD5": "",
+            "FIELD6": "",
+            "FIELD7": ""
+          },
+          {
+            "FIELD1": "HARYANA:-",
+            "FIELD2": "",
+            "FIELD3": "",
+            "FIELD4": "",
+            "FIELD5": "",
+            "FIELD6": "",
+            "FIELD7": ""
+          },
+          {
+            "FIELD1": "PUNJAB:---",
+            "FIELD2": "",
+            "FIELD3": "",
+            "FIELD4": "",
+            "FIELD5": "",
+            "FIELD6": "",
+            "FIELD7": ""
+          },
+          {
+            "FIELD1": "JAMMU KASHMIR :---",
+            "FIELD2": "",
+            "FIELD3": "",
+            "FIELD4": "",
+            "FIELD5": "",
+            "FIELD6": "",
+            "FIELD7": ""
+          },
+    ]
+}

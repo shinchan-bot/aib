@@ -383,7 +383,7 @@ const Header = (props) => {
                                                 <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption3}</p> 
                                                 </a>
-                                                <Link>
+                                                <Link to='lifemembers' >
                                                     <p className="pointer dim link optionnew">{translationEN.header.nav.suboption4}</p>
                                                 </Link>
                                             </div>

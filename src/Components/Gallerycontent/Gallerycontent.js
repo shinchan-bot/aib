@@ -62,8 +62,8 @@ class Gallerycontent extends Component {
                 />
       
                 <Carousel.Caption>
-                  <h3>{gallery[Number(image_index)].visit}</h3>
-                  <p>{gallery[Number(image_index)].description}</p>
+                  <h3 className='gallery_caption_text'>{gallery[Number(image_index)].visit}</h3>
+                  <p id="gallery_caption_text">{gallery[Number(image_index)].description}</p>
                 </Carousel.Caption>
               </Carousel.Item>
             );

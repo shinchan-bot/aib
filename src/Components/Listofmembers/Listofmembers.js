@@ -16,7 +16,7 @@ import * as translationMAR from '../../translations/marathi.json';
 const Listofmembers = () => {
     return(
         <div className='list_of_members'>
-            <p className="center f2 fw6">LIST OF MANAGEMENT COMMITEE</p>
+            <p className="center list_of_members_header fw6">LIST OF MANAGEMENT COMMITEE</p>
             <div className='members mt2 shadow-4'>
                 <div className="member bb bw1 b--gray  shadow-4 br2">
                     <p className='member_name red fw6'>SH. SURENDER PRATAP </p>
@@ -29,58 +29,58 @@ const Listofmembers = () => {
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. ANANT NATH SINGH</p>
                     <p className='member_name fw7'>President of AIBTMF</p>
-                    <p></p>
+                    <p className='member_name'></p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH.DEVENDRA BHAI PRAJAPATI</p>
                     <p className='member_name fw7'>President of AIBTMF</p>
-                    <p>State Gujarat</p>
+                    <p className='member_name'>State: Gujarat</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. VIJAY KUMAR GOEL</p>
                     <p className='member_name fw7'>General Secretary of AIBTMF</p>
-                    <p>State Uttar Pradesh</p>
+                    <p className='member_name'>State: Uttar Pradesh</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. MANISH GUPTA</p>
                     <p className='member_name fw7'>Treasurer of AIBTMF</p>
-                    <p>State Uttar Pradesh</p>
+                    <p className='member_name'>State: Uttar Pradesh</p>
                 </div>
                 <table className='table'>
                     <tr className="bb bw2 b--gray shadow-5">
-                        <th>Name</th>
+                        <th  >Name</th>
                         <th>Designation</th>
                         <th>State</th>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>Sh. Ashok Kumar Tiwari</td>
-                        <td>VICE President of AIBTMF</td>
-                        <td>West Bengal</td>
+                        <td className='member_name' >Sh. Ashok Kumar Tiwari</td>
+                        <td className='member_name'>VICE President of AIBTMF</td>
+                        <td className='member_name'>West Bengal</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>Sh. Mukesh Nanda</td>
-                        <td>Secretary of AIBTMF</td>
-                        <td>Punjab</td>
+                        <td className='member_name'>Sh. Mukesh Nanda</td>
+                        <td className='member_name'>Secretary of AIBTMF</td>
+                        <td className='member_name'>Punjab</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>Sh. S.P. Jeyraj</td>
-                        <td>Secretary of Organisation</td>
-                        <td>Tamil Nadu</td>
+                        <td className='member_name'>Sh. S.P. Jeyraj</td>
+                        <td className='member_name'>Secretary of Organisation</td>
+                        <td className='member_name'>Tamil Nadu</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>SH. Sanjeev Chawdhary</td>
-                        <td>Secretary of Legal Cell</td>
-                        <td>Uttar Pradesh</td>
+                        <td className='member_name'>SH. Sanjeev Chawdhary</td>
+                        <td className='member_name'>Secretary of Legal Cell</td>
+                        <td className='member_name'>Uttar Pradesh</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>Sh. Surinder K. Singla</td>
-                        <td>Secretary of Environment</td>
-                        <td>Punjab</td>
+                        <td className='member_name'>Sh. Surinder K. Singla</td>
+                        <td className='member_name'>Secretary of Environment</td>
+                        <td className='member_name'>Punjab</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
-                        <td>Sh. Rattan Aggarwal Ganesh Gadhiya</td>
-                        <td>Secretary of Technology</td>
-                        <td>Rajasthan</td>
+                        <td className='member_name'>Sh. Rattan Aggarwal Ganesh Gadhiya</td>
+                        <td className='member_name'>Secretary of Technology</td>
+                        <td className='member_name'>Rajasthan</td>
                     </tr>
                 </table>
             </div>

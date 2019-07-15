@@ -65,10 +65,10 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header w-40 f2 fw7'>
+                                                <p className='home_slide_header w-40  fw7'>
                                                    {translationHIN.home_slides.title1}
                                                 </p>
-                                                <p className='home_slide_text w-50 fw7 f4'>
+                                                <p className='home_slide_text w-50 fw7 '>
                                                 {translationHIN.home_slides.detail1}
                                                 </p>
                                             </div>  
@@ -76,20 +76,20 @@ class Homeslides extends Component{
                                         </div>
                                         <div className='home_slide_div' id='bg2'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
+                                                <p className='home_slide_header  fw7'>
                                                     {translationHIN.home_slides.title2}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text fw7 '>
                                                     {translationHIN.home_slides.detail2}
                                                 </p>
                                             </div>  
                                         </div>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
+                                                <p className='home_slide_header  fw7'>
                                                     {translationHIN.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text fw7 '>
                                                     {translationHIN.home_slides.detail3}
                                                 </p>
                                                 <form className='message_form ml4 b--black'>
@@ -121,10 +121,10 @@ class Homeslides extends Component{
                                  <Carousel>
                                      <div className='home_slide_div' id='bg1'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header w-40 f2 fw7'>
+                                             <p className='home_slide_header w-40  fw7'>
                                                 {translationPUN.home_slides.title1}
                                              </p>
-                                             <p className='home_slide_text w-50 fw7 f4'>
+                                             <p className='home_slide_text w-50 fw7 '>
                                              {translationPUN.home_slides.detail1}
                                              </p>
                                          </div>  
@@ -132,20 +132,20 @@ class Homeslides extends Component{
                                      </div>
                                      <div className='home_slide_div' id='bg2'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header f2 fw7'>
+                                             <p className='home_slide_header  fw7'>
                                                  {translationPUN.home_slides.title2}
                                              </p>
-                                             <p className='home_slide_text fw7 f4'>
+                                             <p className='home_slide_text fw7 '>
                                                  {translationPUN.home_slides.detail2}
                                              </p>
                                          </div>  
                                      </div>
                                      <div className='home_slide_div' id='bg3'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header f2 fw7'>
+                                             <p className='home_slide_header  fw7'>
                                                  {translationPUN.home_slides.title3}
                                              </p>
-                                             <p className='home_slide_text fw7 f4'>
+                                             <p className='home_slide_text fw7 '>
                                                  {translationPUN.home_slides.detail3}
                                              </p>
                                              <form className='message_form ml4 b--black'>
@@ -177,10 +177,10 @@ class Homeslides extends Component{
                                  <Carousel>
                                      <div className='home_slide_div' id='bg1'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header w-40 f2 fw7'>
+                                             <p className='home_slide_header w-40  fw7'>
                                                 {translationMAR.home_slides.title1}
                                              </p>
-                                             <p className='home_slide_text w-50 fw7 f4'>
+                                             <p className='home_slide_text w-50 fw7 '>
                                              {translationMAR.home_slides.detail1}
                                              </p>
                                          </div>  
@@ -188,20 +188,20 @@ class Homeslides extends Component{
                                      </div>
                                      <div className='home_slide_div' id='bg2'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header f2 fw7'>
+                                             <p className='home_slide_header  fw7'>
                                                  {translationMAR.home_slides.title2}
                                              </p>
-                                             <p className='home_slide_text fw7 f4'>
+                                             <p className='home_slide_text fw7 '>
                                                  {translationMAR.home_slides.detail2}
                                              </p>
                                          </div>  
                                      </div>
                                      <div className='home_slide_div' id='bg3'>
                                          <div className='home_slide_text_div'>
-                                             <p className='home_slide_header f2 fw7'>
+                                             <p className='home_slide_header  fw7'>
                                                  {translationMAR.home_slides.title3}
                                              </p>
-                                             <p className='home_slide_text fw7 f4'>
+                                             <p className='home_slide_text fw7 '>
                                                  {translationMAR.home_slides.detail3}
                                              </p>
                                              <form className='message_form ml4 b--black'>
@@ -233,10 +233,10 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header w-40 f2 fw7'>
+                                                <p className='home_slide_header w-40  fw7'>
                                                     {translationGUJ.home_slides.title1}
                                                 </p>
-                                                <p className='home_slide_text w-50 fw7 f4'>
+                                                <p className='home_slide_text w-50 fw7 '>
                                                 {translationGUJ.home_slides.detail1}
                                                 </p>
                                             </div>  
@@ -244,20 +244,20 @@ class Homeslides extends Component{
                                         </div>
                                         <div className='home_slide_div' id='bg2'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
+                                                <p className='home_slide_header  fw7'>
                                                     {translationGUJ.home_slides.title2}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text fw7 '>
                                                     {translationGUJ.home_slides.detail2}
                                                 </p>
                                             </div>  
                                         </div>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header f2 fw7'>
+                                                <p className='home_slide_header  fw7'>
                                                     {translationGUJ.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text fw7 '>
                                                     {translationGUJ.home_slides.detail3}
                                                 </p>
                                                 <form className='message_form ml4 b--black'>
@@ -289,10 +289,10 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline w-40 f2 fw7'>
+                                                <p className='home_slide_header underline w-40  fw7'>
                                                     {translationEN.home_slides.title1}
                                                 </p>
-                                                <p className='home_slide_text w-50 fw7 f4'>
+                                                <p className='home_slide_text w-50 fw7 '>
                                                     {translationEN.home_slides.detail1}
                                                 </p>
                                             </div>  
@@ -300,20 +300,20 @@ class Homeslides extends Component{
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline f2 fw7'>
+                                                <p className='home_slide_header underline  fw7'>
                                                     {translationEN.home_slides.title2}
                                                 </p>
-                                                <p className='home_slide_text fw7 f4'>
+                                                <p className='home_slide_text fw7 '>
                                                     {translationEN.home_slides.detail2}
                                                 </p>
                                             </div>  
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline f2 fw7'>
+                                                <p className='home_slide_header underline  fw7'>
                                                     {translationEN.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text  fw7 f4'>
+                                                <p className='home_slide_text  fw7 '>
                                                     {translationEN.home_slides.detail3}
                                                 </p>
                                                 <form className='message_form ml4 b--black'>

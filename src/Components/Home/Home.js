@@ -35,6 +35,7 @@ import Pushmeetings from '../../admin/Pushmeetings';
 import Vendorcontent from '../Vendors/Vendorcontent';
 import Listofexecutives from '../Listofexecutives/Listofexecutives';
 import Listofexecutives2 from '../Listofexecutives/Listofexecutives2';
+import Listoflofemembers from '../Listoflifemembers/Listoflifemembers';
 
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/executives' component={Listofexecutives}/> 
                     <Route exact path='/vendors' component={Vendorcontent}/> 
+                    <Route exact path='/lifemembers' component={Listoflofemembers}/> 
                     <Route exact path='/machines' component={Machinecontent}/> 
                     <Route exact path='/newscontent' component={Newscontent}/> 
                     <Route exact path='/articles' component={Articles}/> 
