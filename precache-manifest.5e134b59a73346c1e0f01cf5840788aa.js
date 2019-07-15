@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85b503582114437171eb4b99f17e4d48",
+    "revision": "4892ec85dcbb69fdc6b97651ae681f52",
     "url": "/aib/index.html"
   },
   {
-    "revision": "5e737b75f06fb7ca09c3",
-    "url": "/aib/static/css/2.320b2547.chunk.css"
+    "revision": "a23cd39600e806b3f2f3",
+    "url": "/aib/static/css/2.7e7d36a7.chunk.css"
   },
   {
-    "revision": "033fe476fab6bf5d6e59",
-    "url": "/aib/static/css/main.d485d098.chunk.css"
+    "revision": "24649ede56205f334203",
+    "url": "/aib/static/css/main.c5e1383e.chunk.css"
   },
   {
-    "revision": "5e737b75f06fb7ca09c3",
-    "url": "/aib/static/js/2.2c05fde0.chunk.js"
+    "revision": "a23cd39600e806b3f2f3",
+    "url": "/aib/static/js/2.4748b33e.chunk.js"
   },
   {
-    "revision": "033fe476fab6bf5d6e59",
-    "url": "/aib/static/js/main.070e297f.chunk.js"
+    "revision": "24649ede56205f334203",
+    "url": "/aib/static/js/main.966fe571.chunk.js"
   },
   {
     "revision": "4a7e075f216939ea7a46",
@@ -36,8 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aib/static/media/about-us.b090e2b3.png"
   },
   {
-    "revision": "a345ef7ab947b4fa428df6c24a5f2e47",
-    "url": "/aib/static/media/application_form.a345ef7a.pdf"
+    "revision": "c2e064b48189d8d839d595c1d5fe7074",
+    "url": "/aib/static/media/application_form.c2e064b4.pdf"
+  },
+  {
+    "revision": "6a4ae81f6911d5acb5619c3f99c68f41",
+    "url": "/aib/static/media/article1.6a4ae81f.pdf"
   },
   {
     "revision": "a9dfa0c81f5332a7daf136929ae63578",
@@ -90,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "baea5a801d64f8245d33f38b47f97121",
     "url": "/aib/static/media/mtb-clay-bricks.baea5a80.jpg"
-  },
-  {
-    "revision": "6a4ae81f6911d5acb5619c3f99c68f41",
-    "url": "/aib/static/media/news.6a4ae81f.pdf"
   },
   {
     "revision": "6b5fd17848f8e1a0771202a14a772f87",
