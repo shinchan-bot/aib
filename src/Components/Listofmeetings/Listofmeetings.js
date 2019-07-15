@@ -17,42 +17,58 @@ import {meetings} from '../../Helpers/meetings';
 
 class Listofmeetings extends Component {
 
-    constructor(props){
-        super(props);
-        this.state = {
-            num:'0',
+   
+        state = {
+            num:'Hi',
             meetingPosts:[],
         }
 
-    }
+    
 
     componentDidMount(){
         axios.get('http://localhost:3001/fetchmeetings')
             .then((response) =>{
                 this.setState({meetingPosts: response.data});
-                console.log(response);
+                this.setState({num: response.data[0]});
+                console.log(response.data);
             });
     }
 
+   
     render(){
         let meetingPostsstore = this.state.meetingPosts;
 
 
-        let meeting_handler = (num) =>{
+        let meeting_handler = (user) =>{
             return(
-                this.setState({num : num })
+                this.setState({num : user })
         
             );
         }
         const meeting_array = meetingPostsstore.map((user,num) =>{
             return(
                 <div className="bl bb b--gray br4 mb2 shadow-2 pa2">
-                    <p data-key={num} key={num} onClick={() =>meeting_handler(num)} className="red link pointer dim "><i>{meetingPostsstore[num].date}</i></p>
-                    <p  className="meet">{meetingPostsstore[num].description}</p>
+                    <p data-key={user} key={user} onClick={() =>meeting_handler(user)} className="red link pointer dim "><i>{user.date}</i></p>
+                    <p  className="meet">{user.description}</p>
                 </div> 
             );           
         });
 
+        const data = (
+                this.state.meetingPosts 
+                ?
+                    <div className="meeting_details bt bb bw2 b--black br4 mb2 mt4 pa2">
+                        <h3 className="f3 fw8">{this.state.num.title}</h3>
+                        <p className='f4 fw5 red'><i>{this.state.num.description}</i></p>
+                        <p className="f5 fw7 mt4 tj "><i>{this.state.num.details}</i></p>
+                    </div>
+                :
+                <div></div>
+                
+        );
+
+
+      
         return(
             
             <div className='meetings ba b--black pa2'>
@@ -64,11 +80,7 @@ class Listofmeetings extends Component {
                         <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br4 pa2 tc bg-white ">Meetings in the past.</h3>
                         {meeting_array}
                     </div>
-                    <div className="meeting_details bt bb bw2 b--black br4 mb2 mt4 pa2">
-                        <h3 className="f3 fw8">{meetings[Number(this.state.num)].title}</h3>
-                        <p className='f4 fw5 red'><i>{meetings[Number(this.state.num)].description}</i></p>
-                        <p className="f5 fw7 mt4 tj "><i>{meetings[Number(this.state.num)].details}</i></p>
-                    </div>
+                    {data}  
                 </div>
             </div>
     
