@@ -812,3 +812,45 @@ class Listofmeetings extends Component {
 }
 
 export default Listofmeetings;
+
+
+
+
+
+
+
+
+
+                                                
+
+
+
+<div>
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='navbar'>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto navigation">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <NavDropdown title="Management" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1" className="menuitem">Management Committee</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3" className="menuitem" >List of Executives</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown title="Members" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1" className="menuitem">Application Form</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3" className="menuitem" >List of Life Members</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown title="Innovations" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1" className="menuitem">Machines </NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3" className="menuitem" >Vendors</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown title="News" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1" className="menuitem">Articles </NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.3" className="menuitem" >News</NavDropdown.Item>
+                            </NavDropdown> 
+                            <Nav.Link href="/listofmeetings">Meetings</Nav.Link>
+                            <Nav.Link href="/">Gallery</Nav.Link>
+                            <Nav.Link href="/">Contact Us</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </div>

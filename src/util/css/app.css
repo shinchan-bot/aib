@@ -633,11 +633,10 @@ span:hover{
     font-size: 36px;
 }
 
-
-.executive_list{
-    font-family: AvenirNext;
-    list-style: none;
+.navbar{
+    display: none;
 }
+
 
 
 
@@ -1327,7 +1326,9 @@ span:hover{
     }
     
     
-    
+   .navbar{
+       display: none;
+   } 
 
     
 }
@@ -1412,7 +1413,7 @@ span:hover{
         
     }
     .header{
-        font-size: 10px;
+        font-size: 11px;
         margin-bottom: 0px;
         margin-left: -20px;
         margin-top: 0px;
@@ -1424,9 +1425,9 @@ span:hover{
     }
     
     .nav{
+        display: none;
         position: relative;
         z-index: 10000000000;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         font-family: AvenirNext;
@@ -1441,6 +1442,7 @@ span:hover{
     }
     
     .dropdownnew{
+        display: none;
         font-size: 10px;
         font-weight: 600;
         display:flex;
@@ -1536,7 +1538,7 @@ span:hover{
     }
     
     .nav2{
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: space-evenly;
         font-family: AvenirNext;
@@ -2022,6 +2024,14 @@ span:hover{
         font-size: 20px;
     }
     
+    .navbar{
+        display: block;
+        background-color: transparent !important;
+    }
+
+    .menuitem{
+        color:black !important;
+    }
     
     
 

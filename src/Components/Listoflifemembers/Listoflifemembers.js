@@ -14,7 +14,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
  
 export default function Listoflofemembers() {
     return (
-        <div className='bg-white vendors'>
+        <div className='bg-white LIFEMEMBERS'>
             <h1 className="tc atricles_header bw6">
                     LIFE MEMBERS
                 </h1>

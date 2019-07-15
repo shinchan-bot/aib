@@ -36,6 +36,7 @@ import Vendorcontent from '../Vendors/Vendorcontent';
 import Listofexecutives from '../Listofexecutives/Listofexecutives';
 import Listofexecutives2 from '../Listofexecutives/Listofexecutives2';
 import Listoflofemembers from '../Listoflifemembers/Listoflifemembers';
+import Headernav from '../Header/Headernav';
 
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
                     duration={10} transition={3} 
                 />
                 <Header1 context={context}/>
+                <Headernav context={context}/>
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/executives' component={Listofexecutives}/> 
                     <Route exact path='/vendors' component={Vendorcontent}/> 
@@ -59,7 +61,6 @@ const Home = () => {
                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
                     <Route exact path='/gallery' component={Gallerycontent}/> 
                     <Route exact path='/contactus' component={Contactus}/>
-                    <Route exact path='/adminlogin' component={Admin}/>                                          
                     <Route exact path='/location' component={Googlemaps}/> 
                     <Route exact path={process.env.PUBLIC_URL + '/'} component={Homecontent}/>
                 </div>
