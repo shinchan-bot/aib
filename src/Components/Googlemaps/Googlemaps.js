@@ -3,11 +3,6 @@ import 'tachyons';
 import GoogleMapReact from 'google-map-react';
 
 
-const style = {
-    width: '100%',
-    height: '100%'
-  }
-
 
 class Googlemaps extends Component {
     static defaultProps = {

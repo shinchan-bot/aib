@@ -1,8 +1,7 @@
 import React from 'react';
 import Tachyons from 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import { MyContext } from '../../context';
-import {Navbar,Nav,NavDropdown, Bootstrap, Grid, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import * as translationEN from '../../translations/en.json';
@@ -13,13 +12,8 @@ import * as translationMAR from '../../translations/marathi.json';
 
 
 import '../../util/css/app.css';
-import o from '../../util/assets1/1.jpg';
 import Logo from '../../util/assets1/brick-logo.png'
-import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
-import Back from '../../util/assets1/transparent.png';
 import Languagenav from '../Languagenav/Languagenav';
-import News from '../../util/articles/article1.pdf';
-import Application_form from '../../util/articles/application_form.pdf';
 
 
 
@@ -39,7 +33,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link  pointer" src={Logo}/>
+                                            <img alt='a' className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">{translationHIN.header.title}</p>
@@ -66,7 +60,7 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationHIN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                <a  rel="noopener noreferrer"  href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationHIN.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link to='lifemembers' >
@@ -126,7 +120,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link  pointer" src={Logo}/>
+                                            <img alt='a' className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">{translationPUN.header.title}</p>
@@ -153,7 +147,7 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationPUN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                <a  rel="noopener noreferrer"  href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationPUN.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link to='lifemembers' >
@@ -213,7 +207,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link  pointer" src={Logo}/>
+                                            <img alt='a' className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">{translationMAR.header.title}</p>
@@ -240,7 +234,7 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationMAR.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                <a  rel="noopener noreferrer"  href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationMAR.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link to='lifemembers' >
@@ -300,7 +294,7 @@ const Header = (props) => {
                                     <hr/>
                                     <div className="header_div11  pa2  b--white">
                                         <Link to="/" exact >
-                                            <img className="logo link  pointer" src={Logo}/>
+                                            <img alt='a' className="logo link  pointer" src={Logo}/>
                                         </Link>
                                         <div className="header_div12  pa2  b--white">
                                             <p className="white header" id="header">{translationGUJ.header.title}</p>
@@ -327,7 +321,7 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationGUJ.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                <a  rel="noopener noreferrer"  href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationGUJ.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link to='lifemembers' >
@@ -414,7 +408,7 @@ const Header = (props) => {
                                         <div className="dropdownnew  b--white ">
                                             <button className="white  fw6  grow">{translationEN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
-                                                <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
+                                                <a  rel="noopener noreferrer"  href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption3}</p> 
                                                 </a>
                                                 <Link to='lifemembers' >

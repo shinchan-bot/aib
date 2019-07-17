@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
 import 'tachyons';
-import {Navbar,Nav,NavDropdown, Bootstrap, Grid, Row, Col} from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {Navbar,Nav,NavDropdown, } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyContext } from '../../context';
 

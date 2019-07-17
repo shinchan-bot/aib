@@ -1,14 +1,12 @@
 import React from 'react'
-import ReactDom from  'react-dom';
 import 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { MyContext } from '../../context';
+// import { MyContext } from '../../context';
 
-import * as translationEN from '../../translations/en.json';
-import * as translationHIN from '../../translations/hindi.json';
-import * as translationPUN from '../../translations/punjabi.json';
-import * as translationGUJ from '../../translations/gujarati.json';
-import * as translationMAR from '../../translations/marathi.json';
+// import * as translationEN from '../../translations/en.json';
+// import * as translationHIN from '../../translations/hindi.json';
+// import * as translationPUN from '../../translations/punjabi.json';
+// import * as translationGUJ from '../../translations/gujarati.json';
+// import * as translationMAR from '../../translations/marathi.json';
 
 
 

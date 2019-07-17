@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyContext } from '../../context';
@@ -12,18 +11,7 @@ import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
 import '../../util/css/app.css';
-import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Brick2 from '../../util/assets1/brick.png';
-import Back from '../../util/assets1/transparent.png';
-import Face from '../../util/assets1/president.jpg';
-import Logo from '../../util/assets1/brick-logo.jpg';
-import Location from '../../util/assets1/location.png';
-import o from '../../util/assets1/1.jpg';
-import Demoimage from '../../util/assets1/gallery_demo_image.jpg';
-import Demo from '../Demo/Demo';
-import Twitter from '../../util/assets1/twitter.svg';
-import Facebook from '../../util/assets1/facebook.svg';
-var ReactDOM = require('react-dom');
 
 
 
@@ -72,7 +60,7 @@ class Homeslides extends Component{
                                                 {translationHIN.home_slides.detail1}
                                                 </p>
                                             </div>  
-                                            <img className='home_slide_image' src={Brick2} />                    
+                                            <img  alt='a' className='home_slide_image' src={Brick2} />                    
                                         </div>
                                         <div className='home_slide_div' id='bg2'>
                                             <div className='home_slide_text_div'>
@@ -128,7 +116,7 @@ class Homeslides extends Component{
                                              {translationPUN.home_slides.detail1}
                                              </p>
                                          </div>  
-                                         <img className='home_slide_image' src={Brick2} />                    
+                                         <img alt='a' className='home_slide_image' src={Brick2} />                    
                                      </div>
                                      <div className='home_slide_div' id='bg2'>
                                          <div className='home_slide_text_div'>
@@ -184,7 +172,7 @@ class Homeslides extends Component{
                                              {translationMAR.home_slides.detail1}
                                              </p>
                                          </div>  
-                                         <img className='home_slide_image' src={Brick2} />                    
+                                         <img alt='a' className='home_slide_image' src={Brick2} />                    
                                      </div>
                                      <div className='home_slide_div' id='bg2'>
                                          <div className='home_slide_text_div'>
@@ -240,7 +228,7 @@ class Homeslides extends Component{
                                                 {translationGUJ.home_slides.detail1}
                                                 </p>
                                             </div>  
-                                            <img className='home_slide_image' src={Brick2} />                    
+                                            <img alt='a' className='home_slide_image' src={Brick2} />                    
                                         </div>
                                         <div className='home_slide_div' id='bg2'>
                                             <div className='home_slide_text_div'>
@@ -296,7 +284,7 @@ class Homeslides extends Component{
                                                     {translationEN.home_slides.detail1}
                                                 </p>
                                             </div>  
-                                            <img className='home_slide_image w-30' src={Brick2} />                    
+                                            <img alt='a' className='home_slide_image w-30' src={Brick2} />                    
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
