@@ -1458,7 +1458,9 @@ span:hover{
     }
     
     .dropdown:hovernew{
+        position: relative;
         background-color: transparent;
+        z-index: 10000000000;
     }
     
     span:hover{
@@ -1467,16 +1469,18 @@ span:hover{
     .dropdown_contentnew {
         display: none;
         position: absolute;
+        z-index: 10000000000000;
         background-color:black;
-        width: 30%;
+        width: 50%;
         opacity: 0.7;
         color: white;
         border:0px;
-        padding: 0px 0px;
+        padding: 0px 5px;
+        margin: 0x 20px;
         z-index: 1;
         font-family: AvenirNext;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 700;
         margin-top: 23px;
         border-radius: 10px;
@@ -1593,7 +1597,9 @@ span:hover{
       }
     
       .home_slide_div{
-        height: 300px;    
+          position: relative;
+          z-index: 10;
+          height: 300px;    
       }
     
       .home_slide_header{
