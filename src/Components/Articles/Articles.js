@@ -15,7 +15,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Articles() {
     return (
         <div className='bg-white vendors'>
-            <h1 className="tc atricles_header bw6">
+            <h1 className="tc atricles_header fw6">
                     ARTICLES
                 </h1>
         <Accordion>

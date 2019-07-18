@@ -52,7 +52,7 @@ class Newscontent extends Component {
 
         return(
             <div className=' bg-white w-100 ba b--black pa2'>
-                <h1 className="tc f4">
+                <h1 className="tc  news_header">
                     NEWS
                 </h1>
                     <div className="meeting_list_box news_list_box w-100 bt bb bw1 b--black br4 shadow-5">
