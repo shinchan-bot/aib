@@ -538,7 +538,9 @@ span:hover{
       margin:2px;
   }
 
- 
+  #input{
+      
+  }
   .text_area{
     height: 150px;
 }

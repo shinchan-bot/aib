@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import 'tachyons';
 import { MyContext } from '../../context';
 
@@ -19,8 +20,7 @@ class Languagenav extends Component {
             <div className="dropdownnew   b--white ">
                     <button className="red f6 language_button  fw6  grow">Language</button>
                     <div className="dropdown_contentnew b--white ">
-                        <a  
-                            href=""
+                        <a
                             className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="en"
@@ -29,7 +29,6 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            href=""
                             className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="hindi"
@@ -38,7 +37,6 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            href=""
                             className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="punjabi"
@@ -47,7 +45,6 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            href=""
                             className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="gujarati"
@@ -56,7 +53,6 @@ class Languagenav extends Component {
                         </a>
                         <br/>
                         <a
-                            href=""
                             className="pointer grow dim link mt1 optionnew"
                             onClick={this.props.context.changeLanguage}
                             data-language="marathi"

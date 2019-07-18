@@ -3,7 +3,9 @@ import 'tachyons';
 import axios from 'axios';
 
 
+import Vendors from './Vendors';
 
+import * as exec from '../../Helpers/executives.json';
 
 
 

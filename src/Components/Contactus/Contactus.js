@@ -21,7 +21,7 @@ class Contactus extends Component {
                                     <div className="contactus">
                                         <p className='f2 fw7 center'>{translationHIN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe title='location' className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
 
                                         </iframe>
                                         <div className="contact_div mt3">
