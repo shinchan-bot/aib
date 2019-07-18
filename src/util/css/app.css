@@ -508,48 +508,66 @@ span:hover{
     background:white;
 }
   .map_frame{
-      width: 80%;
+      width: 90%;
       height: 300px;
-      margin-left: 10%;
+      margin-left: 5%;
   }
   .contact_div{
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
+      padding: 0px 20px;
   }
 
+  .contact_details{
+    width: 30%;
+}
+
+  .contact_address{
+      font-size: 13px;
+      margin-bottom: 0px;
+  }
+  .contact_header{
+      margin-bottom: 0px;
+  }
+
+  .text_area{
+      background:#FFF9EF;
+      padding: 5px;
+      border-radius: 5px;
+      margin:2px;
+      height: 100px;
+
+  }
+  .input{
+    border: 1px solid #979797;
+    background: #FFF9EF;
+    border-radius: 5px;
+    padding: 5px;
+    margin:2px;
+    width: 50%;
+}
 
 
   .message_form{
-      width: 40%;
+      width: 60%;
       display: flex;
       flex-direction: column;
+      margin-left: 40px;
   }
 
   .message_form2{
       display: flex;
     
   }
-
-  .contact_details{
-      width: 35%;
+  .message_button{
+      font-size: 13px;
   }
 
-  .input{
-      border: 1px solid #979797;
-      background: #d8d8d8;
-      border-radius: 8px;
-      padding: 10px;
-    
-      margin:2px;
-  }
+  
 
-  #input{
-      
-  }
-  .text_area{
-    height: 150px;
-}
+  
+  
   .notfound{
     text-align: justify;
 }
@@ -651,6 +669,12 @@ span:hover{
 .news_header{
     font-size: 36px;
     font-weight: 600;
+}
+
+.executive_list{
+    font-family: AvenirNext;
+    list-style: none;
+
 }
 
 
@@ -1169,7 +1193,7 @@ span:hover{
       .machine_detail{
           line-height: 1.2;
       }
-    .contactus{
+      .contactus{
         display: flex;
         flex-direction: column;
         font-family: AvenirNext;
@@ -1183,48 +1207,57 @@ span:hover{
       .contact_div{
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-around;
-      }
-    
-      .message_form{
-          width: 50%;
-          display: flex;
-          flex-direction: column;
-      }
-      .message_form2{
-          display: flex;
-          flex-wrap: wrap;
-          width: 100%;
-        
+          justify-content: space-between;
+          padding: 0px 20px;
       }
     
       .contact_details{
-          width: 35%;
-      }
+        width: 35%;
+    }
     
-      .input{
-          border: 1px solid #979797;
-          background: #d8d8d8;
-          border-radius: 8px;
-          padding: 5px;
-          width: 100%;
-          margin:2px;
-      }
-    
-      #input{
-          width: 100%;  
-      }
-
-      .text_area{
-          height: 100px;
+      .contact_address{
+          font-size: 12px;
+          margin-bottom: 0px;
       }
       .contact_header{
-          font-size: 18px;
-      }
-
-      .contact_address{
+          margin-bottom: 0px;
           font-size: 13px;
       }
+    
+      .text_area{
+          background:#FFF9EF;
+          padding: 5px;
+          border-radius: 5px;
+          margin:2px;
+          height: 100px;
+    
+      }
+      .input{
+        border: 1px solid #979797;
+        background: #FFF9EF;
+        border-radius: 5px;
+        padding: 5px;
+        margin:2px;
+        width: 50%;
+    }
+    
+    
+      .message_form{
+          width: 55%;
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+      }
+    
+      .message_form2{
+          display: flex;
+        
+      }
+      .message_button{
+          font-size: 14px;
+      }
+    
+      
       .notfound{
         text-align: justify;
     }
@@ -1905,59 +1938,73 @@ span:hover{
           height: 300px;
           margin-left: 5%;
       }
+      .contactus{
+        display: flex;
+        flex-direction: column;
+        font-family: AvenirNext;
+        background:white;
+    }
+      .map_frame{
+          width: 90%;
+          height: 300px;
+          margin-left: 5%;
+      }
       .contact_div{
           display: flex;
           flex-wrap: wrap;
-      }
-    
-      .message_form{
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-      }
-      .message_form2{
-          display: flex;
-          flex-wrap: wrap;
-          width: 90%;
-          margin-left: 5%;
-
-        
-      }
-      .inputname{
-          width: 100%;
+          justify-content: space-between;
+          padding: 0px 5px;
       }
     
       .contact_details{
-          width: 90%;
-      }
+        width: 90%;
+        margin: 5%;
     
-      .input{
-          border: 1px solid #979797;
-          background: #d8d8d8;
-          border-radius: 8px;
-          padding: 0px;
-          width: 100%;
-          margin:0px;
-      }
+    }
     
-      #input{
-          width: 100%;  
-      }
-
-      .text_area{
-          height: 100px;
-      }
-      
-      .contact_header{
-          font-size: 15px;
-          margin-top: 10px;
-          text-align: justify;
-      }
-
       .contact_address{
-          font-size: 13px;
-          text-align: justify;
+          font-size: 10px;
+          margin-bottom: 0px;
       }
+      .contact_header{
+          margin-bottom: 0px;
+          font-size: 12px;
+      }
+    
+      .text_area{
+          background:#FFF9EF;
+          padding: 5px;
+          border-radius: 5px;
+          margin:2px;
+          height: 100px;
+    
+      }
+      .input{
+        border: 1px solid #979797;
+        background: #FFF9EF;
+        border-radius: 5px;
+        padding: 5px;
+        margin:2px;
+        width: 90%;
+    }
+    
+    
+      .message_form{
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          margin-left: 5%;
+      }
+    
+      .message_form2{
+          display: flex;
+        
+      }
+      .message_button{
+          font-size: 10px;
+      }
+    
+      
       .notfound{
         text-align: justify;
     }

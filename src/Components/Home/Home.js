@@ -7,17 +7,11 @@ import BackgroundSlider from 'react-background-slider';
 
 
 import Header1 from '../Header/Header';
-import Header2 from '../Header2/Header2';
 import '../../util/css/app.css';
-import o from '../../util/assets1/1.jpg';
-import Logo from '../../util/assets1/brick-logo.jpg'
-import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
-import Back from '../../util/assets1/transparent.png';
 import Listofmembers from '../Listofmembers/Listofmembers';
 import Listofmeetings from '../Listofmeetings/Listofmeetings';
 import Homecontent from '../Homecontent/Homecontent';
 import Googlemaps from '../Googlemaps/Googlemaps';
-import Innovationcontent from '../Innovationcontent/Innovationcontent';
 import Newscontent from '../Newscontent/Newscontent';
 import Gallerycontent from '../Gallerycontent/Gallerycontent';
 import Contactus from '../Contactus/Contactus';
