@@ -2042,7 +2042,7 @@ span:hover{
         margin-left: 5%;
         margin-top: 10%;
         border: 1px solid white;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
     }
     
@@ -2062,7 +2062,7 @@ span:hover{
         top: 0px;
         left: 0px;
         z-index: 1;
-        border-radius: 10px;        
+        border-radius: 4px;        
     }
     
     

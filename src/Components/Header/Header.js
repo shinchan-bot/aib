@@ -81,7 +81,7 @@ const Header = (props) => {
                                                     <p className="pointer dim link mt1 optionnew">{translationHIN.header.nav.suboption5}</p>
                                                 </Link>
                                                 <Link to='/vendors'>
-                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationHIN.header.nav.suboption6}</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -168,7 +168,7 @@ const Header = (props) => {
                                                     <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption5}</p>
                                                 </Link>
                                                 <Link to='/vendors'>
-                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationPUN.header.nav.suboption6}</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -255,7 +255,7 @@ const Header = (props) => {
                                                     <p className="pointer dim link mt1 optionnew">{translationMAR.header.nav.suboption5}</p>
                                                 </Link>
                                                 <Link to='/vendors'>
-                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationMAR.header.nav.suboption6}</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -342,7 +342,7 @@ const Header = (props) => {
                                                     <p className="pointer dim link mt1 optionnew">{translationGUJ.header.nav.suboption5}</p>
                                                 </Link>
                                                 <Link to='/vendors'>
-                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationGUJ.header.nav.suboption6}</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -429,7 +429,7 @@ const Header = (props) => {
                                                     <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption5}</p>
                                                 </Link>
                                                 <Link to='/vendors'>
-                                                    <p className="pointer dim link mt1 optionnew">Vendors</p>
+                                                    <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption6}</p>
                                                 </Link>
                                             </div>
                                         </div>

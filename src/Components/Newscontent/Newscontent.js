@@ -40,9 +40,9 @@ class Newscontent extends Component {
             return(
                 <div className=" bl bb b--gray br4 mb2 shadow-2 pa2">
                     
-                    <p data-key={num} key={num} onClick={() =>news_handler(num)} className="red link pointer dim "><i>{newsPostsstore[num].date}</i></p>
-                    <p  className="meet f4 fw6">{newsPostsstore[num].heading}</p>
-                    <p  className="meet f5 ">{newsPostsstore[num].description}</p>
+                    <p data-key={num} key={num} onClick={() =>news_handler(num)} className="red   ">Date: <i>{newsPostsstore[num].date}</i></p>
+                    <p  className="meet f4 fw6">News: {newsPostsstore[num].heading}</p>
+                    <p  className="meet f5 ">Description: {newsPostsstore[num].description}</p>
                     <p  className="meet f6 fw6">{newsPostsstore[num].details}</p>
 
                 </div> 
