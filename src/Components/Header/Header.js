@@ -49,11 +49,11 @@ const Header = (props) => {
                                     <div className="nav mt2 pb3 b--white">
                                         <div className="dropdown  b--white ">
                                             <Link to='/'>
-                                                <button className="white pointer fw6 grow">{translationHIN.header.nav.option1}</button>
+                                                <button className="white pointer fw6 ">{translationHIN.header.nav.option1}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew   b--white ">
-                                            <button className="white  fw6  grow">{translationHIN.header.nav.option2}</button>
+                                            <button className="white  fw6  ">{translationHIN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/management'>
                                                     <p className="pointer dim link mt1 optionnew">{translationHIN.header.nav.suboption1}</p>
@@ -64,7 +64,7 @@ const Header = (props) => {
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">{translationHIN.header.nav.option3}</button>
+                                            <button className="white  fw6  ">{translationHIN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationHIN.header.nav.suboption3}</p> 
@@ -397,11 +397,11 @@ const Header = (props) => {
                                     <div className="nav mt2 pb3 b--white">
                                         <div className="dropdown  b--white ">
                                             <Link to='/'>
-                                                <button className="white pointer fw6 grow">{translationEN.header.nav.option1}</button>
+                                                <button className="white pointer fw6 link">{translationEN.header.nav.option1}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew   b--white ">
-                                            <button className="white  fw6  grow">{translationEN.header.nav.option2}</button>
+                                            <button className="white  fw6  ">{translationEN.header.nav.option2}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/management'>
                                                     <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption1}</p>
@@ -412,7 +412,7 @@ const Header = (props) => {
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">{translationEN.header.nav.option3}</button>
+                                            <button className="white  fw6  ">{translationEN.header.nav.option3}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <a href='https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3' target="_blank">
                                                     <p className="pointer dim link mt1 center optionnew">{translationEN.header.nav.suboption3}</p> 
@@ -423,7 +423,7 @@ const Header = (props) => {
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">{translationEN.header.nav.option4}</button>
+                                            <button className="white  fw6  ">{translationEN.header.nav.option4}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/machines'>
                                                     <p className="pointer dim link mt1 optionnew">{translationEN.header.nav.suboption5}</p>
@@ -434,7 +434,7 @@ const Header = (props) => {
                                             </div>
                                         </div>
                                         <div className="dropdownnew  b--white ">
-                                            <button className="white  fw6  grow">{translationEN.header.nav.option5}</button>
+                                            <button className="white  fw6  ">{translationEN.header.nav.option5}</button>
                                             <div className="dropdown_contentnew  b--white ">
                                                 <Link to='/articles'>
                                                     <p className="pointer dim link  mt1 optionnew">{translationEN.header.nav.suboption7}</p>
@@ -446,17 +446,17 @@ const Header = (props) => {
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/listofmeetings'>
-                                                <button className="white pointer fw6  grow ">{translationEN.header.nav.option6}</button>
+                                                <button className="white pointer fw6   ">{translationEN.header.nav.option6}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/gallery'>
-                                                <button className="white pointer fw6  grow ">{translationEN.header.nav.option7}</button>
+                                                <button className="white pointer fw6   ">{translationEN.header.nav.option7}</button>
                                             </Link>
                                         </div>
                                         <div className="dropdownnew  b--white ">
                                             <Link to='/contactus'>
-                                                <button className="white pointer fw6 grow">{translationEN.header.nav.option8}</button>
+                                                <button className="white pointer fw6 ">{translationEN.header.nav.option8}</button>
                                             </Link>
                                         </div>             
                                                         

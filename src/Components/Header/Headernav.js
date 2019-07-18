@@ -30,11 +30,10 @@ class Headernav extends Component {
                             if(context.state.language === 'hindi'){
                                 return(
                                     <div>
-                                        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='navbar'>
+                                        <Navbar  collapseOnSelect justify expand="lg" bg="light" variant="dark">
                                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                                             <Navbar.Collapse id="responsive-navbar-nav">
                                                 <Nav className="mr-auto navigation">
-                                                    <Nav.Link href="/">{translationHIN.header.nav.option1}</Nav.Link>
                                                     <NavDropdown title={translationHIN.header.nav.option2} id="collasible-nav-dropdown">
                                                         <Link to='/management'>
                                                             <p className="menuitem">{translationHIN.header.nav.suboption1}</p>
@@ -44,9 +43,9 @@ class Headernav extends Component {
                                                         </Link>
                                                     </NavDropdown>
                                                     <NavDropdown title={translationHIN.header.nav.option3} id="collasible-nav-dropdown">
-                                                        <Link to="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
-                                                            <p target="_blank" className="menuitem">{translationHIN.header.nav.suboption3}</p>
-                                                        </Link>
+                                                            <a target="_blank" href="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
+                                                               <p  className="menuitem">{translationHIN.header.nav.suboption3}</p>
+                                                            </a>
                                                         <Link to="/lifemembers">
                                                             <p className="menuitem" >{translationHIN.header.nav.suboption4}</p>
                                                         </Link>
@@ -67,8 +66,8 @@ class Headernav extends Component {
                                                             <p className="menuitem" >{translationHIN.header.nav.suboption8}</p>
                                                         </Link>
                                                     </NavDropdown>
-                                                    <Link to="/listofmeetings">
-                                                        <p>{translationHIN.header.nav.option6}</p>
+                                                    <Link className='navlink' to="/listofmeetings">
+                                                        <p className='navlink'>{translationHIN.header.nav.option6}</p>
                                                     </Link>
                                                     <Link to="/gallery">
                                                         <p>{translationHIN.header.nav.option7}</p>
@@ -99,9 +98,9 @@ class Headernav extends Component {
                                                         </Link>
                                                     </NavDropdown>
                                                     <NavDropdown title={translationPUN.header.nav.option3} id="collasible-nav-dropdown">
-                                                        <Link to="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
-                                                            <p target="_blank" className="menuitem">{translationPUN.header.nav.suboption3}</p>
-                                                        </Link>
+                                                            <a target="_blank" href="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
+                                                               <p  className="menuitem">{translationPUN.header.nav.suboption3}</p>
+                                                            </a>
                                                         <Link to="/lifemembers">
                                                             <p className="menuitem" >{translationPUN.header.nav.suboption4}</p>
                                                         </Link>
@@ -154,9 +153,9 @@ class Headernav extends Component {
                                                         </Link>
                                                     </NavDropdown>
                                                     <NavDropdown title={translationMAR.header.nav.option3} id="collasible-nav-dropdown">
-                                                        <Link to="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
-                                                            <p target="_blank" className="menuitem">{translationMAR.header.nav.suboption3}</p>
-                                                        </Link>
+                                                            <a target="_blank" href="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
+                                                               <p  className="menuitem">{translationMAR.header.nav.suboption3}</p>
+                                                            </a>
                                                         <Link to="/lifemembers">
                                                             <p className="menuitem" >{translationMAR.header.nav.suboption4}</p>
                                                         </Link>
@@ -209,9 +208,9 @@ class Headernav extends Component {
                                                     </Link>
                                                 </NavDropdown>
                                                 <NavDropdown title={translationGUJ.header.nav.option3} id="collasible-nav-dropdown">
-                                                    <Link to="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
-                                                        <p target="_blank" className="menuitem">{translationGUJ.header.nav.suboption3}</p>
-                                                    </Link>
+                                                    <a target="_blank" href="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
+                                                        <p  className="menuitem">{translationGUJ.header.nav.suboption3}</p>
+                                                    </a>
                                                     <Link to="/lifemembers">
                                                         <p className="menuitem" >{translationGUJ.header.nav.suboption4}</p>
                                                     </Link>
@@ -264,9 +263,9 @@ class Headernav extends Component {
                                                         </Link>
                                                     </NavDropdown>
                                                     <NavDropdown title={translationEN.header.nav.option3} id="collasible-nav-dropdown">
-                                                        <Link to="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
-                                                            <p target="_blank" className="menuitem">{translationEN.header.nav.suboption3}</p>
-                                                        </Link>
+                                                        <a target="_blank" href="https://drive.google.com/open?id=19wWPzWtYH8hrLUvVlJtZhJZ87CSbmMQ3">
+                                                            <p  className="menuitem">{translationEN.header.nav.suboption3}</p>
+                                                        </a>
                                                         <Link to="/lifemembers">
                                                             <p className="menuitem" >{translationEN.header.nav.suboption4}</p>
                                                         </Link>
