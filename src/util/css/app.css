@@ -86,7 +86,8 @@ hr{
 
 .nav{
     position: relative;
-    background: black;
+    background: #d4572f;
+    opacity: 0.9;
     padding-top: 10px;
     opacity: 1;
     z-index: 10000000000;
@@ -120,7 +121,7 @@ span:hover{
 .dropdown_contentnew {
     display: none;
     position: absolute;
-    background-color:black;
+    background-color:#d4572f;
     min-width: 15%;
     color: white;
     border:0px;
@@ -639,6 +640,8 @@ span:hover{
     color: white;
     font-weight: 600;
     font-family: AvenirNext;  
+    padding-right: 20px;  
+
 }
 
 .gallery_caption_text{
@@ -2075,7 +2078,7 @@ span:hover{
         font-size: 21px;
         color: white;
         font-weight: 600;
-        font-family: AvenirNext;  
+        font-family: AvenirNext;
     }   
     
     

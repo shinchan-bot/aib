@@ -19,7 +19,7 @@ class Vendorcontent extends Component{
     }
 
     componentDidMount(){
-        axios.get('http://localhost:3001/fetchvendors')
+        axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchvendors')
             .then((response) =>{
                 this.setState({vendordata: response.data});
                 console.log(response.data);

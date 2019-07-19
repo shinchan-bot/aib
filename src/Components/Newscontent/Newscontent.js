@@ -21,7 +21,7 @@ class Newscontent extends Component {
     }
 
     componentDidMount(){
-        axios.get('http://localhost:3001/fetchnews')
+        axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchnews')
             .then(response =>{
                 this.setState({news:response.data});
             });

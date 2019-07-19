@@ -26,7 +26,7 @@ class Listofmeetings extends Component {
     
 
     componentDidMount(){
-        axios.get('http://localhost:3001/fetchmeetings')
+        axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchmeetings')
             .then((response) =>{
                 this.setState({meetingPosts: response.data});
                 this.setState({num: response.data[0]});
