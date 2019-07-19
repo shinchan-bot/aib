@@ -395,6 +395,7 @@ span:hover{
       margin: 30px 5%;
       padding-left:5px;
       line-height: 2;
+      padding:2px;
 }
 
 .member_name{
@@ -458,6 +459,7 @@ span:hover{
 
 .meet{
     font-size: 15px;
+    margin-bottom: -1px;
 }
 
 
@@ -1824,6 +1826,7 @@ span:hover{
     }
     
     .meetings_header{
+        display: none;
         font-size: 16px;
     }
     
