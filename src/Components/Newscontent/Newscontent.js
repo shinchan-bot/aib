@@ -39,12 +39,10 @@ class Newscontent extends Component {
         const news_array = newsPostsstore.map((user,num) =>{
             return(
                 <div className=" bl bb b--gray br3 mb2 shadow-2 pa2">
-                    
                     <p data-key={num} key={num} onClick={() =>news_handler(num)} className="red   ">Date: <i>{newsPostsstore[num].date}</i></p>
                     <p  className="meet f4 fw6">News: {newsPostsstore[num].heading}</p>
                     <p  className="meet red f5 ">Description: {newsPostsstore[num].description}</p>
                     <p  className="meet f6 fw6">{newsPostsstore[num].details}</p>
-
                 </div> 
             );           
         });
@@ -52,7 +50,7 @@ class Newscontent extends Component {
 
         return(
             <div className=' bg-white w-100 ba b--black pa2'>
-                <h1 className="tc  news_header">
+                <h1 className="tc   news_header">
                     NEWS
                 </h1>
                     <div className="meeting_list_box news_list_box w-100 bt bb bw1 b--black br3 shadow-5">

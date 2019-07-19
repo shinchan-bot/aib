@@ -672,7 +672,7 @@ span:hover{
 }
 
 .news_header{
-    font-size: 36px;
+    font-size: 36px !important;
     font-weight: 600;
 }
 
