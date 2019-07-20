@@ -35,8 +35,7 @@
 
 .language_nav{
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
     
 }
 hr{
@@ -86,7 +85,9 @@ hr{
 
 .nav{
     position: relative;
-    background: #d4572f;
+    background: #d4520f;
+    width: 90%;
+    margin-left: 5%;
     opacity: 0.9;
     padding-top: 10px;
     opacity: 1;
@@ -121,7 +122,7 @@ span:hover{
 .dropdown_contentnew {
     display: none;
     position: absolute;
-    background-color:#d4572f;
+    background-color:#d4502f;
     min-width: 15%;
     color: white;
     border:0px;
@@ -638,7 +639,7 @@ span:hover{
     z-index: 1000;  
     width: 90%;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-weight: 600;
     font-family: AvenirNext;  
@@ -1432,14 +1433,13 @@ span:hover{
     .languagenav_div{
         display: flex;
         width: 100%;
-        margin-bottom: -20px;
+        margin-bottom: 10px;
         justify-content: space-between;
     }
     
     .language_nav{
-        display: flex;
-        justify-content: space-between;
-        
+        display: none;
+        justify-content: space-between;       
         
     }
     hr{

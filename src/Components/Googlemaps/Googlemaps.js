@@ -19,10 +19,12 @@ class Googlemaps extends Component {
       };
     
     render(){
+
+      const API_KEY = process.env.REACT_GOOGLE_MAPS_API_KEY;
         return(
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU' }}
+                bootstrapURLKeys={{ key: API_KEY }}
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
                 >

@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyContext } from '../../context';
+import axios from 'axios';
 
 import * as translationEN from '../../translations/en.json';
 import * as translationHIN from '../../translations/hindi.json';
@@ -25,14 +26,24 @@ import Image from '../../util/assets1/bg20.jpg';
 class Gallerycontent extends Component {
 
     state = {
-        index:"0",
+        index:[],
+        gallery:[]
         
+    }
+
+
+    componentDidMount(){
+        axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchgallery')
+        .then(response => {
+            this.setState({gallery:response.data})
+        })
     }
 
 
     
 
     render() {
+        let galleryList = this.state.gallery;
 
         let gallerySlideHandler = (num) => {
             this.setState({
@@ -41,33 +52,58 @@ class Gallerycontent extends Component {
             
         }
 
-        let gallery_list = gallery.map((user,num)=> {
+        let gallery_list = galleryList.map((user,num)=> {
             return(
                 <div className='gallery_list pointer grow'>
-                    <img   className='gallery_list_image' src={gallery[num].url[0]}/>
-                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{gallery[num].visit}</p>   
+                    <img   className='gallery_list_image' src={'https://tranquil-eyrie-69509.herokuapp.com/' + user.combine[0][0]}/>
+                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{user.combine.title + " " + user.combine.date}</p>   
                 </div>
             );
         })
 
-        let image_index = this.state.index;
+        let gallery_image = this.state.gallery
+        let image_index = Number(this.state.index);
+        const gal = gallery_image[image_index]
+        
+        console.log('hello ',gal)
+        console.log('hello there',image_index)
 
-        let gallery_images = gallery[Number(image_index)].url.map((data,i) =>{
-            return(
-                <Carousel.Item>
-                <img
-                  className="gallery_slide_image w-70 "
-                  src={gallery[Number(image_index)].url[i]}
-                  alt="Third slide"
-                />
+        const data = (
+                this.state.gallery.length >0
+                ?
+                 gal.combine[0].map((data,i) =>{
+                    return(
+                        <Carousel.Item>
+                        <img
+                          className="gallery_slide_image w-70 "
+                          src={'https://tranquil-eyrie-69509.herokuapp.com/' + gal.combine[0][i]}
+                          alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                          <h3 className='gallery_caption_text'>{gal.combine.title + gal.combine.date}</h3>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                    );
+                })
+                :
+                <div></div>
+        );
+        // const gallery_images = gallery[Number(image_index)].url.map((data,i) =>{
+        //     return(
+        //         <Carousel.Item>
+        //         <img
+        //           className="gallery_slide_image w-70 "
+        //           src={gallery[Number(image_index)].url[i]}
+        //           alt="Third slide"
+        //         />
       
-                <Carousel.Caption>
-                  <h3 className='gallery_caption_text'>{gallery[Number(image_index)].visit}</h3>
-                  <p id="gallery_caption_text">{gallery[Number(image_index)].description}</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-        })
+        //         <Carousel.Caption>
+        //           <h3 className='gallery_caption_text'>{gallery[Number(image_index)].visit}</h3>
+        //           <p id="gallery_caption_text">{gallery[Number(image_index)].description}</p>
+        //         </Carousel.Caption>
+        //       </Carousel.Item>
+        //     );
+        // })
 
     
         
@@ -80,7 +116,7 @@ class Gallerycontent extends Component {
                         {gallery_list}           
                     </div>
                     <div className='gallery_slides ba b--black '>
-                        <Galleryslides images={gallery_images} />
+                        <Galleryslides images={data} />
                     </div>  
                 </div>
             </div>

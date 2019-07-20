@@ -45,6 +45,7 @@ const Home = () => {
                     duration={10} transition={3} 
                 />
                 <Header1 context={context}/>
+                <Headernav/>
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/executives' component={Listofexecutives}/> 
                     <Route exact path='/vendors' component={Vendorcontent}/> 

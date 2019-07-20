@@ -9,14 +9,12 @@ import { MyContext } from '../../context';
 
 
 import '../../util/css/app.css';
-import Headernav from '../Header/Headernav';
 
 
 class Languagenav extends Component {
   render() {
     return (
         <div className='languagenav_div' >
-            <Headernav/>
             <div className="dropdownnew   b--white ">
                     <button className="red f6 language_button  fw6  grow">Language</button>
                     <div className="dropdown_contentnew b--white ">
