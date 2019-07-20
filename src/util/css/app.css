@@ -634,13 +634,13 @@ span:hover{
 
 .gallery_list_text{
     position: relative;
+    color: lemonchiffon ;
     top: -150px;
     left: 0px;
     z-index: 1000;  
     width: 90%;
     text-align: center;
     font-size: 30px;
-    color: white;
     font-weight: 600;
     font-family: AvenirNext;  
     padding-right: 20px;  
@@ -1332,7 +1332,7 @@ span:hover{
         z-index: 1000;  
         text-align: center;
         font-size: 21px;
-        color: white;
+        color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;  
     }
@@ -1438,11 +1438,12 @@ span:hover{
     }
     
     .language_nav{
-        display: none;
+        display: block;
         justify-content: space-between;       
         
     }
     hr{
+        display: none;
         border-top: 1px solid white !important;
         margin-bottom: -5px;
     }
@@ -1454,7 +1455,8 @@ span:hover{
         display: flex;
         justify-content: flex-start;
         width: 100%;
-        margin-left: 0%;
+        margin-left: 5px;
+        padding: 0px;
         
     }
     
@@ -1471,12 +1473,13 @@ span:hover{
     #header{
         color:#d4572f;
         display: flex;
+        font-size: 13px !important;
         justify-content: flex-start;
         text-decoration-color: white;
         
     }
     .header{
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 0px;
         margin-left: -20px;
         margin-top: 0px;
@@ -1524,23 +1527,22 @@ span:hover{
         color: white;
     }
     .dropdown_contentnew {
-        display: none;
         position: absolute;
+        left: 75%;;
         z-index: 10000000000000;
         background-color:black;
-        width: 50%;
-        opacity: 0.7;
+        width: 22%;
         color: white;
         border:0px;
-        padding: 0px 10px;
+        padding: 5px 15px;
         margin: 0x 20px;
         z-index: 1;
         font-family: AvenirNext;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 700;
         margin-top: 23px;
-        border-radius: 10px;
+        border-radius: 2px;
         
       }
       a{
@@ -1548,8 +1550,7 @@ span:hover{
           color: white !important;
       }
       .optionnew{
-          text-align: center;
-    
+          text-align: center;    
       }
       
       .dropdownnew:hover .dropdown_contentnew {
@@ -1654,7 +1655,8 @@ span:hover{
       }
     
       .home_slide_div{
-        height: 300px;    
+        height: 300px; 
+        margin-top: -20px;   
       }
     
       .home_slide_header{
@@ -2079,7 +2081,7 @@ span:hover{
         z-index: 1000;  
         text-align: center;
         font-size: 21px;
-        color: white;
+        color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;
     }   

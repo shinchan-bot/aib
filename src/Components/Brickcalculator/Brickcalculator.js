@@ -12,16 +12,17 @@ class Brickcalculator extends Component{
     state={
         length:'',
         height:"",
-        thickness:"",
-        lu:"",
-        hu:'',
-        country:""
+        thickness:"0.1016",
+        lu:"1",
+        hu:'1',
+        country:"0.001683324",
+        bricks:"4"
     }
 
     lenghtHandler(e){
-        this.setState({length: e.target.value})
-        console.log(this.state.length)
-
+        return(
+            this.setState({length: e.target.value})
+        )
     }
 
     heightHandler(e){
@@ -30,32 +31,41 @@ class Brickcalculator extends Component{
     }
 
     thicknessHandler(e){
-        this.setState({thickness: e.target.value})
-
+        return(
+            this.setState({thickness: e.target.value})
+        )
 
     }
     luHandler(e){
-        this.setState({lu: e.target.value})
-        console.log(this.state.lu)
-
+        return(this.setState({lu: e.target.value})
+        )
     }
 
     huHandler(e){
-        this.setState({hu: e.target.value})
-
+        return(
+            this.setState({hu: e.target.value})
+        )
     }
     tuHandler(e){
-
+        return(
+            this.setState({tu: e.target.value})
+        )
     }
     countryHandler(e){
-        this.setState({country: e.target.value})
-
+        return(
+            this.setState({country: e.target.value})
+        )
     }
 
+    
+   
     render(){
+        const number = Number(this.state.length) * Number(this.state.height) * Number(this.state.thickness) / Number(this.state.lu) / Number(this.state.hu) / Number(this.state.country);
+        console.log(this.state.bricks)
+
         return(
             <div>
-                <form action='http://localhost:3001/calculate' method="POST">
+                <form>
                     <div>
                         <label for="length">Wall Length</label>
                         <input onChange={(e) =>this.lenghtHandler(e)} type="text" name="length"/>
@@ -75,21 +85,26 @@ class Brickcalculator extends Component{
                     <div>
                         <label for="length">Wall Thickness</label>
                         <select onChange={(e) =>this.thicknessHandler(e)}  class="w3-select w3-border dd2" name="tu">
-                            <option value="0.0016" selected="selected">1/2</option>
+                            <option value="0.1016" selected="selected">1/2</option>
                             <option value="0.2286">1</option>
                         </select>
                     </div>
                     <div>
                         <label>Choose Country:</label>
-                        <select class="w3-select w3-border dd1" name="country">
-                            <option value="0.001683324">India (22.8 x 10.7 x 6.9 cm)</option>
-                            <option value="0.0014324375">UK (21.5 x 10.25 x 6.5 cm)</option>
-                            <option value="0.001017336">US (19.4 x 9.2 x 5.7 cm)</option>
-                            <option value="0.0019228">Aus (23.0 x 11.0 x 7.6 cm)</option>
+                        <select onChange={(e) =>this.countryHandler(e)} class="w3-select w3-border dd1" name="country">
+                            <option value="0.001683324">India (228 x 107 x 69 mm)</option>
+                            {/* <option value="0.0014324375">UK (21.5 x 10.25 x 6.5 cm)</option> */}
+                            <option value="0.001539">US (190 x 90 x 90 mm)</option>
+                            <option value="0.002">Aus (200 x 100 x 100 mm)</option>
                         </select>
 
                     </div>
-                    <button type='submit' className="ba b--black">CALCULATE</button>
+                    {/* <button onClick= {bricks} type='submit' className="ba b--black">CALCULATE</button>
+                    <br/> */}
+                    <div>
+                        <label for="Bricks">Number of Bricks</label>
+                        <input value={Math.floor(number)} type='text' />
+                    </div>
                 </form>
             </div>
 

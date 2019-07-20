@@ -157,7 +157,7 @@ class Contactus extends Component {
                                                 <p className='contact_address  fw6'>
                                                     Zone 6A, 3rd Floor, Indian Habitat Centre<br/>
                                                     Lodhi Road, New Delhi, India<br/>
-                                                    011-24641853, 41504740<br/>
+                                                    Phone:- 011-24641853, 41504740<br/>
                                                     Contact Person:-<br/>
                                                     Sh. R. K. Verma<br/>
                                                     Email: aibtmf@rediffmail.com</p>

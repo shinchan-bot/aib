@@ -23,6 +23,7 @@ import Demoimage from '../../util/assets1/gallery_demo_image.jpg';
 import Demo from '../Demo/Demo';
 import Twitter from '../../util/assets1/twitter.svg';
 import Facebook from '../../util/assets1/facebook.svg';
+import Brickcalculator from '../Brickcalculator/Brickcalculator';
 var ReactDOM = require('react-dom');
 
 
@@ -318,19 +319,7 @@ class Homeslides extends Component{
                                                 </p>
                                                 <form className='message_form ml4 b--black'>
                                                 <div className='message_form2 ml4'>
-                                                    <div className='w-40 mh2'>
-                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.height}</p>
-                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40'>
-                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.length}</p>
-                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40 ml2'>
-                                                        <p className='fw6 ml1 green white'>{translationEN.home_slides.bricks}</p>
-                                                        <input className='input green w-200' type='text'  placeholder={translationEN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                    </div>
-                                                    
+                                                    <Brickcalculator/>
                                                 </div>
                                                 </form>
                                             </div>  

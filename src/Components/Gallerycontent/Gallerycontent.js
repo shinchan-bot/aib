@@ -63,10 +63,7 @@ class Gallerycontent extends Component {
 
         let gallery_image = this.state.gallery
         let image_index = Number(this.state.index);
-        const gal = gallery_image[image_index]
-        
-        console.log('hello ',gal)
-        console.log('hello there',image_index)
+        const gal = gallery_image[image_index];
 
         const data = (
                 this.state.gallery.length >0
