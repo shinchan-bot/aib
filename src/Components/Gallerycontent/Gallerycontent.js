@@ -77,7 +77,7 @@ class Gallerycontent extends Component {
                           alt="Third slide"
                         />
                         <Carousel.Caption>
-                          <h3 className='gallery_caption_text'>{gal.combine.title + gal.combine.date}</h3>
+                          <h3 className='gallery_caption_text'>{gal.combine.title + " " + gal.combine.date}</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
                     );
@@ -107,7 +107,7 @@ class Gallerycontent extends Component {
 
         return(
             <div className='gallery_content bg-white'>
-                <p className='f2 fw6 gallery_header  pa0 ma0 b--black'>GALLERY</p>
+                <p className=' fw6 list_of_members_header tc b--black'>GALLERY</p>
                 <div className='gallery_combine_div'>
                     <div className="gallery_list_div b--black ">
                         {gallery_list}           

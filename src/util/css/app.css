@@ -364,6 +364,7 @@ span:hover{
   }
   .list_of_members_header{
     font-size: 36px;
+    margin-top: 5px;
 }
 
   .list_of_members{
@@ -404,9 +405,9 @@ span:hover{
 }
 
 
-.meetings_header{
+/* .meetings_header{
     font-size: 36px;
-}
+} */
   .meetings{
       background:white;
       display: flex;
@@ -531,9 +532,9 @@ span:hover{
       font-size: 13px;
       margin-bottom: 0px;
   }
-  .contact_header{
+  /* .contact_header{
       margin-bottom: 0px;
-  }
+  } */
 
   .text_area{
       background:#FFF9EF;
@@ -584,9 +585,9 @@ span:hover{
   display: flex;
   flex-direction: column;
 }
-.gallery_header{
+/* .gallery_header{
     text-align: center;
-}
+} */
 
 .gallery_combine_div{
     display: flex;
@@ -659,9 +660,9 @@ span:hover{
     font-family: AvenirNext;
 }
 
-.vendor_header{
+/* .vendor_header{
     font-size: 36px;
-}
+} */
 
 .navbar{
     display: none !important;
@@ -672,10 +673,10 @@ span:hover{
     color: black !important;
 }
 
-.news_header{
+/* .news_header{
     font-size: 36px !important;
     font-weight: 600;
-}
+} */
 
 .executive_list{
     font-family: AvenirNext;
@@ -1131,9 +1132,9 @@ span:hover{
         font-size: 12px;
     }
     
-    .meetings_header{
+    /* .meetings_header{
         font-size: 20px;
-    }
+    } */
     
       .meetings{
           background:white;
@@ -1189,10 +1190,10 @@ span:hover{
       .meet{
           font-size: 13px;
       }
-      .machine_header{
+      /* .machine_header{
         font-size: 20px;
     }
-    
+     */
       .machines{
           display: flex;
           flex-direction: column;
@@ -1261,11 +1262,11 @@ span:hover{
           font-size: 12px;
           margin-bottom: 0px;
       }
-      .contact_header{
+      /* .contact_header{
           margin-bottom: 0px;
           font-size: 13px;
       }
-    
+     */
       .text_area{
           background:#FFF9EF;
           padding: 5px;
@@ -1312,11 +1313,11 @@ span:hover{
       display: flex;
       flex-direction: column;
     }
-    .gallery_header{
+    /* .gallery_header{
         text-align: center;
         font-size: 20px;
     }
-    
+     */
     .gallery_combine_div{
         display: flex;
         justify-content: flex-start;
@@ -1385,9 +1386,9 @@ span:hover{
         font-family: AvenirNext;
     }
 
-    .vendor_header{
+    /* .vendor_header{
         font-size: 20px;
-    }
+    } */
 
     .vendor_list{
         font-size: 13px;
@@ -1400,31 +1401,26 @@ span:hover{
 
     }
 
-    .executive_header{
+    /* .executive_header{
         font-size: 20px;
-    }
+    } */
 
     .executive_text{
         font-size: 12px;
     }
     
-    .atricles_header{
+    /* .atricles_header{
         font-size: 20px;
-    }
+    } */
     
     
    .navbar{
        display: none !important;
    } 
-    .news_header{
+    /* .news_header{
         font-size: 20px;
         font-weight: 600;
-    }
-
-    .news_header{
-    font-size: 20px;
-    font-weight: 600;
-    }
+    } */
 
     .brick_calculator{
     padding: 4px;
@@ -1815,7 +1811,7 @@ span:hover{
       }
       .home_face{
           width:35%;
-         margin-left: 10%;
+         margin-left: 5%;
       }
       .home_name{
           font-size:11px;
@@ -1906,10 +1902,10 @@ span:hover{
         font-size: 11px;
     }
     
-    .meetings_header{
+    /* .meetings_header{
         display: none;
         font-size: 16px;
-    }
+    } */
     
       .meetings{
           background:white;
@@ -1964,9 +1960,9 @@ span:hover{
       .meet{
           font-size: 13px;
       }
-      .machine_header{
+      /* .machine_header{
         font-size: 20px;
-    }
+    } */
     
       .machines{
           display: flex;
@@ -2053,11 +2049,11 @@ span:hover{
           font-size: 10px;
           margin-bottom: 0px;
       }
-      .contact_header{
+      /* .contact_header{
           margin-bottom: 0px;
           font-size: 12px;
       }
-    
+     */
       .text_area{
           background:#FFF9EF;
           padding: 5px;
@@ -2104,10 +2100,10 @@ span:hover{
       display: flex;
       flex-direction: column;
     }
-    .gallery_header{
+    /* .gallery_header{
         text-align: center;
         font-size: 15px;
-    }
+    } */
     
     .gallery_combine_div{
         display: flex;
@@ -2122,14 +2118,15 @@ span:hover{
         margin-top:2%; 
         overflow-y: scroll;
         padding: 0px 0px;
+        border-bottom: 1px solid black;
     }
     .gallery_slides{
         width: 100%;
         height: 300px;
-        margin-left: 5%;
+        margin-left: 0%;
         margin-top: 10%;
         border: 1px solid white;
-        border-radius: 5px;
+        border-radius: 2px;
         overflow: hidden;
     }
     
@@ -2170,9 +2167,9 @@ span:hover{
         font-family: AvenirNext;
     }
 
-    .vendor_header{
+    /* .vendor_header{
         font-size: 15px;
-    }
+    } */
 
     .vendor_list{
         font-size: 12px;
@@ -2188,17 +2185,17 @@ span:hover{
 
     }
 
-    .executive_header{
+    /* .executive_header{
         font-size: 15px;
-    }
+    } */
 
     .executive_text{
         font-size: 11px;
     }
     
-    .atricles_header{
+    /* .atricles_header{
         font-size: 20px;
-    }
+    } */
     
     .navbar{
         display: block !important;
@@ -2209,9 +2206,9 @@ span:hover{
         color:black !important;
     }
 
-    .news_header{
+    /* .news_header{
         font-size: 20px;
-    }
+    } */
 
     .news_list_box{
         height: 100%;

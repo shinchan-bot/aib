@@ -33,7 +33,7 @@ class Listofexecutives extends Component {
 
         return(
             <div className='executives bg-white pa2'>
-                <h1 className="tc executive_header bw6">
+                <h1 className="tc list_of_members_header bw6">
                     EXECUTIVES
                 </h1>
                 { executive_array }

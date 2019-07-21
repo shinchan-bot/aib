@@ -1,6 +1,6 @@
 import React from 'react';
 import Tachyons from 'tachyons';
-import { Route } from "react-router-dom";
+import { Route , Switch} from "react-router-dom";
 import { MyContext } from '../../context';
 import BackgroundSlider from 'react-background-slider';
 
@@ -24,11 +24,8 @@ import Articles from '../Articles/Articles';
 import BG1 from '../../util/assets1/about-us.png';
 import BG2 from '../../util/assets1/brick-making.png';
 import BG3 from '../../util/assets1/bg3.png';
-import Admin from '../../admin/Admin';
-import Pushmeetings from '../../admin/Pushmeetings';
 import Vendorcontent from '../Vendors/Vendorcontent';
 import Listofexecutives from '../Listofexecutives/Listofexecutives';
-import Listofexecutives2 from '../Listofexecutives/Listofexecutives2';
 import Listoflofemembers from '../Listoflifemembers/Listoflifemembers';
 import Headernav from '../Header/Headernav';
 
@@ -46,6 +43,7 @@ const Home = () => {
                 />
                 <Header1 context={context}/>
                 <Headernav/>
+                <Switch>
                     <Route exact path='/management' component={Listofmembers}/> 
                     <Route exact path='/executives' component={Listofexecutives}/> 
                     <Route exact path='/vendors' component={Vendorcontent}/> 
@@ -58,6 +56,8 @@ const Home = () => {
                     <Route exact path='/contactus' component={Contactus}/>
                     <Route exact path='/location' component={Googlemaps}/> 
                     <Route exact path={process.env.PUBLIC_URL + '/'} component={Homecontent}/>
+                    <Route  component={Notfound}/>
+                </Switch>
                 </div>
             </React.Fragment>
         )}

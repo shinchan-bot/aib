@@ -21,7 +21,7 @@ class Contactus extends Component {
                             if(context.state.language === 'hindi'){
                                 return(
                                     <div className="contactus">
-                                        <p className='f2 fw7 center'>{translationHIN.header.nav.option8}</p>
+                                        <p className='list_of_members_header fw7 center'>{translationHIN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
 
@@ -50,7 +50,7 @@ class Contactus extends Component {
                             }else if(context.state.language === 'gujarati'){
                                 return(
                                     <div className="contactus">
-                                        <p className='f2 fw7 center'>{translationGUJ.header.nav.option8}</p>
+                                        <p className='list_of_members_header fw7 center'>{translationGUJ.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
 
@@ -79,7 +79,7 @@ class Contactus extends Component {
                             }else if(context.state.language === 'marathi'){
                                 return(
                                     <div className="contactus">
-                                        <p className='f2 fw7 center'>{translationMAR.header.nav.option8}</p>
+                                        <p className='list_of_members_header fw7 center'>{translationMAR.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
 
@@ -108,7 +108,7 @@ class Contactus extends Component {
                             }else if(context.state.language === 'punjabi'){
                                 return(
                                     <div className="contactus">
-                                        <p className='f2 fw7 center'>{translationPUN.header.nav.option8}</p>
+                                        <p className=' fw7 list_of_members_header center'>{translationPUN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
 
@@ -137,7 +137,7 @@ class Contactus extends Component {
                             }else{
                                 return(
                                     <div className="contactus">
-                                        <p className='f2 fw7 center'>{translationEN.header.nav.option8}</p>
+                                        <p className=' fw7 list_of_members_header center'>{translationEN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=`${API_KEY}`">
 

@@ -44,7 +44,7 @@ class Vendorcontent extends Component{
 
         return(
             <div className='executives bg-white pa2'>
-                <h1 className="vendor_header tc bw6">
+                <h1 className="list_of_members_header tc bw6">
                     VENDORS
                 </h1>
                 { executive_array }

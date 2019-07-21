@@ -39,7 +39,7 @@ class Homecontent extends Component{
                                     <div className="home_content ">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white">
-                                            <h2 className='center  fw6' id='about1'>{translationHIN.home_content.title}</h2>
+                                            <h2 className='center list_of_members_header fw6' id='about1'>{translationHIN.home_content.title}</h2>
                                             <h3 className='center  fw6' id='about2'>{translationHIN.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>{translationHIN.home_content.purpose} </p>
                                             <div className='about_profile_div '>
@@ -93,7 +93,7 @@ class Homecontent extends Component{
                                     <div className="home_content ">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white">
-                                            <h2 className='center  fw6' id='about1'>{translationPUN.home_content.title}</h2>
+                                            <h2 className='center list_of_members_header fw6' id='about1'>{translationPUN.home_content.title}</h2>
                                             <h3 className='center  fw6' id='about2'>{translationPUN.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>{translationPUN.home_content.purpose} </p>
                                             <div className='about_profile_div '>
@@ -147,7 +147,7 @@ class Homecontent extends Component{
                                     <div className="home_content ">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white">
-                                            <h2 className='center  fw6' id='about1'>{translationMAR.home_content.title}</h2>
+                                            <h2 className='center list_of_members_header fw6' id='about1'>{translationMAR.home_content.title}</h2>
                                             <h3 className='center  fw6' id='about2'>{translationMAR.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>{translationMAR.home_content.purpose} </p>
                                             <div className='about_profile_div '>
@@ -201,7 +201,7 @@ class Homecontent extends Component{
                                     <div className="home_content ">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white">
-                                            <h2 className='center  fw6' id='about1'>{translationGUJ.home_content.title}</h2>
+                                            <h2 className='center list_of_members_header fw6' id='about1'>{translationGUJ.home_content.title}</h2>
                                             <h3 className='center  fw6' id='about2'>{translationGUJ.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>{translationGUJ.home_content.purpose} </p>
                                             <div className='about_profile_div '>
@@ -255,7 +255,7 @@ class Homecontent extends Component{
                                     <div className="home_content">
                                         <Homeslides/> 
                                         <div className="about pa2 bg-white ">
-                                            <h2 className='center fw6' id='about1'>{translationEN.home_content.title}</h2>
+                                            <h2 className='center list_of_members_header fw6' id='about1'>{translationEN.home_content.title}</h2>
                                             <h3 className='center f3 fw6 underline' id='about2'>{translationEN.home_content.header}</h3>
                                             <p className='w-60 fw6 about_text'>
                                                 {translationEN.home_content.purpose}
