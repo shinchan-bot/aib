@@ -1750,7 +1750,7 @@ span:hover{
           position: relative;
           z-index: 100000;
           font-size: 11px;
-          left:8%;
+          left:10%;
           width: 80%;
           text-align: justify;
           font-family: AvenirNext;
@@ -1758,7 +1758,7 @@ span:hover{
       .home_slide_image{
           position: relative !important;
           top: -150px;
-          left: 60%;
+          left: 65%;
           width: 100px !important;
           height: 50px;
       }

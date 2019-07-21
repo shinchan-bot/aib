@@ -242,7 +242,7 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline w-40  fw7'>
+                                                <p className='home_slide_header  w-40  fw7'>
                                                     {translationEN.home_slides.title1}
                                                 </p>
                                                 <p className='home_slide_text w-50 fw7 '>
@@ -253,7 +253,7 @@ class Homeslides extends Component{
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline  fw7'>
+                                                <p className='home_slide_header   fw7'>
                                                     {translationEN.home_slides.title2}
                                                 </p>
                                                 <p className='home_slide_text fw7 '>
@@ -263,7 +263,7 @@ class Homeslides extends Component{
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline  fw7'>
+                                                <p className='home_slide_header   fw7'>
                                                     {translationEN.home_slides.title3}
                                                 </p>
                                                 {/* <p className='home_slide_text  fw7 '>
