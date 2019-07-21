@@ -30,7 +30,6 @@ class Listofmeetings extends Component {
             .then((response) =>{
                 this.setState({meetingPosts: response.data});
                 this.setState({num: response.data[0]});
-                console.log(response.data);
             });
     }
 
