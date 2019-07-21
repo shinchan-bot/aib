@@ -683,6 +683,42 @@ span:hover{
 
 }
 
+.brick_calculator{
+    padding: 4px;
+    background:#eee;
+    border-radius:5px;
+    box-sizing: inherit;
+    width: 600px;
+}
+
+.brick_calculator_field{
+    align-items: center;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator_field1{
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.calculator_field3{
+   background: #fff9ef !important;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+#calculator_field3{
+
+}
+
+.select_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 @media only screen and (max-width: 1050px){
@@ -1380,15 +1416,58 @@ span:hover{
    .navbar{
        display: none !important;
    } 
+    .news_header{
+        font-size: 20px;
+        font-weight: 600;
+    }
 
-    
-}
-
-
-.news_header{
+    .news_header{
     font-size: 20px;
     font-weight: 600;
+    }
+
+    .brick_calculator{
+    padding: 4px;
+    background:#eee;
+    border-radius:5px;
+    box-sizing: inherit;
+    width: 600px;
 }
+
+.brick_calculator_field{
+    align-items: center;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator_field1{
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.calculator_field3{
+   background: #fff9ef !important;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+#calculator_field3{
+
+}
+
+.select_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+    
+       
+}
+
+
+
 
 
 
@@ -1656,7 +1735,7 @@ span:hover{
     
       .home_slide_div{
         height: 300px; 
-        margin-top: -20px;   
+        margin-top: -15px;   
       }
     
       .home_slide_header{
@@ -2143,6 +2222,49 @@ span:hover{
         top:1px;
         right: 10px;
     }
+
+    .brick_calculator{
+        padding: 2px;
+        background:#eee;
+        border-radius:5px;
+        box-sizing: inherit;
+        width: 250px;
+        margin-left: -15px;
+    }
+    
+    .brick_calculator_field{
+        align-items: center;
+        margin: 2px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .calculator_field1{
+        font-size: 10px !important;
+        font-weight: bold;
+        margin: 0px 5px;
+    }
+    
+    .calculator_field3{
+       background: #fff9ef !important;
+       padding: 2px;
+       border-radius: 5px;
+       font-size: 10px;
+    }
+    
+    #calculator_field3{
+    
+    }
+
+    #input2{
+        font-size: 10px;
+    }
+    
+    .select_div{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     
     
 

@@ -35,7 +35,11 @@
         "length":"ਕੰਧ ਦੀ ਲੰਬਾਈ",
         "feet":"feet",
         "bricks":"ਇੱਟਾਂ ਦੀ ਗਿਣਤੀ",
-        "brick":"ਇੱਟਾਂ"
+        "brick":"ਇੱਟਾਂ",
+        "thickness":"ਕੰਧ ਦੀ ਮੋਟਾਈ",
+        "size":"ਆਕਾਰ",
+        "meter":"meter",
+        "bricksize":"ਇੱਟ ਦਾ ਆਕਾਰ ਚੁਣੋ"
     
     
     },

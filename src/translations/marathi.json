@@ -35,7 +35,11 @@
         "length":"वॉल लांबी",
         "feet":"feet",
         "bricks":"ब्रिक्सची संख्या",
-        "brick":"विटा"
+        "brick":"विटा",
+        "thickness":"भिंतीची घनता",
+        "size":"आकार",
+        "meter":"meter",
+        "bricksize":"ब्रिक आकार निवडा"
     
     
     },
