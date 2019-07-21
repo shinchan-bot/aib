@@ -55,9 +55,12 @@
         "designation1":"President",
         "designation2":"General Secretary",
         "designation3":"Treasurer",
-        "address_line1":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India Phone:- 011-24641853, 41504740",
+        "address_line1":"All India Brick & Tile Manufacturers Federation (AIBTMF)   ",
         "address_line2":"Contact Person:-Sh. R. K. Verma",
         "address_line3":" Email: aibtmf@rediffmail.com",
+        "address_line4":"Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road,",
+        "address_line5":"New Delhi, India",
+        "address_line6":"Phone:- 011-24641853, 41504740",
         "address:":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India 011-24641853, 41504740Contact Person:-Sh. R. K. Verma (Executive Secretary)Email: aibtmf@rediffmail.com"
     },
 

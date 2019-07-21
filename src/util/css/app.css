@@ -327,7 +327,7 @@ span:hover{
   }
   .footer{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       margin-top: 50px;
       padding: 50px;
       background:#d8d8d8;
@@ -341,17 +341,18 @@ span:hover{
   }
   .footer_text{
       margin-left:30px;
+      font-size: 15px;
   }
  
   .modified_left_div{
       display: flex;
       flex-direction: column;
+      
   }
   .share_div{
       display: flex;
       justify-content: flex-start;
       margin-left: 15%;
-      
       
   }
 
@@ -360,7 +361,8 @@ span:hover{
   }
 
   .location{
-      width: 100%;;
+      width: 400px;
+      float: right;
   }
   .list_of_members_header{
     font-size: 36px;
@@ -1050,7 +1052,7 @@ span:hover{
       }
       .footer{
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
           margin-top: 40px;
           padding: 10px;
           background:#d8d8d8;
@@ -1072,6 +1074,7 @@ span:hover{
       .modified_left_div{
           display: flex;
           flex-direction: column;
+          margin-right: 10px;
       }
       .share_div{
           display: flex;
@@ -1086,7 +1089,7 @@ span:hover{
       }
     
       .location{
-          width: 100%;;
+          width: 300px;
       }
 
 
@@ -2108,6 +2111,8 @@ span:hover{
     .gallery_combine_div{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: -30px;
     
     }
     
@@ -2115,7 +2120,6 @@ span:hover{
         width: 80%;
         height: 200px;
         margin-left:15%;
-        margin-top:2%; 
         overflow-y: scroll;
         padding: 0px 0px;
         border-bottom: 1px solid black;
