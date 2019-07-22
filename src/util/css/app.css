@@ -1542,7 +1542,7 @@ span:hover{
     .header_div11{
         display: flex;
         justify-content: flex-start;
-        width: 100%;
+        width: 98%;
         margin-left: 5px;
         padding: 0px;
         
@@ -1569,7 +1569,7 @@ span:hover{
     .header{
         font-size: 12px;
         margin-bottom: 0px;
-        margin-left: -20px;
+        margin-left: -25px;
         margin-top: 0px;
         font-family: AvenirNext;
         font-weight: bold;
