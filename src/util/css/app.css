@@ -1479,7 +1479,17 @@ span:hover{
         src:url("../fonts/AvenirNext/AvenirNextLTPro-Regular.otf");
     }
     ::-webkit-scrollbar { 
-        display: none; 
+        display: block;
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        background: lemonchiffon;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: black; 
+        border-radius: 10px;
+        
     }
     
     #bg1{
@@ -2118,7 +2128,7 @@ span:hover{
     
     .gallery_list_div{
         width: 80%;
-        height: 200px;
+        height: 30vh;
         margin-left:15%;
         overflow-y: scroll;
         padding: 0px 0px;
