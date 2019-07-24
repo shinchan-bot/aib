@@ -12,11 +12,15 @@ import Brickcalculator from './Components/Brickcalculator/Brickcalculator';
 
 
 class App extends Component {
+
   
     render(){
+
+
+      // const store = configureStore({ history });
       return (
         <MyProvider>
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
             <Home/>
           </BrowserRouter>
         </MyProvider> 

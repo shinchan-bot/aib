@@ -30,12 +30,16 @@
         "title2":"Brick Making : One of the Oldest Profession",
         "detail2": "Man has used brick for building purpose for thousands of years. Bricks date back to 7000 BC, which makes them one of the oldest known building materials. They were discovered in southern Turkey at the site of an ancient settlement around the city of Jericho.The first bricks, made in areas with warm climates, were mud bricks dried in the sun for hardening. Ancient Egyptian bricks were made of clay mixed with straw. The evidence of this can be seen today at ruins of Harappa Buhen and Mohenjo-daro. Paintings on the tomb walls of Thebes portray Egyptian slaves mixing, tempering and carrying clay for the sun dried bricks. ",
         "title3":"Brick Calculator",
-        "detail3": "Our online tools will provide quick answers to your calculation and conversion needs. On this page, you can calculate the number of bricks and amount of mortar required for a given wall area. Once the quantities are known, it is easy to estimate the cost with the rates prevailing in your area.",
+        "detail3": "Our online tools will provide quick answers to your calculation and conversion needs. On this page, you can calculate the number of bricks and amount of mortar required for a given wall area.",
         "height":"Height of Wall",
         "length":"Length of Wall",
         "feet":"feet",
         "bricks":"No. of Bricks",
-        "brick":"Bricks"
+        "brick":"Bricks",
+        "thickness":"Thickness of Wall",
+        "size":"size",
+        "meter":"meter",
+        "bricksize":"Choose Brick size"
     
     
     },
@@ -51,9 +55,12 @@
         "designation1":"President",
         "designation2":"General Secretary",
         "designation3":"Treasurer",
-        "address_line1":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India 011-24641853, 41504740",
+        "address_line1":"All India Brick & Tile Manufacturers Federation (AIBTMF)   ",
         "address_line2":"Contact Person:-Sh. R. K. Verma",
         "address_line3":" Email: aibtmf@rediffmail.com",
+        "address_line4":"Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road,",
+        "address_line5":"New Delhi, India",
+        "address_line6":"Phone:- 011-24641853, 41504740",
         "address:":"All India Brick & Tile Manufacturers Federation (AIBTMF) Zone 6A, 3rd Floor, Indian Habitat Centre Lodhi Road, New Delhi, India 011-24641853, 41504740Contact Person:-Sh. R. K. Verma (Executive Secretary)Email: aibtmf@rediffmail.com"
     },
 
@@ -75,6 +82,17 @@
         "description2":"Along the brick kiln, every 4 to 5 meters, an inlet and outlet span is erected. The distance between each two spans is called a Ghamir. The roof of the brick kiln has some holes at regular distances of 60 to 70cm from each other. These holes are called carburetor-jets. Some valves for air vacuum are also available in the lower part of the brick kiln.",
         "detail2":"To perform the baking process, the Ghamirs are loaded in an intersectional manner with bricks. The end of the Ghamirs are closed with a wall of bricks, and the span of the brick kiln is mudded. The carburetor-jets push the fuel mixture gas and air forcefully into the kiln through the holes of carburetor-jets. Through the vacuum produced by air valves, the fire is directed to all parts of the Ghamirs and the baking process is carried out.The temperature required for baking the mud-bricks is about 1000° centigrade, which should gradually be produced through pre-heating. When the stage of baking in every Ghamir is over, its air valves are closed, and the valves of the next Ghamir are opened in order to direct the fire towards itself. The carburetor-jets are also alternately moved on the roof of the kiln to apply the temperature evenly to all parts of the kiln.The baking work in every Ghamir lasts between 2.5 and 3 hours. After this time, some holes are made in the mudded area until the space of the Ghamir is gradually cooled. Then, the spans are opened and the baked blocks are transferred from inside the kiln to the trucks by conveyor strips."
     },
+
+    "language":{
+        "language":"language",
+        "english":"english",
+        "hindi":"हिंदी",
+        "punjabi":"punjabi",
+        "gujarati":"gujarati",
+        "marathi":"marathi"
+    },
+
+    
 
 
    "meeting_list":

@@ -23,6 +23,7 @@ import Demoimage from '../../util/assets1/gallery_demo_image.jpg';
 import Demo from '../Demo/Demo';
 import Twitter from '../../util/assets1/twitter.svg';
 import Facebook from '../../util/assets1/facebook.svg';
+import Brickcalculator from '../Brickcalculator/Brickcalculator';
 var ReactDOM = require('react-dom');
 
 
@@ -89,25 +90,13 @@ class Homeslides extends Component{
                                                 <p className='home_slide_header  fw7'>
                                                     {translationHIN.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text fw7 '>
+                                                {/* <p className='home_slide_text fw7 '>
                                                     {translationHIN.home_slides.detail3}
-                                                </p>
+                                                </p> */}
                                                 <form className='message_form ml4 b--black'>
-                                                <div className='message_form2 ml4'>
-                                                    <div className='w-40 mh2'>
-                                                        <p className='fw6 ml1 red white'>{translationHIN.home_slides.height}</p>
-                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
+                                                    <div className='message_form2 ml4'>
+                                                        <Brickcalculator/>
                                                     </div>
-                                                    <div className='w-40'>
-                                                        <p className='fw6 ml1 red white'>{translationHIN.home_slides.length}</p>
-                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40 ml2'>
-                                                        <p className='fw6 ml1 green white'>{translationHIN.home_slides.bricks}</p>
-                                                        <input className='input green w-200' type='text'  placeholder={translationHIN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                    </div>
-                                                    
-                                                </div>
                                                 </form>
                                             </div>  
                                         </div>
@@ -145,25 +134,13 @@ class Homeslides extends Component{
                                              <p className='home_slide_header  fw7'>
                                                  {translationPUN.home_slides.title3}
                                              </p>
-                                             <p className='home_slide_text fw7 '>
+                                             {/* <p className='home_slide_text fw7 '>
                                                  {translationPUN.home_slides.detail3}
-                                             </p>
+                                             </p> */}
                                              <form className='message_form ml4 b--black'>
-                                             <div className='message_form2 ml4'>
-                                                 <div className='w-40 mh2'>
-                                                     <p className='fw6 ml1 red white'>{translationPUN.home_slides.height}</p>
-                                                     <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
-                                                 </div>
-                                                 <div className='w-40'>
-                                                     <p className='fw6 ml1 red white'>{translationPUN.home_slides.length}</p>
-                                                     <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                 </div>
-                                                 <div className='w-40 ml2'>
-                                                     <p className='fw6 ml1 green white'>{translationPUN.home_slides.bricks}</p>
-                                                     <input className='input green w-200' type='text'  placeholder={translationPUN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                 </div>
-                                                 
-                                             </div>
+                                                <div className='message_form2 ml4'>
+                                                    <Brickcalculator/>
+                                                </div>
                                              </form>
                                          </div>  
                                      </div>
@@ -201,25 +178,13 @@ class Homeslides extends Component{
                                              <p className='home_slide_header  fw7'>
                                                  {translationMAR.home_slides.title3}
                                              </p>
-                                             <p className='home_slide_text fw7 '>
+                                             {/* <p className='home_slide_text fw7 '>
                                                  {translationMAR.home_slides.detail3}
-                                             </p>
+                                             </p> */}
                                              <form className='message_form ml4 b--black'>
                                              <div className='message_form2 ml4'>
-                                                 <div className='w-40 mh2'>
-                                                     <p className='fw6 ml1 red white'>{translationMAR.home_slides.height}</p>
-                                                     <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
-                                                 </div>
-                                                 <div className='w-40'>
-                                                     <p className='fw6 ml1 red white'>{translationMAR.home_slides.length}</p>
-                                                     <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                 </div>
-                                                 <div className='w-40 ml2'>
-                                                     <p className='fw6 ml1 green white'>{translationMAR.home_slides.bricks}</p>
-                                                     <input className='input green w-200' type='text'  placeholder={translationMAR.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                 </div>
-                                                 
-                                             </div>
+                                                    <Brickcalculator/>
+                                                </div>
                                              </form>
                                          </div>  
                                      </div>
@@ -257,24 +222,12 @@ class Homeslides extends Component{
                                                 <p className='home_slide_header  fw7'>
                                                     {translationGUJ.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text fw7 '>
+                                                {/* <p className='home_slide_text fw7 '>
                                                     {translationGUJ.home_slides.detail3}
-                                                </p>
+                                                </p> */}
                                                 <form className='message_form ml4 b--black'>
                                                 <div className='message_form2 ml4'>
-                                                    <div className='w-40 mh2'>
-                                                        <p className='fw6 ml1 red white'>{translationGUJ.home_slides.height}</p>
-                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40'>
-                                                        <p className='fw6 ml1 red white'>{translationGUJ.home_slides.length}</p>
-                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40 ml2'>
-                                                        <p className='fw6 ml1 green white'>{translationGUJ.home_slides.bricks}</p>
-                                                        <input className='input green w-200' type='text'  placeholder={translationGUJ.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                    </div>
-                                                    
+                                                    <Brickcalculator/>
                                                 </div>
                                                 </form>
                                             </div>  
@@ -289,7 +242,7 @@ class Homeslides extends Component{
                                     <Carousel>
                                         <div className='home_slide_div' id='bg3'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline w-40  fw7'>
+                                                <p className='home_slide_header  w-40  fw7'>
                                                     {translationEN.home_slides.title1}
                                                 </p>
                                                 <p className='home_slide_text w-50 fw7 '>
@@ -300,7 +253,7 @@ class Homeslides extends Component{
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline  fw7'>
+                                                <p className='home_slide_header   fw7'>
                                                     {translationEN.home_slides.title2}
                                                 </p>
                                                 <p className='home_slide_text fw7 '>
@@ -310,27 +263,15 @@ class Homeslides extends Component{
                                         </div> 
                                         <div className='home_slide_div' id='bg1'>
                                             <div className='home_slide_text_div'>
-                                                <p className='home_slide_header underline  fw7'>
+                                                <p className='home_slide_header   fw7'>
                                                     {translationEN.home_slides.title3}
                                                 </p>
-                                                <p className='home_slide_text  fw7 '>
+                                                {/* <p className='home_slide_text  fw7 '>
                                                     {translationEN.home_slides.detail3}
-                                                </p>
+                                                </p> */}
                                                 <form className='message_form ml4 b--black'>
                                                 <div className='message_form2 ml4'>
-                                                    <div className='w-40 mh2'>
-                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.height}</p>
-                                                        <input onChange={this.onHeightChange} className='input red w-100 ' type='text' name='height' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40'>
-                                                        <p className='fw6 ml1 red white'>{translationEN.home_slides.length}</p>
-                                                        <input onChange ={this.onLengthChange} className='input red w-100' type='text' name='length' placeholder='feet' />
-                                                    </div>
-                                                    <div className='w-40 ml2'>
-                                                        <p className='fw6 ml1 green white'>{translationEN.home_slides.bricks}</p>
-                                                        <input className='input green w-200' type='text'  placeholder={translationEN.home_slides.brick} value={Math.floor(Number(no_of_bricks)) +'  Bricks'} />
-                                                    </div>
-                                                    
+                                                    <Brickcalculator/>
                                                 </div>
                                                 </form>
                                             </div>  

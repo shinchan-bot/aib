@@ -25,7 +25,7 @@ class Machinecontent extends Component {
                         if(context.state.language === 'hindi'){
                             return(
                                 <div className='machines bg-white  b--black'>
-                                    <p className='f2 machine_header fw6'>{translationHIN.machines.header}</p>
+                                    <p className=' list_of_members_header fw6'>{translationHIN.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationHIN.machines.machine1}</p>
                                         <div className="machine  b--black">
@@ -62,7 +62,7 @@ class Machinecontent extends Component {
                         }if(context.state.language === 'marathi'){
                             return(
                                 <div className='machines bg-white  b--black'>
-                                    <p className='f2 machine_header fw6'>{translationMAR.machines.header}</p>
+                                    <p className=' list_of_members_header fw6'>{translationMAR.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationMAR.machines.machine1}</p>
                                         <div className="machine  b--black">
@@ -99,7 +99,7 @@ class Machinecontent extends Component {
                         }else if(context.state.language === 'gujarati'){
                             return(
                                 <div className='machines bg-white  b--black'>
-                                    <p className='f2 machine_header fw6'>{translationGUJ.machines.header}</p>
+                                    <p className=' list_of_members_header fw6'>{translationGUJ.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationGUJ.machines.machine1}</p>
                                         <div className="machine  b--black">
@@ -136,7 +136,7 @@ class Machinecontent extends Component {
                         }else if(context.state.language === 'punjabi'){
                             return(
                                 <div className='machines bg-white  b--black'>
-                                    <p className='f2 machine_header fw6'>{translationPUN.machines.header}</p>
+                                    <p className='list_of_members_header fw6'>{translationPUN.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationPUN.machines.machine1}</p>
                                         <div className="machine  b--black">
@@ -173,7 +173,7 @@ class Machinecontent extends Component {
                         }else{
                             return(
                                 <div className='machines bg-white  b--black'>
-                                    <p className='f2 machine_header fw6'>{translationEN.machines.header}</p>
+                                    <p className='list_of_members_header fw6'>{translationEN.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationEN.machines.machine1}</p>
                                         <div className="machine  b--black">

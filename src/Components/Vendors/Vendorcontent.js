@@ -19,7 +19,7 @@ class Vendorcontent extends Component{
     }
 
     componentDidMount(){
-        axios.get('http://localhost:3001/fetchvendors')
+        axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchvendors')
             .then((response) =>{
                 this.setState({vendordata: response.data});
                 console.log(response.data);
@@ -33,9 +33,9 @@ class Vendorcontent extends Component{
                 <ul className='executive_list ba b--white br3 shadow-3 pt2 pb2 w-90 ml4'>
                     <li className="vendor_list fw7"><span>STATE: </span>{vendor.state}</li>
                     <ul className='executive_list'>
-                        <li className="vendor_list fw4 green" ><span className='fw7'>NAME: </span>{vendor.name.toUpperCase()}</li>
-                        <li><span className="vendor_list fw7">CONTACT: </span>{vendor.contact.toUpperCase()}</li>
-                        <li><span className="vendor_list fw7">ADDRESS: </span>{vendor.address.toUpperCase()}</li>                    
+                        <li className="vendor_list fw4 green" ><span className='fw7'>NAME :  </span>{vendor.name.toUpperCase()}</li>
+                        <li><span className="vendor_list fw7">CONTACT : </span>{vendor.contact.toUpperCase()}</li>
+                        <li><span className="vendor_list fw7">ADDRESS : </span>{vendor.address.toUpperCase()}</li>                    
                     </ul>
                 </ul>
             )
@@ -44,7 +44,7 @@ class Vendorcontent extends Component{
 
         return(
             <div className='executives bg-white pa2'>
-                <h1 className="vendor_header tc bw6">
+                <h1 className="list_of_members_header tc bw6">
                     VENDORS
                 </h1>
                 { executive_array }
