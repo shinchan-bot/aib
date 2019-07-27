@@ -23,7 +23,7 @@ const Listofmembers = () => {
                     <p className='member_name fw7'>Chief Patron</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
-                    <p className='member_name red fw6'>SH. KULDIP KUMAR KHANDUJA</p>
+                    <p className='member_name red fw6'>SH. ANANT NATH SINGH</p>
                     <p className='member_name fw7'>Patron</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
