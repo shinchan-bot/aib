@@ -93,11 +93,7 @@ class Homeslides extends Component{
                                                 {/* <p className='home_slide_text fw7 '>
                                                     {translationHIN.home_slides.detail3}
                                                 </p> */}
-                                                <form className='message_form ml4 b--black'>
-                                                    <div className='message_form2 ml4'>
                                                         <Brickcalculator/>
-                                                    </div>
-                                                </form>
                                             </div>  
                                         </div>
                                     </Carousel>     
@@ -137,11 +133,7 @@ class Homeslides extends Component{
                                              {/* <p className='home_slide_text fw7 '>
                                                  {translationPUN.home_slides.detail3}
                                              </p> */}
-                                             <form className='message_form ml4 b--black'>
-                                                <div className='message_form2 ml4'>
                                                     <Brickcalculator/>
-                                                </div>
-                                             </form>
                                          </div>  
                                      </div>
                                  </Carousel>     
@@ -181,11 +173,7 @@ class Homeslides extends Component{
                                              {/* <p className='home_slide_text fw7 '>
                                                  {translationMAR.home_slides.detail3}
                                              </p> */}
-                                             <form className='message_form ml4 b--black'>
-                                             <div className='message_form2 ml4'>
                                                     <Brickcalculator/>
-                                                </div>
-                                             </form>
                                          </div>  
                                      </div>
                                  </Carousel>     
@@ -225,11 +213,7 @@ class Homeslides extends Component{
                                                 {/* <p className='home_slide_text fw7 '>
                                                     {translationGUJ.home_slides.detail3}
                                                 </p> */}
-                                                <form className='message_form ml4 b--black'>
-                                                <div className='message_form2 ml4'>
-                                                    <Brickcalculator/>
-                                                </div>
-                                                </form>
+                                                <Brickcalculator/>
                                             </div>  
                                         </div>
                                     </Carousel>     
@@ -269,11 +253,7 @@ class Homeslides extends Component{
                                                 {/* <p className='home_slide_text  fw7 '>
                                                     {translationEN.home_slides.detail3}
                                                 </p> */}
-                                                <form className='message_form ml4 b--black'>
-                                                <div className='message_form2 ml4'>
                                                     <Brickcalculator/>
-                                                </div>
-                                                </form>
                                             </div>  
                                         </div>                                        
                                     </Carousel>     

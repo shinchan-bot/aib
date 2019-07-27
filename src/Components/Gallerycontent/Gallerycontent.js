@@ -106,8 +106,8 @@ class Gallerycontent extends Component {
         
 
         return(
-            <div className='gallery_content bg-white'>
-                <p className=' fw6 list_of_members_header tc b--black'>GALLERY</p>
+            <div className='gallery_content bg-white pa2'>
+                <p className=' fw6 list_of_members_header tc b--black'>Gallery</p>
                 <div className='gallery_combine_div'>
                     <div className="gallery_list_div b--black ">
                         {gallery_list}           

@@ -24,7 +24,7 @@ class Machinecontent extends Component {
                     {(()=>{
                         if(context.state.language === 'hindi'){
                             return(
-                                <div className='machines bg-white  b--black'>
+                                <div className='machines bg-white pa2 b--black'>
                                     <p className=' list_of_members_header fw6'>{translationHIN.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationHIN.machines.machine1}</p>

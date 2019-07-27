@@ -366,7 +366,7 @@ span:hover{
   }
   .list_of_members_header{
     font-size: 36px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
   .list_of_members{
@@ -399,7 +399,7 @@ span:hover{
       margin: 30px 5%;
       padding-left:5px;
       line-height: 2;
-      padding:2px;
+      padding:5px;
 }
 
 .member_name{
@@ -442,7 +442,7 @@ span:hover{
   .meeting_list_header{
       position: sticky;
       top:0px;
-      font-size: 30px;
+      font-size: 25px;
   }
 
   .meeting_title{
@@ -464,6 +464,9 @@ span:hover{
 .meet{
     font-size: 15px;
     margin-bottom: -1px;
+}
+.meet1{
+    font-size: 25px;
 }
 
 
@@ -641,9 +644,9 @@ span:hover{
     top: -150px;
     left: 0px;
     z-index: 1000;  
-    width: 90%;
+    width: 300px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     font-family: AvenirNext;  
     padding-right: 20px;  
@@ -691,7 +694,8 @@ span:hover{
     background:#eee;
     border-radius:5px;
     box-sizing: inherit;
-    width: 600px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .brick_calculator_field{
@@ -720,6 +724,10 @@ span:hover{
 .select_div{
     display: flex;
     justify-content: flex-end;
+}
+
+.article_content{
+    height: 80vh;
 }
 
 
@@ -1370,6 +1378,7 @@ span:hover{
         top: -90px;
         margin-left: 0px;
         z-index: 1000;  
+        width: 90%;
         text-align: center;
         font-size: 21px;
         color: lemonchiffon;
@@ -1430,7 +1439,8 @@ span:hover{
     background:#eee;
     border-radius:5px;
     box-sizing: inherit;
-    width: 600px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .brick_calculator_field{
@@ -2239,8 +2249,8 @@ span:hover{
         background:#eee;
         border-radius:5px;
         box-sizing: inherit;
-        width: 250px;
-        margin-left: -15px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .brick_calculator_field{

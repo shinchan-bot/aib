@@ -3,10 +3,6 @@ import 'tachyons';
 import axios from 'axios';
 
 
-import Vendors from './Vendors';
-
-import * as exec from '../../Helpers/executives.json';
-
 
 
 class Vendorcontent extends Component{
@@ -45,7 +41,7 @@ class Vendorcontent extends Component{
         return(
             <div className='executives bg-white pa2'>
                 <h1 className="list_of_members_header tc bw6">
-                    VENDORS
+                    Vendors
                 </h1>
                 { executive_array }
             </div>            
