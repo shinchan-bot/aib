@@ -14,7 +14,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
  
 export default function Articles() {
     return (
-        <div className='bg-white article_content vendors pa2'>
+        <div className='bg-white article_content background_cover vendors pa2'>
             <h1 className="tc list_of_members_header fw6">
                     Articles
                 </h1>

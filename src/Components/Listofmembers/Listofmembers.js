@@ -59,7 +59,7 @@ const Listofmembers = () => {
                     </tr>
                     <tr className=" b--gray shadow-5">
                         <td className='member_name'>Sh. Mukesh Nanda</td>
-                        <td className='member_name'>Secretary of AIBTMF</td>
+                        <td className='member_name'>Secretary of Organisation</td>
                         <td className='member_name'>Punjab</td>
                     </tr>
                     <tr className=" b--gray shadow-5">

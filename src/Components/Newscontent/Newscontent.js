@@ -40,7 +40,7 @@ class Newscontent extends Component {
             return(
                 <div className="news_div bl bb b--gray br3 mb2 shadow-2 pa2">
                     <p data-key={num} key={num} onClick={() =>news_handler(num)} className="red fr f4-ns  ">Date: <i>{newsPostsstore[num].date.split('-').reverse('-').join('-')}</i></p>
-                    <p  className="meet1  fw6">News: {newsPostsstore[num].heading}</p>
+                    <p  className="meet1-ns  fw6">News: {newsPostsstore[num].heading}</p>
                     <p  className="meet red f5 ">Description: {newsPostsstore[num].description}</p>
                     <p  className="meet f6 fw6">{newsPostsstore[num].details}</p>
                 </div> 
@@ -49,7 +49,7 @@ class Newscontent extends Component {
 
 
         return(
-            <div className='pa2 bg-white w-100 ba b--gray'>
+            <div className='pa2 bg-white background_cover w-100 ba b--gray'>
                 <h1 className="tc   list_of_members_header fw6">
                     News
                 </h1>

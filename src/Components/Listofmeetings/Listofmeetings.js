@@ -70,7 +70,7 @@ class Listofmeetings extends Component {
       
         return(
             
-            <div className='meetings ba b--gray pa2'>
+            <div className='meetings background_cover ba b--gray pa2'>
                 <h1 className="center list_of_members_header">
                     Meetings
                 </h1>

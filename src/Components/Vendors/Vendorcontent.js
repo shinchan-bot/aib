@@ -18,7 +18,6 @@ class Vendorcontent extends Component{
         axios.get('https://tranquil-eyrie-69509.herokuapp.com/fetchvendors')
             .then((response) =>{
                 this.setState({vendordata: response.data});
-                console.log(response.data);
             });
     }
 
@@ -39,7 +38,7 @@ class Vendorcontent extends Component{
         })
 
         return(
-            <div className='executives bg-white pa2'>
+            <div className='executives background_cover bg-white pa2'>
                 <h1 className="list_of_members_header tc bw6">
                     Vendors
                 </h1>
