@@ -2141,16 +2141,16 @@ span:hover{
     }
     
     .gallery_list_div{
-        width: 80%;
-        height: 30vh;
-        margin-left:15%;
+        width: 100%;
+        height: 50vh;
+        margin-left:;
         overflow-y: scroll;
-        padding: 0px 0px;
+        padding-left: 5%;
         border-bottom: 1px solid black;
     }
     .gallery_slides{
         width: 100%;
-        height: 300px;
+        height: 40vh;
         margin-left: 0%;
         margin-top: 10%;
         border: 1px solid white;

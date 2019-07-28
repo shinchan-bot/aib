@@ -3,16 +3,22 @@ import 'tachyons';
 import { MyContext } from '../../context';
 
 
+
 import * as translationEN from '../../translations/en.json';
 import * as translationHIN from '../../translations/hindi.json';
 import * as translationPUN from '../../translations/punjabi.json';
 import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
+
+require('dotenv').config();
+console.log(process.env)
+
+
 class Contactus extends Component {
     render(){
 
-        const API_KEY = process.env.REACT_GOOGLE_MAPS_API_KEY;
+        const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
         return(
             <MyContext.Consumer>
                 {(context)=>(
@@ -23,7 +29,7 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationHIN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -52,7 +58,7 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationGUJ.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -81,7 +87,7 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationMAR.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -110,7 +116,7 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className=' fw7 list_of_members_header center'>{translationPUN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -139,7 +145,7 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className=' fw7 list_of_members_header center'>{translationEN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=`${API_KEY}`">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
