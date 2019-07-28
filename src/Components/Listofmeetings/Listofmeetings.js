@@ -11,9 +11,6 @@ import axios from 'axios';
 // import * as translationMAR from '../../translations/marathi.json';
 
 
-import {meetings} from '../../Helpers/meetings';
-
-
 
 class Listofmeetings extends Component {
 

@@ -12,13 +12,12 @@ import * as translationMAR from '../../translations/marathi.json';
 
 
 require('dotenv').config();
-console.log(process.env)
 
 
 class Contactus extends Component {
     render(){
 
-        const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+        // const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
         return(
             <MyContext.Consumer>
                 {(context)=>(

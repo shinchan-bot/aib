@@ -1863,6 +1863,8 @@ span:hover{
       .footer_text{
           margin-left: 10px;
           font-size: 11px;
+          width: 80%;
+          text-align: justify;
       }
      
       .modified_left_div{

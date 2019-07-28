@@ -7,7 +7,6 @@ import { MyProvider } from './context';
 import './index.css';
 import Home from './Components/Home/Home';
 import * as serviceWorker from './serviceWorker';
-import Brickcalculator from './Components/Brickcalculator/Brickcalculator';
 
 
 

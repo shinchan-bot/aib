@@ -1,24 +1,24 @@
 import React, {Component} from 'react';
 import 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
-import { MyContext } from '../../context';
+// import { MyContext } from '../../context';
 import axios from 'axios';
 
-import * as translationEN from '../../translations/en.json';
-import * as translationHIN from '../../translations/hindi.json';
-import * as translationPUN from '../../translations/punjabi.json';
-import * as translationGUJ from '../../translations/gujarati.json';
-import * as translationMAR from '../../translations/marathi.json';
+// import * as translationEN from '../../translations/en.json';
+// import * as translationHIN from '../../translations/hindi.json';
+// import * as translationPUN from '../../translations/punjabi.json';
+// import * as translationGUJ from '../../translations/gujarati.json';
+// import * as translationMAR from '../../translations/marathi.json';
 
-import {gallery} from '../../Helpers/gallery';
+// import {gallery} from '../../Helpers/gallery';
 
 
 import '../../util/css/app.css';
 import Galleryslides from '../Galleryslides/Galleryslides';
-import Image from '../../util/assets1/bg20.jpg';
+// import Image from '../../util/assets1/bg20.jpg';
 
 
 
@@ -112,7 +112,7 @@ class Gallerycontent extends Component {
                     <div className="gallery_list_div b--black ">
                         {gallery_list}           
                     </div>
-                    <div className='gallery_slides ba b--black '>
+                    <div className='gallery_slides ba b--white '>
                         <Galleryslides images={data} />
                     </div>  
                 </div>

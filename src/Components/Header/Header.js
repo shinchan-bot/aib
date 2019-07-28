@@ -1,8 +1,8 @@
 import React from 'react';
-import Tachyons from 'tachyons';
+// import Tachyons from 'tachyons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { MyContext } from '../../context';
-import {Navbar,Nav,NavDropdown, Bootstrap, Grid, Row, Col} from 'react-bootstrap';
+// import {Navbar,Nav,NavDropdown, Bootstrap, Grid, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import * as translationEN from '../../translations/en.json';
@@ -15,11 +15,11 @@ import * as translationMAR from '../../translations/marathi.json';
 import '../../util/css/app.css';
 import o from '../../util/assets1/1.jpg';
 import Logo from '../../util/assets1/brick-logo.png'
-import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
-import Back from '../../util/assets1/transparent.png';
+// import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
+// import Back from '../../util/assets1/transparent.png';
 import Languagenav from '../Languagenav/Languagenav';
-import News from '../../util/articles/article1.pdf';
-import Application_form from '../../util/articles/application_form.pdf';
+// import News from '../../util/articles/article1.pdf';
+// import Application_form from '../../util/articles/application_form.pdf';
 
 
 
