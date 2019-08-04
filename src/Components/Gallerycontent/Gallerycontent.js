@@ -56,7 +56,7 @@ class Gallerycontent extends Component {
             return(
                 <div onClick={() =>gallerySlideHandler(num)} className='gallery_list pointer grow'>
                     <img   className='gallery_list_image' src={'https://tranquil-eyrie-69509.herokuapp.com/' + user.combine[0][0]}/>
-                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{user.combine.title + " " + user.combine.date.split('-').reverse().join('-')}</p>   
+                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{user.combine.title} <br/> {user.combine.date.split('-').reverse().join('-')}</p>   
                 </div>
             );
         })

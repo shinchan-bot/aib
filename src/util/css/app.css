@@ -622,8 +622,8 @@ span:hover{
 .gallery_list{
     width: 100% !important;
     height: 200px !important;
-    margin-top: 80px;
-    margin-bottom: -30px;
+    margin-top: 90px;
+    margin-bottom: -15px;
     border:1px solid white;
 
 }
@@ -643,14 +643,14 @@ span:hover{
     position: relative;
     color: white ;
     background: #d4520f;
-    height: 60px;
+    min-height: 80px;
     border-radius: 5px;
-    top: -215px;
+    top: -235px;
     left: 0px;
     z-index: 1000;  
     width: 300px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     font-family: AvenirNext;  
     padding-right: 20px;  
