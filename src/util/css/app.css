@@ -432,7 +432,7 @@ span:hover{
 
   .meeting_list_box{
       width:40%;
-      height: 450px;
+      height: 500px;
       overflow-y: scroll;
       scroll-behavior: smooth;
       font-family: AvenirNext;
@@ -621,8 +621,9 @@ span:hover{
 
 .gallery_list{
     width: 100% !important;
-    height: 150px !important;
-    margin-bottom: 20px;
+    height: 200px !important;
+    margin-top: 80px;
+    margin-bottom: -30px;
     border:1px solid white;
 
 }
@@ -640,8 +641,11 @@ span:hover{
 
 .gallery_list_text{
     position: relative;
-    color: lemonchiffon ;
-    top: -150px;
+    color: white ;
+    background: #d4520f;
+    height: 60px;
+    border-radius: 5px;
+    top: -215px;
     left: 0px;
     z-index: 1000;  
     width: 300px;
@@ -1360,8 +1364,9 @@ span:hover{
     
     .gallery_list{
         width: 90% !important;
-        height: 150px !important;
-        margin-bottom: 0px;
+        height: 210px !important;
+        margin-top: 80px;
+        margin-bottom: -100px;
         border:1px solid white;
     
     }
@@ -1379,12 +1384,13 @@ span:hover{
     
     .gallery_list_text{
         position: relative;
-        top: -90px;
+        top: -165px;
+        min-height: 50px;
         margin-left: 0px;
         z-index: 1000;  
         width: 90%;
         text-align: center;
-        font-size: 21px;
+        font-size: 14px;
         color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;  
@@ -2143,10 +2149,11 @@ span:hover{
     .gallery_list_div{
         width: 100%;
         height: 50vh;
-        margin-left:;
+        margin-top: 50px;
         overflow-y: scroll;
         padding-left: 5%;
         border-bottom: 1px solid black;
+        margin-left: 2%;
     }
     .gallery_slides{
         width: 100%;
@@ -2180,11 +2187,12 @@ span:hover{
     
     .gallery_list_text{
         position: relative;
-        top: -90px;
+        top: -165px;
+        min-height: 20px;
         margin-left: 0px;
         z-index: 1000;  
         text-align: center;
-        font-size: 21px;
+        font-size: 14px;
         color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;

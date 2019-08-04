@@ -71,12 +71,12 @@ class Listofmeetings extends Component {
         return(
             
             <div className='meetings background_cover ba b--gray pa2'>
-                <h1 className="center list_of_members_header">
+                {/* <h1 className="center list_of_members_header">
                     Meetings
-                </h1>
+                </h1> */}
                 <div className="meeting_box_combine  b--black" >
                     <div className="meeting_list_box bt bb bw1 b--gray br3 shadow-5">
-                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br3 pa2 tc bg-white ">Meetings in the past.</h3>
+                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br3 pa2 tc bg-white ">Meetings</h3>
                         {meeting_array}
                     </div>
                     {data}  

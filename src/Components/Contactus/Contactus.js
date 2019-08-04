@@ -12,7 +12,6 @@ import * as translationMAR from '../../translations/marathi.json';
 
 
 require('dotenv').config();
-console.log(process.env)
 
 
 class Contactus extends Component {
@@ -49,6 +48,12 @@ class Contactus extends Component {
                                                     {translationHIN.home_content.address_line2}<br/>
                                                     {translationHIN.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationHIN.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationHIN.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -77,6 +82,12 @@ class Contactus extends Component {
                                                 {translationGUJ.home_content.address_line1}<br/>
                                                     {translationGUJ.home_content.address_line2}<br/>
                                                     {translationGUJ.home_content.address_line3}<br/>
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationGUJ.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationGUJ.contact_us.ifsc} : SBIN0020511
                                                 </p>
                                             </div>
                                         </div>
@@ -107,6 +118,12 @@ class Contactus extends Component {
                                                     {translationMAR.home_content.address_line2}<br/>
                                                     {translationMAR.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationMAR.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationMAR.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -135,6 +152,12 @@ class Contactus extends Component {
                                                 {translationPUN.home_content.address_line1}<br/>
                                                     {translationPUN.home_content.address_line2}<br/>
                                                     {translationPUN.home_content.address_line3}<br/>
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationPUN.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationPUN.contact_us.ifsc} : SBIN0020511
                                                 </p>
                                             </div>
                                         </div>
@@ -168,10 +191,10 @@ class Contactus extends Component {
                                                     Sh. R. K. Verma<br/>
                                                     Email: aibtmf@rediffmail.com</p>
                                                 <p className=' contact_header fw6 red'>
-                                                    Account Number : 1234567890
+                                                    Account Number : 52142908661
                                                 </p>
                                                 <p className=' contact_header fw6 red'>
-                                                    IFSC Code : IFB123456
+                                                    IFSC Code : SBIN0020511
                                                 </p>
                                             </div>
                                         </div>

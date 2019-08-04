@@ -19,96 +19,100 @@ export default function Listoflofemembers() {
                     Life members
                 </h1>
         <Accordion>
-        <AccordionItem>
+            <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       LIFE MEMBERS REGISTERED WITH FEDERATION
+                        ANDRA PRADESH
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1UhD3Vn9BGjxYT0fMDRWkT9NO4MUh0D0w" target="_blank">
-                            <p className="black">ELECTED EMBERS OF TAMIL NADU</p>
+                        <a href="https://drive.google.com/open?id=1KiWPoLE39lG9bczjbRIR4NNkBzNRQiqB" target="_blank">
+                            <p className="black">PDF</p>
                         </a>
                     </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1LR-SzGsS2RzI_GBjReS-gQeboDJT2rw-" target="_blank">
-                            <p className="black">LIST OF LIFE MEMBERS FROM BENGAL</p>
-                        </a>
-                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        ASSAM
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1O3_xV-thsEgV2BbO3GtZ1ybTNgbPzkpC" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM ASSAM</p>
+                            <p className="black">PDF</p>
                         </a>
                     </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        BENGAL
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1KiWPoLE39lG9bczjbRIR4NNkBzNRQiqB" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM ANDRA PRADESH</p>
+                        <a href="https://drive.google.com/open?id=1LR-SzGsS2RzI_GBjReS-gQeboDJT2rw-" target="_blank">
+                            <p className="black">PDF</p>
                         </a>
                     </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1BJk-y2-mSQx2qDv_Y59nW6uJGYdRpwKx" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM JHARKHAND</p>
-                        </a>
-                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        BIHAR
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1T7cJ3V6qdzxzCmfNzA2C-7yylInkQf4_" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM BIHAR</p>
+                            <p className="black">PDF</p>
                         </a>
                     </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        BIHAR
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1T7cJ3V6qdzxzCmfNzA2C-7yylInkQf4_" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        CHANDIGARH
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1buIRt0G52nKuJ86TW81yt5s2y6uCpKM4" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM CHANDIGARH</p>
+                            <p className="black">PDF</p>
                         </a>
                     </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        GUJARAT
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1tp3F5iiQdQljUqhAG187UIF_cbLhxCsl" target="_blank">
-                            <p className="black">LIST OF MEMBERS FORM  GUJARAT</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1aH4dWeKVQ6nv9ax79WB7uPuqLHJ5ljEW" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM HIMACHAL PRADESH</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1xWmabtuzOg7VPQA6Og6ix47hBQB2u8j2" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM KARNATAKA</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1dHxpzQf5wJ4ABYceS7nTg60NN1VcX_aT" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM KERALA</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1dDXQFxzwyIyA77q3ey2LZRwcBAOyqfJm" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM MADHYA PRADESH</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1zAC2HsrRTuIrVChxVRqkdUl4YPF1GO_W" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM MAHARASHTRA</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1qxwieSuHg-Cwjj1OxPlYIvzhrHRXfuQA" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM MANIPUR</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1DV3OYMLpiV8dhiRqPlDL-7QsxCaFOQ65" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM ORRISA</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1bPfEq25GV9nyt5VdJstWyB62vENgW_kc" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM TRIPURA</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1HsB2HGyD2trNC3sO85fTBX1OVIW1qYkI" target="_blank">
-                            <p className="black">LIST OF MEMBERS FROM TAMIL NADU</p>
+                            <p className="black">PDF</p>
                         </a>
                     </div>
                 </AccordionItemPanel>
@@ -208,6 +212,319 @@ export default function Listoflofemembers() {
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1xce6WcuEqFkBD5-gzDkYo0_LS-w5rVyF" target="_blank">
                             <p className="black">MEWAT</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        HIMACHAL PRADESH
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1aH4dWeKVQ6nv9ax79WB7uPuqLHJ5ljEW" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        JHARKHAND
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1BJk-y2-mSQx2qDv_Y59nW6uJGYdRpwKx" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        KARNATAKA
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1xWmabtuzOg7VPQA6Og6ix47hBQB2u8j2" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        KERALA
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1dHxpzQf5wJ4ABYceS7nTg60NN1VcX_aT" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        MADHYA PRADESH
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1dDXQFxzwyIyA77q3ey2LZRwcBAOyqfJm" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        MAHARASHTRA
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1zAC2HsrRTuIrVChxVRqkdUl4YPF1GO_W" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        MANIPUR
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1qxwieSuHg-Cwjj1OxPlYIvzhrHRXfuQA" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        ORRISA
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1DV3OYMLpiV8dhiRqPlDL-7QsxCaFOQ65" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                       PUNJAB
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1INLb9hiKAUkbldkhkkZnv8sZq4U1LB01" target="_blank">
+                            <p className="black">TOTAL NUMBER OF MEMBERS </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1JB7hbKFWfB7Akf6Rk3UOSgv_YuR1SN9b" target="_blank">
+                            <p className="black">STATE BEARER LIST OF PUNJAB </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1RQDXsiIq_kE4RPyTpByH3wvf0IYIheLv" target="_blank">
+                            <p className="black">LIST OF PREESIDENT/ GENERAL SECRETARY OF PUNJAB </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1UHUbVEwAJW6CLE521FNzAvMkQvINfDq0" target="_blank">
+                            <p className="black">AMRITSAR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=12dZVnxzm8EgNcVJmNCiFOsehAW-aU5-m" target="_blank">
+                            <p className="black">BHATINDA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=12XqjZNN1dyjU6y3L5UBXMXFs5vVqM9lp" target="_blank">
+                            <p className="black">FARIDKOT </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1xVZ6oOU6jIcJJyz-5RaO0Em8UdKrrcC4" target="_blank">
+                            <p className="black">FAZILKA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1qw9krgTr7MS-SZ5UWyWHP9Ox87cA2-1B" target="_blank">
+                            <p className="black">FEROZEPUR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1R0OTb1aHuY_S7ZMIXqnyyZDt7jSZoSJS" target="_blank">
+                            <p className="black">FATEHGARH SAHIB </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1OyaRX8vVSDciFn4EhZywd4llfVfBfE-S" target="_blank">
+                            <p className="black">GURDASPUR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1XTvkLGSE2sqZwYPpCJfyl7P1Iu8MbXCr" target="_blank">
+                            <p className="black">HOSHIARPUR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1LO0zTIuHsSN1sJXMxptPUX_Itir85BpH" target="_blank">
+                            <p className="black">JALANDHAR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1YNx1tJonVMChm-sbGb2U4aY79oe6nmI2" target="_blank">
+                            <p className="black">KAPURTHALALA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1C2EkKpbe1gLgK2YVylpVzhdnZ0g5bcAm" target="_blank">
+                            <p className="black">LUDHIANA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=12fytngiOzoj5frvQOmv3O5xxeokCbLw4" target="_blank">
+                            <p className="black">MOGA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1KNZLcG8u8yTxwK4gK4I-c5cjVEsMhN6U" target="_blank">
+                            <p className="black">MUKTSAR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1HwMBaUzfBOD72R5uXzsRW7ouzptBiMHO" target="_blank">
+                            <p className="black">MOHALI </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1afBAHC38CeMcDfp3BxWvjZ_BGnziy_Z3" target="_blank">
+                            <p className="black">MANSA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1C9Kp5tUapGabnsEF-dlHu4wvO9N_k5BS" target="_blank">
+                            <p className="black">NAWANSHAHR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1TJIOTc3B1FavJWuvdWfH9JRboqZbsmeg" target="_blank">
+                            <p className="black">PATHANKOT </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=19nFWsuOICAd3k4oIeWReh-udXuZ2xFUK" target="_blank">
+                            <p className="black">PATIALA </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1oM4B1WFKvjl78g7L9KjvUd2Zc9sGYwsP" target="_blank">
+                            <p className="black">ROPAR MOHALI </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1WyHz4hd7rC4aCpqYgYusk6kr7TB9fD7-" target="_blank">
+                            <p className="black">SANGRUR </p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1BHrXahMUcEmqey4eK1xdcW9KbxM4XvIu" target="_blank">
+                            <p className="black">TARAN TARAN </p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                       RAJASTHAN
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1ZDBvfH028d8veUAxftHwGV-QgHRGOKd4" target="_blank">
+                            <p className="black">TOTAL NUMBER OF MEMBERS</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1pd4c-VlOLvm3AhwcFqTRk2BNe0Ac9Y5X" target="_blank">
+                            <p className="black">ALWAR</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=17uaOEezPOckZoScT8sRQ8OuLNnI8qeQm" target="_blank">
+                            <p className="black">BIKANER</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1O8mIEyKacZPviRkXLwByTo7bEv09qQln" target="_blank">
+                            <p className="black">HANUMAN GARH</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1F6wGbMTBebbAe4ZGyGRF3pN2agYrvlbv" target="_blank">
+                            <p className="black">JAIPUR</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1FNEApirSyzIhmskUZATGxTjfX7nrwEu5" target="_blank">
+                            <p className="black">SRI GANGA NAGAR</p>
+                        </a>
+                    </div>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1iap-PuJgfDLwtszPN6SWuGF-BcKXcbRV" target="_blank">
+                            <p className="black">BHARATPUR</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        TRIPURA
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1bPfEq25GV9nyt5VdJstWyB62vENgW_kc" target="_blank">
+                            <p className="black">PDF</p>
+                        </a>
+                    </div>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        TAMIL NADU
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
+                        <a href="https://drive.google.com/open?id=1HsB2HGyD2trNC3sO85fTBX1OVIW1qYkI" target="_blank">
+                            <p className="black">PDF</p>
                         </a>
                     </div>
                 </AccordionItemPanel>
@@ -549,50 +866,6 @@ export default function Listoflofemembers() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       RAJASTHAN
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1ZDBvfH028d8veUAxftHwGV-QgHRGOKd4" target="_blank">
-                            <p className="black">TOTAL NUMBER OF MEMBERS</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1pd4c-VlOLvm3AhwcFqTRk2BNe0Ac9Y5X" target="_blank">
-                            <p className="black">ALWAR</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=17uaOEezPOckZoScT8sRQ8OuLNnI8qeQm" target="_blank">
-                            <p className="black">BIKANER</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1O8mIEyKacZPviRkXLwByTo7bEv09qQln" target="_blank">
-                            <p className="black">HANUMAN GARH</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1F6wGbMTBebbAe4ZGyGRF3pN2agYrvlbv" target="_blank">
-                            <p className="black">JAIPUR</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1FNEApirSyzIhmskUZATGxTjfX7nrwEu5" target="_blank">
-                            <p className="black">SRI GANGA NAGAR</p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1iap-PuJgfDLwtszPN6SWuGF-BcKXcbRV" target="_blank">
-                            <p className="black">BHARATPUR</p>
-                        </a>
-                    </div>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
                        UTTRANCHAL
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -620,135 +893,6 @@ export default function Listoflofemembers() {
                     <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
                         <a href="https://drive.google.com/open?id=1JKviVYejtFo-P0Sa6wzjtmyRMvtyAUOP" target="_blank">
                             <p className="black">ROORKEE</p>
-                        </a>
-                    </div>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                       PUNJAB
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1INLb9hiKAUkbldkhkkZnv8sZq4U1LB01" target="_blank">
-                            <p className="black">TOTAL NUMBER OF MEMBERS </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1JB7hbKFWfB7Akf6Rk3UOSgv_YuR1SN9b" target="_blank">
-                            <p className="black">STATE BEARER LIST OF PUNJAB </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1RQDXsiIq_kE4RPyTpByH3wvf0IYIheLv" target="_blank">
-                            <p className="black">LIST OF PREESIDENT/ GENERAL SECRETARY OF PUNJAB </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1UHUbVEwAJW6CLE521FNzAvMkQvINfDq0" target="_blank">
-                            <p className="black">AMRITSAR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=12dZVnxzm8EgNcVJmNCiFOsehAW-aU5-m" target="_blank">
-                            <p className="black">BHATINDA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=12XqjZNN1dyjU6y3L5UBXMXFs5vVqM9lp" target="_blank">
-                            <p className="black">FARIDKOT </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1xVZ6oOU6jIcJJyz-5RaO0Em8UdKrrcC4" target="_blank">
-                            <p className="black">FAZILKA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1qw9krgTr7MS-SZ5UWyWHP9Ox87cA2-1B" target="_blank">
-                            <p className="black">FEROZEPUR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1R0OTb1aHuY_S7ZMIXqnyyZDt7jSZoSJS" target="_blank">
-                            <p className="black">FATEHGARH SAHIB </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1OyaRX8vVSDciFn4EhZywd4llfVfBfE-S" target="_blank">
-                            <p className="black">GURDASPUR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1XTvkLGSE2sqZwYPpCJfyl7P1Iu8MbXCr" target="_blank">
-                            <p className="black">HOSHIARPUR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1LO0zTIuHsSN1sJXMxptPUX_Itir85BpH" target="_blank">
-                            <p className="black">JALANDHAR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1YNx1tJonVMChm-sbGb2U4aY79oe6nmI2" target="_blank">
-                            <p className="black">KAPURTHALALA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1C2EkKpbe1gLgK2YVylpVzhdnZ0g5bcAm" target="_blank">
-                            <p className="black">LUDHIANA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=12fytngiOzoj5frvQOmv3O5xxeokCbLw4" target="_blank">
-                            <p className="black">MOGA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1KNZLcG8u8yTxwK4gK4I-c5cjVEsMhN6U" target="_blank">
-                            <p className="black">MUKTSAR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1HwMBaUzfBOD72R5uXzsRW7ouzptBiMHO" target="_blank">
-                            <p className="black">MOHALI </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1afBAHC38CeMcDfp3BxWvjZ_BGnziy_Z3" target="_blank">
-                            <p className="black">MANSA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1C9Kp5tUapGabnsEF-dlHu4wvO9N_k5BS" target="_blank">
-                            <p className="black">NAWANSHAHR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1TJIOTc3B1FavJWuvdWfH9JRboqZbsmeg" target="_blank">
-                            <p className="black">PATHANKOT </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=19nFWsuOICAd3k4oIeWReh-udXuZ2xFUK" target="_blank">
-                            <p className="black">PATIALA </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1oM4B1WFKvjl78g7L9KjvUd2Zc9sGYwsP" target="_blank">
-                            <p className="black">ROPAR MOHALI </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1WyHz4hd7rC4aCpqYgYusk6kr7TB9fD7-" target="_blank">
-                            <p className="black">SANGRUR </p>
-                        </a>
-                    </div>
-                    <div className='vendor_div bg-light-gray pa2 mb2 ba b--white br3 shadow-4'>
-                        <a href="https://drive.google.com/open?id=1BHrXahMUcEmqey4eK1xdcW9KbxM4XvIu" target="_blank">
-                            <p className="black">TARAN TARAN </p>
                         </a>
                     </div>
                 </AccordionItemPanel>
