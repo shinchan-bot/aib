@@ -175,7 +175,7 @@ class Contactus extends Component {
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
+                                            <form action="/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
                                                     <input  className='input ' type='text' name='name' placeholder={translationEN.contact_us.name}/>
                                                     <input className='input' type='email' name='email' placeholder={translationEN.contact_us.email}/>
