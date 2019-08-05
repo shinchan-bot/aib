@@ -15,9 +15,12 @@ require('dotenv').config();
 
 
 class Contactus extends Component {
+
+
     render(){
 
         const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+
         return(
             <MyContext.Consumer>
                 {(context)=>(
@@ -172,15 +175,15 @@ class Contactus extends Component {
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                        <input className='input ' type='text' name='name' placeholder={translationEN.contact_us.name}/>
-                                                        <input className='input' type='email' name='email' placeholder={translationEN.contact_us.email}/>
+                                                    <input  className='input ' type='text' name='name' placeholder={translationEN.contact_us.name}/>
+                                                    <input className='input' type='email' name='email' placeholder={translationEN.contact_us.email}/>
                                                 </div>
                                                 <br/>
                                                 <textarea className='  text_area ' id='input' type='text' name='message' placeholder={translationEN.contact_us.message}></textarea>
                                                 <button type='submit' className='message_button bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
-                                            </form>
+                                            </form >
                                             <div className="contact_details  b--black">
                                                 <p className=' contact_header fw6 red'>{translationEN.home_content.header}</p>
                                                 <p className='contact_address  fw6'>
