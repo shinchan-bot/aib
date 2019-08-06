@@ -30,7 +30,7 @@ class Contactus extends Component {
                                 return(
                                     <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationHIN.header.nav.option8}</p>
-                                        {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
+                                        {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.5903211,77.223525) */}
                                         <iframe
                                             className='map_frame'
                                             src={process.env.REACT_APP_API_KEY}
