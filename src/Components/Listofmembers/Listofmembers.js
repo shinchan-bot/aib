@@ -15,36 +15,36 @@ import * as translationMAR from '../../translations/marathi.json';
 
 const Listofmembers = () => {
     return(
-        <div className='list_of_members'>
-            <p className="center list_of_members_header fw6">LIST OF MANAGEMENT COMMITEE</p>
+        <div className='list_of_members pa2'>
+            <p className="center list_of_members_header fw6">List of management committee</p>
             <div className='members mt2 shadow-4'>
                 <div className="member bb bw1 b--gray  shadow-4 br2">
                     <p className='member_name red fw6'>SH. SURENDER PRATAP </p>
                     <p className='member_name fw7'>Chief Patron</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
-                    <p className='member_name red fw6'>SH. KULDIP KUMAR KHANDUJA</p>
+                    <p className='member_name red fw6'>SH. ANANT NATH SINGH</p>
                     <p className='member_name fw7'>Patron</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. ANANT NATH SINGH</p>
-                    <p className='member_name fw7'>President of AIBTMF</p>
+                    <p className='member_name fw7'>President</p>
                     <p className='member_name'></p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH.DEVENDRA BHAI PRAJAPATI</p>
-                    <p className='member_name fw7'>President of AIBTMF</p>
+                    <p className='member_name fw7'>President</p>
                     <p className='member_name'>State: Gujarat</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. VIJAY KUMAR GOEL</p>
-                    <p className='member_name fw7'>General Secretary of AIBTMF</p>
+                    <p className='member_name fw7'>General Secretary</p>
                     <p className='member_name'>State: Uttar Pradesh</p>
                 </div>
                 <div className="member bb bw1 b--gray shadow-4 br2">
                     <p className='member_name red fw6'>SH. MANISH GUPTA</p>
-                    <p className='member_name fw7'>Treasurer of AIBTMF</p>
-                    <p className='member_name'>State: Uttar Pradesh</p>
+                    <p className='member_name fw7'>Treasurer </p>
+                    <p className='member_name'>State: Haryana</p>
                 </div>
                 <table className='table'>
                     <tr className="bb bw2 b--gray shadow-5">
@@ -54,12 +54,12 @@ const Listofmembers = () => {
                     </tr>
                     <tr className=" b--gray shadow-5">
                         <td className='member_name' >Sh. Ashok Kumar Tiwari</td>
-                        <td className='member_name'>VICE President of AIBTMF</td>
+                        <td className='member_name'>Vice President</td>
                         <td className='member_name'>West Bengal</td>
                     </tr>
                     <tr className=" b--gray shadow-5">
                         <td className='member_name'>Sh. Mukesh Nanda</td>
-                        <td className='member_name'>Secretary of AIBTMF</td>
+                        <td className='member_name'>Secretary of Organisation</td>
                         <td className='member_name'>Punjab</td>
                     </tr>
                     <tr className=" b--gray shadow-5">

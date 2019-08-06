@@ -3,16 +3,24 @@ import 'tachyons';
 import { MyContext } from '../../context';
 
 
+
 import * as translationEN from '../../translations/en.json';
 import * as translationHIN from '../../translations/hindi.json';
 import * as translationPUN from '../../translations/punjabi.json';
 import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
+
+require('dotenv').config();
+
+
 class Contactus extends Component {
+
+
     render(){
 
-        const API_KEY = process.env.REACT_GOOGLE_MAPS_API_KEY;
+        const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+
         return(
             <MyContext.Consumer>
                 {(context)=>(
@@ -20,14 +28,14 @@ class Contactus extends Component {
                         {(()=>{
                             if(context.state.language === 'hindi'){
                                 return(
-                                    <div className="contactus">
+                                    <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationHIN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
                                                         <input className='input ' type='text' name='name' placeholder={translationHIN.contact_us.name}/>
                                                         <input className='input' type='email' name='email' placeholder={translationHIN.contact_us.email}/>
@@ -43,20 +51,26 @@ class Contactus extends Component {
                                                     {translationHIN.home_content.address_line2}<br/>
                                                     {translationHIN.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationHIN.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationHIN.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 );
                             }else if(context.state.language === 'gujarati'){
                                 return(
-                                    <div className="contactus">
+                                    <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationGUJ.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
                                                         <input className='input ' type='text' name='name' placeholder={translationGUJ.contact_us.name}/>
                                                         <input className='input' type='email' name='email' placeholder={translationGUJ.contact_us.email}/>
@@ -72,20 +86,26 @@ class Contactus extends Component {
                                                     {translationGUJ.home_content.address_line2}<br/>
                                                     {translationGUJ.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationGUJ.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationGUJ.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 );
                             }else if(context.state.language === 'marathi'){
                                 return(
-                                    <div className="contactus">
+                                    <div className="contactus pa2">
                                         <p className='list_of_members_header fw7 center'>{translationMAR.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
                                                         <input className='input ' type='text' name='name' placeholder={translationMAR.contact_us.name}/>
                                                         <input className='input' type='email' name='email' placeholder={translationMAR.contact_us.email}/>
@@ -101,20 +121,26 @@ class Contactus extends Component {
                                                     {translationMAR.home_content.address_line2}<br/>
                                                     {translationMAR.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationMAR.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationMAR.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 );
                             }else if(context.state.language === 'punjabi'){
                                 return(
-                                    <div className="contactus">
+                                    <div className="contactus pa2">
                                         <p className=' fw7 list_of_members_header center'>{translationPUN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=AIzaSyALRPbHdbhpD7Jzpb2CzyubbdvQIDslizU">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
                                                         <input className='input ' type='text' name='name' placeholder={translationPUN.contact_us.name}/>
                                                         <input className='input' type='email' name='email' placeholder={translationPUN.contact_us.email}/>
@@ -130,28 +156,34 @@ class Contactus extends Component {
                                                     {translationPUN.home_content.address_line2}<br/>
                                                     {translationPUN.home_content.address_line3}<br/>
                                                 </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationPUN.contact_us.account_number} : 52142908661
+                                                </p>
+                                                <p className=' contact_header fw6 red'>
+                                                    {translationPUN.contact_us.ifsc} : SBIN0020511
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 );
                             }else{
                                 return(
-                                    <div className="contactus">
+                                    <div className="contactus pa2">
                                         <p className=' fw7 list_of_members_header center'>{translationEN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=`${API_KEY}`">
+                                        <iframe className='map_frame'  src="https://www.google.com/maps/embed/v1/place?q=28.590302,77.225778&amp;key=process.env.REACT_APP_GOOGLE_MAPS_API_KEY">
 
                                         </iframe>
                                         <div className="contact_div mt3">
-                                            <form className='message_form  b--black'>
+                                            <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
                                                 <div className='message_form2'>
-                                                        <input className='input ' type='text' name='name' placeholder={translationEN.contact_us.name}/>
-                                                        <input className='input' type='email' name='email' placeholder={translationEN.contact_us.email}/>
+                                                    <input  className='input ' type='text' name='name' placeholder={translationEN.contact_us.name}/>
+                                                    <input className='input' type='email' name='email' placeholder={translationEN.contact_us.email}/>
                                                 </div>
                                                 <br/>
                                                 <textarea className='  text_area ' id='input' type='text' name='message' placeholder={translationEN.contact_us.message}></textarea>
                                                 <button type='submit' className='message_button bg-red w-20 mt2 ml1 br3 fw6 dim link grow white pa2 ba b--red'>Send</button>
-                                            </form>
+                                            </form >
                                             <div className="contact_details  b--black">
                                                 <p className=' contact_header fw6 red'>{translationEN.home_content.header}</p>
                                                 <p className='contact_address  fw6'>
@@ -162,10 +194,10 @@ class Contactus extends Component {
                                                     Sh. R. K. Verma<br/>
                                                     Email: aibtmf@rediffmail.com</p>
                                                 <p className=' contact_header fw6 red'>
-                                                    Account Number : 1234567890
+                                                    Account Number : 52142908661
                                                 </p>
                                                 <p className=' contact_header fw6 red'>
-                                                    IFSC Code : IFB123456
+                                                    IFSC Code : SBIN0020511
                                                 </p>
                                             </div>
                                         </div>

@@ -1,14 +1,14 @@
 import React,{Component} from 'react'
 import 'tachyons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { MyContext } from '../../context';
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { MyContext } from '../../context';
 import axios from 'axios';
 
-import * as translationEN from '../../translations/en.json';
-import * as translationHIN from '../../translations/hindi.json';
-import * as translationPUN from '../../translations/punjabi.json';
-import * as translationGUJ from '../../translations/gujarati.json';
-import * as translationMAR from '../../translations/marathi.json';
+// import * as translationEN from '../../translations/en.json';
+// import * as translationHIN from '../../translations/hindi.json';
+// import * as translationPUN from '../../translations/punjabi.json';
+// import * as translationGUJ from '../../translations/gujarati.json';
+// import * as translationMAR from '../../translations/marathi.json';
 
 
 import {meetings} from '../../Helpers/meetings';
@@ -56,10 +56,11 @@ class Listofmeetings extends Component {
         const data = (
                 this.state.meetingPosts 
                 ?
-                    <div className="meeting_details ba bw2 b--black br3 mb2 mt4 pa2">
+                    <div className="meeting_details ba bw1 b--gray br3 mb2 mt4 pa2">
                         <h3 className="meeting_title fw8">{this.state.num.title}</h3>
                         <p className='meeting_description  fw5 red'><i>{this.state.num.description}</i></p>
                         <p className="meeting_detail fw7 mt4 tj "><i>{this.state.num.details}</i></p>
+                        <a href={this.state.num.url} targer="_blank" > <p className='black w-100 tc fw6 pa4 ba b--grey shadow-4 bg-lemonchiffon' >Open </p> </a>
                     </div>
                 :
                 <div></div>
@@ -70,13 +71,13 @@ class Listofmeetings extends Component {
       
         return(
             
-            <div className='meetings ba b--black pa2'>
-                <h1 className="center list_of_members_header">
-                    MEETINGS
-                </h1>
+            <div className='meetings background_cover ba b--gray pa2'>
+                {/* <h1 className="center list_of_members_header">
+                    Meetings
+                </h1> */}
                 <div className="meeting_box_combine  b--black" >
-                    <div className="meeting_list_box bt bb bw1 b--black br3 shadow-5">
-                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br3 pa2 tc bg-white ">Meetings in the past.</h3>
+                    <div className="meeting_list_box bt bb bw1 b--gray br3 shadow-5">
+                        <h3 className="meeting_list_header f3 fw8 ba b--gray bw1 shadow-2 br3 pa2 tc bg-white ">Meetings</h3>
                         {meeting_array}
                     </div>
                     {data}  

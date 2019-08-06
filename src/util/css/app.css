@@ -366,7 +366,7 @@ span:hover{
   }
   .list_of_members_header{
     font-size: 36px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
   .list_of_members{
@@ -399,7 +399,7 @@ span:hover{
       margin: 30px 5%;
       padding-left:5px;
       line-height: 2;
-      padding:2px;
+      padding:5px;
 }
 
 .member_name{
@@ -432,7 +432,7 @@ span:hover{
 
   .meeting_list_box{
       width:40%;
-      height: 450px;
+      height: 500px;
       overflow-y: scroll;
       scroll-behavior: smooth;
       font-family: AvenirNext;
@@ -442,7 +442,7 @@ span:hover{
   .meeting_list_header{
       position: sticky;
       top:0px;
-      font-size: 30px;
+      font-size: 25px;
   }
 
   .meeting_title{
@@ -464,6 +464,9 @@ span:hover{
 .meet{
     font-size: 15px;
     margin-bottom: -1px;
+}
+.meet1{
+    font-size: 25px;
 }
 
 
@@ -618,8 +621,9 @@ span:hover{
 
 .gallery_list{
     width: 100% !important;
-    height: 150px !important;
-    margin-bottom: 20px;
+    height: 200px !important;
+    margin-top: 90px;
+    margin-bottom: -15px;
     border:1px solid white;
 
 }
@@ -637,13 +641,16 @@ span:hover{
 
 .gallery_list_text{
     position: relative;
-    color: lemonchiffon ;
-    top: -150px;
+    color: white ;
+    background: #d4520f;
+    min-height: 80px;
+    border-radius: 5px;
+    top: -235px;
     left: 0px;
     z-index: 1000;  
-    width: 90%;
+    width: 300px;
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600;
     font-family: AvenirNext;  
     padding-right: 20px;  
@@ -691,7 +698,8 @@ span:hover{
     background:#eee;
     border-radius:5px;
     box-sizing: inherit;
-    width: 600px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .brick_calculator_field{
@@ -720,6 +728,14 @@ span:hover{
 .select_div{
     display: flex;
     justify-content: flex-end;
+}
+
+.article_content{
+    height: 80vh;
+}
+
+.background_cover{
+    min-height: 70vh;
 }
 
 
@@ -1348,8 +1364,9 @@ span:hover{
     
     .gallery_list{
         width: 90% !important;
-        height: 150px !important;
-        margin-bottom: 0px;
+        height: 210px !important;
+        margin-top: 80px;
+        margin-bottom: -100px;
         border:1px solid white;
     
     }
@@ -1367,11 +1384,13 @@ span:hover{
     
     .gallery_list_text{
         position: relative;
-        top: -90px;
+        top: -165px;
+        min-height: 50px;
         margin-left: 0px;
         z-index: 1000;  
+        width: 90%;
         text-align: center;
-        font-size: 21px;
+        font-size: 14px;
         color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;  
@@ -1430,7 +1449,8 @@ span:hover{
     background:#eee;
     border-radius:5px;
     box-sizing: inherit;
-    width: 600px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .brick_calculator_field{
@@ -1542,7 +1562,7 @@ span:hover{
     .header_div11{
         display: flex;
         justify-content: flex-start;
-        width: 100%;
+        width: 98%;
         margin-left: 5px;
         padding: 0px;
         
@@ -1569,7 +1589,7 @@ span:hover{
     .header{
         font-size: 12px;
         margin-bottom: 0px;
-        margin-left: -20px;
+        margin-left: -25px;
         margin-top: 0px;
         font-family: AvenirNext;
         font-weight: bold;
@@ -1940,8 +1960,8 @@ span:hover{
       }
     
       .meeting_list_box{
-          width:90%;
-          height: 250px;
+          width:100%;
+          height: 50vh;
           overflow-y: scroll;
           scroll-behavior: smooth;
           font-family: AvenirNext;
@@ -2127,16 +2147,17 @@ span:hover{
     }
     
     .gallery_list_div{
-        width: 80%;
-        height: 30vh;
-        margin-left:15%;
+        width: 100%;
+        height: 50vh;
+        margin-top: 50px;
         overflow-y: scroll;
-        padding: 0px 0px;
+        padding-left: 5%;
         border-bottom: 1px solid black;
+        margin-left: 2%;
     }
     .gallery_slides{
         width: 100%;
-        height: 300px;
+        height: 40vh;
         margin-left: 0%;
         margin-top: 10%;
         border: 1px solid white;
@@ -2166,11 +2187,12 @@ span:hover{
     
     .gallery_list_text{
         position: relative;
-        top: -90px;
+        top: -165px;
+        min-height: 20px;
         margin-left: 0px;
         z-index: 1000;  
         text-align: center;
-        font-size: 21px;
+        font-size: 14px;
         color: lemonchiffon;
         font-weight: 600;
         font-family: AvenirNext;
@@ -2239,8 +2261,8 @@ span:hover{
         background:#eee;
         border-radius:5px;
         box-sizing: inherit;
-        width: 250px;
-        margin-left: -15px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .brick_calculator_field{
@@ -2274,6 +2296,10 @@ span:hover{
     .select_div{
         display: flex;
         justify-content: flex-end;
+    }
+
+    .background_cover{
+        min-height: 90vh;
     }
     
     

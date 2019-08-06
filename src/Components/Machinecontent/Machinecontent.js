@@ -11,6 +11,7 @@ import * as translationMAR from '../../translations/marathi.json';
 
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Machine1 from '../../util/assets1/hqdefault.png';
+import Machine3 from '../../util/assets1/z.png';
 import Machine2 from '../../util/assets1/sketch-of-a-fixed-chimney-bulls-trench-kiln-fcbtk.png';
 
 
@@ -24,7 +25,7 @@ class Machinecontent extends Component {
                     {(()=>{
                         if(context.state.language === 'hindi'){
                             return(
-                                <div className='machines bg-white  b--black'>
+                                <div className='machines bg-white pa2 b--black'>
                                     <p className=' list_of_members_header fw6'>{translationHIN.machines.header}</p>
                                     <div className='machine_div  b--black'>
                                         <p className='machine_name f4-ns '>{translationHIN.machines.machine1}</p>
@@ -51,6 +52,21 @@ class Machinecontent extends Component {
                                                 <p className='f6 fw6 machine_detail'>
                                                     <i>
                                                        {translationHIN.machines.detail2}
+                                                    </i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='machine_div  b--black'>
+                                        <p className='machine_name f4-ns '>{translationHIN.machines.machine3}</p>
+                                        <div className="machine  b--black">
+                                            <img src={Machine3} className='h-50-ns machine2 mt4' />
+                                            <div className='machine_details  b--black'>
+                                                <p className='machine_name '>{translationHIN.machines.machine3}</p>
+                                                <p className='fw6 machine_description'>{translationHIN.machines.description3}</p>
+                                                <p className='f6 fw6 machine_detail'>
+                                                    <i>
+                                                       {translationHIN.machines.detail3}
                                                     </i>
                                                 </p>
                                             </div>
@@ -93,6 +109,21 @@ class Machinecontent extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className='machine_div  b--black'>
+                                        <p className='machine_name f4-ns '>{translationMAR.machines.machine3}</p>
+                                        <div className="machine  b--black">
+                                            <img src={Machine3} className='h-50-ns machine2 mt4' />
+                                            <div className='machine_details  b--black'>
+                                                <p className='machine_name '>{translationMAR.machines.machine3}</p>
+                                                <p className='fw6 machine_description'>{translationMAR.machines.description3}</p>
+                                                <p className='f6 fw6 machine_detail'>
+                                                    <i>
+                                                       {translationMAR.machines.detail3}
+                                                    </i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
 
                             );
@@ -125,6 +156,21 @@ class Machinecontent extends Component {
                                                 <p className='f6 fw6 machine_detail'>
                                                     <i>
                                                        {translationGUJ.machines.detail2}
+                                                    </i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='machine_div  b--black'>
+                                        <p className='machine_name f4-ns '>{translationGUJ.machines.machine3}</p>
+                                        <div className="machine  b--black">
+                                            <img src={Machine3} className='h-50-ns machine2 mt4' />
+                                            <div className='machine_details  b--black'>
+                                                <p className='machine_name '>{translationGUJ.machines.machine3}</p>
+                                                <p className='fw6 machine_description'>{translationGUJ.machines.description3}</p>
+                                                <p className='f6 fw6 machine_detail'>
+                                                    <i>
+                                                       {translationGUJ.machines.detail3}
                                                     </i>
                                                 </p>
                                             </div>
@@ -167,6 +213,21 @@ class Machinecontent extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className='machine_div  b--black'>
+                                        <p className='machine_name f4-ns '>{translationPUN.machines.machine3}</p>
+                                        <div className="machine  b--black">
+                                            <img src={Machine3} className='h-50-ns machine2 mt4' />
+                                            <div className='machine_details  b--black'>
+                                                <p className='machine_name '>{translationPUN.machines.machine3}</p>
+                                                <p className='fw6 machine_description'>{translationPUN.machines.description3}</p>
+                                                <p className='f6 fw6 machine_detail'>
+                                                    <i>
+                                                       {translationPUN.machines.detail3}
+                                                    </i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
 
                             );
@@ -199,6 +260,21 @@ class Machinecontent extends Component {
                                                 <p className='f6 fw6 machine_detail'>
                                                     <i>
                                                        {translationEN.machines.detail2}
+                                                    </i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='machine_div  b--black'>
+                                        <p className='machine_name f4-ns '>{translationEN.machines.machine3}</p>
+                                        <div className="machine  b--black">
+                                            <img src={Machine3} className='h-50-ns machine2 mt4' />
+                                            <div className='machine_details  b--black'>
+                                                <p className='machine_name '>{translationEN.machines.machine3}</p>
+                                                <p className='fw6 machine_description'>{translationEN.machines.description3}</p>
+                                                <p className='f6 fw6 machine_detail'>
+                                                    <i>
+                                                       {translationEN.machines.detail3}
                                                     </i>
                                                 </p>
                                             </div>

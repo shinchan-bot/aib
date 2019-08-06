@@ -54,9 +54,9 @@ class Gallerycontent extends Component {
 
         let gallery_list = galleryList.map((user,num)=> {
             return(
-                <div className='gallery_list pointer grow'>
+                <div onClick={() =>gallerySlideHandler(num)} className='gallery_list pointer grow'>
                     <img   className='gallery_list_image' src={'https://tranquil-eyrie-69509.herokuapp.com/' + user.combine[0][0]}/>
-                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{user.combine.title + " " + user.combine.date}</p>   
+                    <p key={num} data-key={num} onClick={() =>gallerySlideHandler(num)} className='gallery_list_text f2'>{user.combine.title} <br/> {user.combine.date.split('-').reverse().join('-')}</p>   
                 </div>
             );
         })
@@ -77,7 +77,7 @@ class Gallerycontent extends Component {
                           alt="Third slide"
                         />
                         <Carousel.Caption>
-                          <h3 className='gallery_caption_text'>{gal.combine.title + " " + gal.combine.date}</h3>
+                          <h3 className='gallery_caption_text'>{gal.combine.title + " " + gal.combine.date.split('-').reverse().join('-')}</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
                     );
@@ -106,8 +106,8 @@ class Gallerycontent extends Component {
         
 
         return(
-            <div className='gallery_content bg-white'>
-                <p className=' fw6 list_of_members_header tc b--black'>GALLERY</p>
+            <div className='gallery_content background_cover bg-white pa2'>
+                <p className=' fw6 list_of_members_header tc b--black'>Gallery</p>
                 <div className='gallery_combine_div'>
                     <div className="gallery_list_div b--black ">
                         {gallery_list}           

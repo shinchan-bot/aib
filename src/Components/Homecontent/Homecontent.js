@@ -286,7 +286,7 @@ class Homecontent extends Component{
                                                 <div className='footer_leftdiv w-100'>
                                                     <img className='logo2 mt3' src={Logo} />
                                                     <p className="footer_text ">
-                                                        {translationEN.home_content.address_line1}<br/>
+                                                        {translationEN.home_content.address_line1}<br/><br/>
                                                         {translationEN.home_content.address_line4}
                                                         <br/>
                                                         {translationEN.home_content.address_line5}
