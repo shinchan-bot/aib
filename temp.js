@@ -748,7 +748,7 @@ class Listofmeetings extends Component {
     
 
     componentDidMount(){
-        axios.get('http://localhost:3001/fetchmeetings')
+        axios.get('https://brick-india.herokuapp.com/fetchmeetings')
             .then((response) =>{
                 this.setState({meetingPosts: response.data});
                 console.log(response.data);
@@ -900,11 +900,6 @@ export default Listofmeetings;
                     </div>
                 </div>
             </div>
-
-
-c84a6521443adb06a18b52d8f7f07e066760fc97 
-
-
 
 
 import React from 'react';
