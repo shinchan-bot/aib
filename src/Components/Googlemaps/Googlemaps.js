@@ -23,7 +23,7 @@ class Googlemaps extends Component {
         return(
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
-                bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
+                bootstrapURLKeys={{ key: 'AIzaSyBPZVASh86UGWQhve9wKKSTLzQXepHozic' }}
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
                 >
