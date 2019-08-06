@@ -171,8 +171,12 @@ class Contactus extends Component {
                                     <div className="contactus pa2">
                                         <p className=' fw7 list_of_members_header center'>{translationEN.header.nav.option8}</p>
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
-                                        <iframe className='map_frame'  src={process.env.REACT_APP_API_KEY}>
+                                        {/* <iframe className='map_frame'  src={process.env.REACT_APP_API_KEY}>
 
+                                        </iframe> */}
+                                        <iframe
+                                            className='map_frame'
+                                            src={process.env.REACT_APP_API_KEY}>
                                         </iframe>
                                         <div className="contact_div mt3">
                                             <form action="https://tranquil-eyrie-69509.herokuapp.com/submitmessage" method="POST" className='message_form  b--black'>
