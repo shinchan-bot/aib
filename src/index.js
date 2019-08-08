@@ -15,7 +15,7 @@ class App extends Component {
 
     
     render(){
-
+        
 
       // const store = configureStore({ history });
       return (
