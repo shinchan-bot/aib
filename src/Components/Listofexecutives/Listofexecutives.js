@@ -1,5 +1,7 @@
 import React,{ Component } from 'react';
 import 'tachyons';
+import { bounceInLeft } from 'react-animations';
+
 import '../../util/css/app.css';
 
 
