@@ -207,7 +207,7 @@ class Contactus extends Component {
                                                     Sh. R. K. Verma<br/>
                                                     Email: aibtmf@rediffmail.com</p>
                                                 <p className=' contact_header fw6 red'>
-                                                    Branch : INDIA HABITAT CENTER, Lodhi Road,New Delhi-11000
+                                                    Bank Branch : INDIA HABITAT CENTER, Lodhi Road,New Delhi-110003
                                                 </p>
                                                 <p className=' contact_header fw6 red'>
                                                     Account Number : 52142908661
