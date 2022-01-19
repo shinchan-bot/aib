@@ -15,7 +15,7 @@ import '../../util/css/app.css';
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Brick2 from '../../util/assets1/brick.png';
 import Back from '../../util/assets1/transparent.png';
-import Face from '../../util/assets1/president.jpg';
+import Face from '../../util/assets1/president-v1.png';
 import Logo from '../../util/assets1/brick-logo.jpg';
 import Location from '../../util/assets1/location.png';
 import o from '../../util/assets1/1.jpg';

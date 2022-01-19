@@ -20,7 +20,7 @@ class Contactus extends Component {
     render(){
 
         const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
-
+        const REACT_APP_API_KEY = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBPZVASh86UGWQhve9wKKSTLzQXepHozic&q=28.5903211,77.223525";
         return(
             <MyContext.Consumer>
                 {(context)=>(
@@ -33,7 +33,8 @@ class Contactus extends Component {
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.5903211,77.223525) */}
                                         <iframe
                                             className='map_frame'
-                                            src={process.env.REACT_APP_API_KEY}
+                                            src={REACT_APP_API_KEY}
+                                            // src={process.env.REACT_APP_API_KEY}
                                             >
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -73,7 +74,8 @@ class Contactus extends Component {
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe
                                             className='map_frame'
-                                            src={process.env.REACT_APP_API_KEY}
+                                            src={REACT_APP_API_KEY}
+                                            // src={process.env.REACT_APP_API_KEY}
                                             >
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -113,7 +115,8 @@ class Contactus extends Component {
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe
                                             className='map_frame'
-                                            src={process.env.REACT_APP_API_KEY}
+                                            src={REACT_APP_API_KEY}
+                                            // src={process.env.REACT_APP_API_KEY}
                                             >
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -153,7 +156,8 @@ class Contactus extends Component {
                                         {/* ALL INDIA BRICK AND TILE MANUFACTURERS FEDERATION (28.590302, 77.225778) */}
                                         <iframe
                                             className='map_frame'
-                                            src={process.env.REACT_APP_API_KEY}
+                                            src={REACT_APP_API_KEY}
+                                            // src={process.env.REACT_APP_API_KEY}
                                             >
                                         </iframe>
                                         <div className="contact_div mt3">
@@ -196,7 +200,8 @@ class Contactus extends Component {
                                         </iframe> */}
                                         <iframe
                                             className='map_frame'
-                                            src={process.env.REACT_APP_API_KEY}
+                                            src={REACT_APP_API_KEY}
+                                            // src={process.env.REACT_APP_API_KEY}
                                             >
                                         </iframe>
                                         <div className="contact_div mt3">

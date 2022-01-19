@@ -20,7 +20,8 @@ class App extends Component {
       // const store = configureStore({ history });
       return (
         <MyProvider>
-          <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+          {/* <BrowserRouter basename={process.env.PUBLIC_URL + '/'}> */}
+          <BrowserRouter basename='/'>
             <Home/>
           </BrowserRouter>
         </MyProvider> 

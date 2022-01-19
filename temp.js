@@ -138,7 +138,7 @@ import { Carousel } from 'react-responsive-carousel';
 import '../../util/css/app.css';
 import Brick from '../../util/assets1/mtb-clay-bricks.jpg';
 import Back from '../../util/assets1/transparent.png';
-import Face from '../../util/assets1/president.jpg';
+import Face from '../../util/assets1/president-v1.png';
 import Logo from '../../util/assets1/brick-logo.jpg';
 import Location from '../../util/assets1/location.png';
 import Slide from '../../util/assets1/slide1.png';

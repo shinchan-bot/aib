@@ -17,9 +17,9 @@ class Googlemaps extends Component {
 //         },
 //         zoom: 18
 //       };
-    
-    render(){
 
+    render(){
+        const REACT_APP_API_KEY = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBPZVASh86UGWQhve9wKKSTLzQXepHozic&q=28.5903211,77.223525";
         return(
             // <div style={{ height: '100vh', width: '100%' }}>
             //     <GoogleMapReact
@@ -36,7 +36,8 @@ class Googlemaps extends Component {
             // </div>
             <iframe
                 className='home_map'
-                src={process.env.REACT_APP_API_KEY}
+                src={REACT_APP_API_KEY}
+                // src={process.env.REACT_APP_API_KEY}
                 >
             </iframe>
 

@@ -10,9 +10,9 @@ import * as translationGUJ from '../../translations/gujarati.json';
 import * as translationMAR from '../../translations/marathi.json';
 
 import '../../util/css/app.css';
-import Face1 from '../../util/assets1/president.jpg';
-import Face2 from '../../util/assets1/face2.jpg';
-import Face3 from '../../util/assets1/face3.png';
+import Face1 from '../../util/assets1/president-v1.png';
+import Face2 from '../../util/assets1/face2-v1.jpg';
+import Face3 from '../../util/assets1/face3-v1.jpeg';
 import Logo from '../../util/assets1/brick-logo.png';
 import Location from '../../util/assets1/location.png';
 import Twitter from '../../util/assets1/twitter.svg';

@@ -349,6 +349,7 @@ span:hover{
   .home_face{
       width:10%;
       height: 10%;
+      border-radius: 50%;
   }
   .footer{
       display: flex;
