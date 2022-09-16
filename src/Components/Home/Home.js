@@ -43,17 +43,17 @@ const Home = () => {
                 <Header1 context={context}/>
                 <Headernav/>
                 <Switch>
-                    <Route exact path='/management' component={Listofmembers}/> 
-                    <Route exact path='/executives' component={Listofexecutives}/> 
-                    <Route exact path='/vendors' component={Vendorcontent}/> 
-                    <Route exact path='/lifemembers' component={Listoflofemembers}/> 
-                    <Route exact path='/machines' component={Machinecontent}/> 
-                    <Route exact path='/newscontent' component={Newscontent}/> 
-                    <Route exact path='/articles' component={Articles}/> 
-                    <Route exact path='/listofmeetings' component={Listofmeetings}/>  
-                    <Route exact path='/gallery' component={Gallerycontent}/> 
-                    <Route exact path='/contactus' component={Contactus}/>
-                    <Route exact path='/location' component={Googlemaps}/> 
+//                     <Route exact path='/management' component={Listofmembers}/> 
+//                     <Route exact path='/executives' component={Listofexecutives}/> 
+//                     <Route exact path='/vendors' component={Vendorcontent}/> 
+//                     <Route exact path='/lifemembers' component={Listoflofemembers}/> 
+//                     <Route exact path='/machines' component={Machinecontent}/> 
+//                     <Route exact path='/newscontent' component={Newscontent}/> 
+//                     <Route exact path='/articles' component={Articles}/> 
+//                     <Route exact path='/listofmeetings' component={Listofmeetings}/>  
+//                     <Route exact path='/gallery' component={Gallerycontent}/> 
+//                     <Route exact path='/contactus' component={Contactus}/>
+//                     <Route exact path='/location' component={Googlemaps}/> 
                     {/* <Route exact path={process.env.PUBLIC_URL + '/new'} component={Homecontent}/>
                     <Route exact path={process.env.PUBLIC_URL + '/'} component={Homecontent}/> */}
                     <Route exact path='/new' component={Homecontent}/>
